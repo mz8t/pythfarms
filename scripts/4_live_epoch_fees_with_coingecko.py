@@ -3,6 +3,7 @@ import os
 import json
 import time
 import datetime
+import requests
 from decimal import Decimal
 from web3 import Web3
 from web3.exceptions import ContractLogicError
@@ -14,42 +15,18 @@ load_dotenv()
 RPC_URL             = os.getenv("RPC_URL")
 REWARDS_SUGAR_ADDR  = os.getenv("REWARDS_SUGAR_ADDRESS")
 
-# Path to your enriched votable pools JSON
+# Paths
 VOTABLE_POOLS_PATH  = "data/enriched_votable_pools.json"
+TOKEN_ID_MAPPING    = "data/token_to_id.json"
 OUTPUT_PATH         = "data/live_epoch_fees_usd.json"
 
-# Manual Price‐Feed map (tokenAddress → Chainlink USD feed)
-PRICE_FEEDS = {
-    # Lowercase keys, e.g.:
-    # "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "0xYour_USDC_USD_Feed",
-    # "0xc02aaA39b223FE8D0a0e5C4F27eAD9083C756Cc2".lower(): "0xYour_ETH_USD_Feed",
-    # … etc. …
-}
+# Coingecko endpoints
+COINGECKO_SIMPLE_PRICE_URL = "https://api.coingecko.com/api/v3/simple/price"
+COINGECKO_COINS_LIST_URL    = "https://api.coingecko.com/api/v3/coins/list?include_platform=true"
 
 # ── ABI snippets ──────────────────────────────────────────────────────────────────
-
-# RewardsSugar (for reading epochsByAddress)
 REWARDS_SUGAR_ABI = json.load(open("abi/RewardsSugar.json"))
 
-# Minimal Chainlink aggregator ABI (for manual PRICE_FEEDS)
-CHAINLINK_ABI = [
-    {
-        "inputs": [], "name": "latestRoundData", "outputs": [
-            {"internalType": "uint80", "name": "roundId", "type": "uint80"},
-            {"internalType": "int256", "name": "answer", "type": "int256"},
-            {"internalType": "uint256", "name": "startedAt", "type": "uint256"},
-            {"internalType": "uint256", "name": "updatedAt", "type": "uint256"},
-            {"internalType": "uint80", "name": "answeredInRound", "type": "uint80"}
-        ],
-        "stateMutability": "view", "type": "function"
-    },
-    {
-        "inputs": [], "name": "decimals", "outputs": [{"internalType": "uint8", "name": "", "type": "uint8"}],
-        "stateMutability": "view", "type": "function"
-    }
-]
-
-# ERC20 ABI snippet (for symbol() and decimals())
 ERC20_ABI = [
     {
         "constant": True,
@@ -68,8 +45,11 @@ ERC20_ABI = [
 ]
 
 # ── Web3 Setup ───────────────────────────────────────────────────────────────────
-w3 = Web3(Web3.HTTPProvider(RPC_URL, request_kwargs={"timeout": 60}))
+if RPC_URL is None:
+    print("❌  Please set RPC_URL in your .env")
+    exit(1)
 
+w3 = Web3(Web3.HTTPProvider(RPC_URL, request_kwargs={"timeout": 60}))
 rewards_sugar = w3.eth.contract(
     address=w3.to_checksum_address(REWARDS_SUGAR_ADDR),
     abi=REWARDS_SUGAR_ABI
@@ -79,34 +59,30 @@ rewards_sugar = w3.eth.contract(
 
 def current_epoch_start_ts():
     """
-    Returns the UNIX timestamp for the most recent Thursday 00:00 UTC.
+    Returns UNIX timestamp for the most recent Thursday 00:00 UTC.
     """
     now = datetime.datetime.utcnow()
     days_back = (now.weekday() - 3) % 7  # Thursday == 3
     thursday = now - datetime.timedelta(days=days_back)
     th_start = datetime.datetime(
-        year=thursday.year,
-        month=thursday.month,
-        day=thursday.day,
+        year=thursday.year, month=thursday.month, day=thursday.day,
         hour=0, minute=0, second=0, microsecond=0,
         tzinfo=datetime.timezone.utc
     )
     return int(th_start.timestamp())
 
-# Caches to avoid repeated RPCs
+# Caches
 _token_decimals_cache = {}
 _token_symbol_cache   = {}
-_price_feed_decimals_cache = {}
-_price_cache                = {}
+_price_cache          = {}  # contract → Decimal(price)
 
 def get_token_decimals(token_addr: str) -> int:
     """
-    Returns ERC20 token decimals, caching the result.
+    Returns token decimals, caching the result.
     """
     key = token_addr.lower()
     if key in _token_decimals_cache:
         return _token_decimals_cache[key]
-
     try:
         c = w3.eth.contract(address=w3.to_checksum_address(key), abi=ERC20_ABI)
         d = c.functions.decimals().call()
@@ -117,12 +93,11 @@ def get_token_decimals(token_addr: str) -> int:
 
 def get_token_symbol(token_addr: str) -> str:
     """
-    Returns ERC20 token symbol, caching the result. If symbol() fails, returns None.
+    Returns token symbol, caching the result. If fails, returns None.
     """
     key = token_addr.lower()
     if key in _token_symbol_cache:
         return _token_symbol_cache[key]
-
     try:
         c = w3.eth.contract(address=w3.to_checksum_address(key), abi=ERC20_ABI)
         s = c.functions.symbol().call()
@@ -131,37 +106,50 @@ def get_token_symbol(token_addr: str) -> str:
     _token_symbol_cache[key] = s
     return s
 
-def get_price_usd(token_addr: str) -> Decimal:
+def fetch_prices_from_coingecko(token_to_id: dict) -> dict:
     """
-    Returns latest USD price for token_addr via the manual PRICE_FEEDS map.
-    If token_addr not in PRICE_FEEDS, returns None.
+    Given { contract_address → coingecko_id }, fetch current USD prices via
+    /simple/price?ids={comma-separated IDs}&vs_currencies=usd.
+    Returns { contract_address: Decimal(price) }.
     """
-    key = token_addr.lower()
-    if key not in PRICE_FEEDS:
-        return None
-    if key in _price_cache:
-        return _price_cache[key]
+    # Build a set of unique IDs
+    unique_ids = list(set(token_to_id.values()))
+    prices = {}
+    # Coingecko limits ~100 IDs per request. We'll chunk in 80 to be safe.
+    CHUNK = 80
+    for i in range(0, len(unique_ids), CHUNK):
+        chunk_ids = unique_ids[i:i+CHUNK]
+        ids_param = ",".join(chunk_ids)
+        params = {
+            "ids": ids_param,
+            "vs_currencies": "usd"
+        }
+        try:
+            resp = requests.get(COINGECKO_SIMPLE_PRICE_URL, params=params, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            print(f"⚠️  Coingecko API error for ids[{ids_param}]: {e}")
+            continue
 
-    agg_addr = PRICE_FEEDS[key]
-    agg = w3.eth.contract(address=w3.to_checksum_address(agg_addr), abi=CHAINLINK_ABI)
-    try:
-        dec = agg.functions.decimals().call()
-        _, answer, *_ = agg.functions.latestRoundData().call()
-        price = Decimal(answer) / (Decimal(10) ** dec)
-    except Exception:
-        price = None
+        # data is { id1: { "usd": price1 }, id2: { "usd": price2 }, ... }
+        for coin_id, price_info in data.items():
+            price = price_info.get("usd")
+            if price is None:
+                continue
+            # For all contracts mapping to this coin_id, set the price
+            for contract, cid in token_to_id.items():
+                if cid == coin_id:
+                    prices[contract] = Decimal(str(price))
+    return prices
 
-    _price_feed_decimals_cache[key] = dec
-    _price_cache[key] = price
-    return price
-
-# ── Main: compute live fees & bribes in USD, with bribe detail ──────────────────
+# ── Main: compute live fees & bribes using Coingecko prices ───────────────────────
 def main():
+    # 1) Load enriched votable pools
     if not os.path.exists(VOTABLE_POOLS_PATH):
-        print(f"❌  {VOTABLE_POOLS_PATH} not found. Run your enrichment/filter steps first.")
+        print(f"❌  {VOTABLE_POOLS_PATH} not found. Run enrichment first.")
         return
 
-    # 1) Load enriched votable pools (each has "lp", "symbol", "token0", "token1", etc.)
     enriched = json.load(open(VOTABLE_POOLS_PATH))
     pool_info = {
         p["lp"].lower(): {
@@ -172,14 +160,25 @@ def main():
         for p in enriched
     }
 
+    # 2) Load contract→Coingecko ID mapping
+    if not os.path.exists(TOKEN_ID_MAPPING):
+        print(f"❌  {TOKEN_ID_MAPPING} not found. Run get_coingecko_token_ids.py first.")
+        return
+    token_to_id = json.load(open(TOKEN_ID_MAPPING))
+
+    # 3) Fetch USD prices for all mapped tokens
+    print(f"ℹ️  Fetching USD prices for {len(token_to_id)} tokens from CoinGecko…")
+    contract_prices = fetch_prices_from_coingecko(token_to_id)
+    print(f"✅  Retrieved prices for {len(contract_prices)} tokens.\n")
+
     epoch_start = current_epoch_start_ts()
     print(f"ℹ️  Current epoch start: {epoch_start} ({time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime(epoch_start))})")
-    print(f"ℹ️  Processing {len(pool_info)} votable pools…")
+    print(f"ℹ️  Computing live fees/bribes for {len(pool_info)} pools…\n")
 
     results = []
     ZERO = "0x0000000000000000000000000000000000000000"
 
-    # 2) For each pool, fetch its “live” LpEpoch via epochsByAddress(1,0,pool)
+    # 4) For each pool, fetch the “live” LpEpoch
     for pool_addr, info in pool_info.items():
         try:
             ep_arr = rewards_sugar.functions.epochsByAddress(1, 0, w3.to_checksum_address(pool_addr)).call()
@@ -188,78 +187,76 @@ def main():
         if not ep_arr:
             continue
 
-        ep = ep_arr[0]
-        ts         = ep[0]   # epoch start timestamp
-        bribes_arr = ep[4]   # array of (token, amount) pairs
-        fees_arr   = ep[5]   # array of (token, amount) pairs
+        ep         = ep_arr[0]
+        ts         = ep[0]
+        bribes_arr = ep[4]  # [(tokenAddr, amount), ...]
+        fees_arr   = ep[5]  # [(tokenAddr, amount), ...]
 
-        # Initialize raw fee amounts for token0/token1
+        # 4a) Raw fee amounts for token0/token1
         fee0_amt = 0
         fee1_amt = 0
         fees_usd = Decimal(0)
 
-        # 3) If ts matches this epoch, compute fees
         if ts == epoch_start:
             t0 = info["token0"]
             t1 = info["token1"]
-            # a) Split raw fees into token0 vs token1
+            # Split fees into token0 vs token1
             for tok, amt in fees_arr:
                 tok_l = tok.lower()
                 if tok_l == t0:
                     fee0_amt = int(amt)
                 elif tok_l == t1:
                     fee1_amt = int(amt)
-                # else ignore other tokens (if any)
 
-            # b) Convert each token’s fee → USD
-            #    - token0
+            # Convert fee0 to USD
             if fee0_amt > 0:
-                price0 = get_price_usd(t0)
+                price0 = contract_prices.get(t0)
                 if price0 is not None:
                     dec0 = get_token_decimals(t0)
                     amt0 = Decimal(fee0_amt) / (Decimal(10) ** dec0)
                     fees_usd += (amt0 * price0)
-
-            #    - token1
+            # Convert fee1 to USD
             if fee1_amt > 0:
-                price1 = get_price_usd(t1)
+                price1 = contract_prices.get(t1)
                 if price1 is not None:
                     dec1 = get_token_decimals(t1)
                     amt1 = Decimal(fee1_amt) / (Decimal(10) ** dec1)
                     fees_usd += (amt1 * price1)
 
-        # 4) Compute detailed bribe info
+        # 4b) Detailed bribe info
         bribes_usd = Decimal(0)
         bribe_list = []
         if ts == epoch_start:
             for tok, amt in bribes_arr:
                 tok_l = tok.lower()
-                if tok_l == ZERO:
-                    continue
-                # a) Raw on-chain amount:
                 raw_amt = int(amt)
-                # b) Human token amount:
+                if raw_amt == 0 or tok_l == ZERO:
+                    continue
+
+                # Symbol & decimals
+                sym_b = get_token_symbol(tok_l) or tok_l[:6]
                 dec_b = get_token_decimals(tok_l)
                 human_amt = Decimal(raw_amt) / (Decimal(10) ** dec_b)
-                # c) Symbol:
-                sym_b = get_token_symbol(tok_l) or tok_l[:6]
-                # d) USD price per token:
-                price_b = get_price_usd(tok_l) or Decimal(0)
-                # e) USD value:
-                usd_val = (human_amt * price_b)
-                bribes_usd += usd_val
+
+                # USD price (if available)
+                price_b = contract_prices.get(tok_l)
+                if price_b is not None:
+                    amt_usd = human_amt * price_b
+                    bribes_usd += amt_usd
+                else:
+                    amt_usd = Decimal(0)
 
                 bribe_list.append({
-                    "token":       tok_l,
-                    "symbol":      sym_b,
-                    "amount":      raw_amt,
+                    "token":        tok_l,
+                    "symbol":       sym_b,
+                    "amount":       raw_amt,
                     "amount_token": float(human_amt),
-                    "amount_usd":  float(usd_val)
+                    "amount_usd":   float(amt_usd)
                 })
 
         total_usd = fees_usd + bribes_usd
 
-        # 5) Collect final result
+        # 4c) Record result
         results.append({
             "pool":         pool_addr,
             "symbol":       info["symbol"],
@@ -269,27 +266,28 @@ def main():
             "fees_usd":     float(fees_usd),
 
             "bribes_usd":   float(bribes_usd),
-            "bribes":       bribe_list,       # detailed array of bribe records
+            "bribes":       bribe_list,
 
             "total_usd":    float(total_usd)
         })
 
-    # 6) Sort descending by total_usd (fees + bribes)
+    # 5) Sort by total_usd descending
     results.sort(key=lambda x: x["total_usd"], reverse=True)
 
-    # 7) Write to disk
-    os.makedirs("data", exist_ok=True)
+    # 6) Write out JSON
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
         json.dump(results, f, indent=2)
 
-    print(f"✅ Saved live epoch fees+bribes (USD) for {len(results)} pools → {OUTPUT_PATH}\n")
+    print(f"✅  Saved live epoch fees+bribes (USD) for {len(results)} pools → {OUTPUT_PATH}\n")
     print("🏆 Top 5 pools by (fees+bribes) USD:")
     for r in results[:5]:
-        print(f" • {r['symbol']} @ {r['pool']}: "
-              f"fee0={r['fee0_amount']:,}, fee1={r['fee1_amount']:,}, "
-              f"fees_usd=${r['fees_usd']:.2f}, "
-              f"bribes_usd=${r['bribes_usd']:.2f}, total=${r['total_usd']:.2f}")
-        print("   bribes detail:")
+        print(
+            f" • {r['symbol']} @ {r['pool']}: "
+            f"fee0={r['fee0_amount']:,}, fee1={r['fee1_amount']:,}, "
+            f"fees_usd=${r['fees_usd']:.2f}, "
+            f"bribes_usd=${r['bribes_usd']:.2f}, total=${r['total_usd']:.2f}"
+        )
         for b in r["bribes"]:
             print(f"    - {b['symbol']}: {b['amount_token']} → ${b['amount_usd']:.2f}")
         print("")
