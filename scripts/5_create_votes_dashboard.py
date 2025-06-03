@@ -89,7 +89,7 @@ def get_our_votes(pool_addr: str) -> Decimal:
     converts to Decimal by dividing by 10**18.
     """
     try:
-        raw = voter.functions.votes(NFT_ID, w3.to_checksum_address(pool_addr)).call()
+        raw = Ve.functions.votes(NFT_ID, w3.to_checksum_address(pool_addr)).call()
         return Decimal(raw) / Decimal(10**18)
     except ContractLogicError:
         return Decimal(0)
