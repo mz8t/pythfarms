@@ -2,29 +2,32 @@
   {
     "pool": "0xb2cc224c1c9fee385f8ad6a55b4d94e92359dc59",
     "symbol": "WETH/USDC",
+    "type": 100,
     "fee0_amount": 113770062842841592185,
     "fee1_amount": 291852872640,
-    "fees_usd": 586901.5303728904,
+    "fees_usd": 590328.8386605999,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 586901.5303728904
+    "total_usd": 590328.8386605999
   },
   {
     "pool": "0x70acdf2ad0bf2402c957154f944c19ef4e1cbae1",
     "symbol": "WETH/cbBTC",
+    "type": 100,
     "fee0_amount": 39470309094158611696,
     "fee1_amount": 97381859,
-    "fees_usd": 205193.5115140871,
+    "fees_usd": 207141.35660870408,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 205193.5115140871
+    "total_usd": 207141.35660870408
   },
   {
     "pool": "0x4e962bb3889bf030368f56810a9c96b83cb3e778",
     "symbol": "USDC/cbBTC",
+    "type": 100,
     "fee0_amount": 94262832354,
     "fee1_amount": 90383500,
-    "fees_usd": 189667.2637475292,
+    "fees_usd": 190371.1626868645,
     "bribes_usd": 0.0,
     "bribes": [
       {
@@ -35,1803 +38,1964 @@
         "amount_usd": 0.0
       }
     ],
-    "total_usd": 189667.2637475292
+    "total_usd": 190371.1626868645
   },
   {
     "pool": "0xc200f21efe67c7f41b81a854c26f9cda80593065",
     "symbol": "VIRTUAL/WETH",
+    "type": 200,
     "fee0_amount": 37056594030430809399777,
     "fee1_amount": 32027841872347878248,
-    "fees_usd": 156448.75493451743,
-    "bribes_usd": 0.006807015427127171,
+    "fees_usd": 157784.3197504356,
+    "bribes_usd": 0.006841394292920742,
     "bribes": [
       {
         "token": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
         "symbol": "VIRTUAL",
         "amount": 3437886579357157,
         "amount_token": 0.003437886579357157,
-        "amount_usd": 0.006807015427127171
+        "amount_usd": 0.006841394292920742
       }
     ],
-    "total_usd": 156448.76174153286
+    "total_usd": 157784.3265918299
   },
   {
     "pool": "0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d",
     "symbol": "vAMM-USDC/AERO",
+    "type": -1,
     "fee0_amount": 46083929695,
     "fee1_amount": 79805602020436974262912,
-    "fees_usd": 89294.79337846299,
+    "fees_usd": 89401.3214949029,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 89294.79337846299
+    "total_usd": 89401.3214949029
   },
   {
     "pool": "0x21594b992f68495dd28d605834b58889d0a727c7",
     "symbol": "vAMM-VIRTUAL/WETH",
+    "type": -1,
     "fee0_amount": 16260150910372617973564,
     "fee1_amount": 14698060958078574976,
-    "fees_usd": 70320.25214108822,
-    "bribes_usd": 2.0971657765776905,
+    "fees_usd": 70925.70622685885,
+    "bribes_usd": 2.1215259479219983,
     "bribes": [
       {
         "token": "0x4200000000000000000000000000000000000006",
         "symbol": "WETH",
         "amount": 808502201935198,
         "amount_token": 0.000808502201935198,
-        "amount_usd": 2.0971657765776905
+        "amount_usd": 2.1215259479219983
       }
     ],
-    "total_usd": 70322.3493068648
+    "total_usd": 70927.82775280677
   },
   {
     "pool": "0x4e829f8a5213c42535ab84aa40bd4adcce9cba02",
     "symbol": "WETH/BRETT",
+    "type": 200,
     "fee0_amount": 10393317829566304406,
     "fee1_amount": 346561842442619356468848,
-    "fees_usd": 45432.60219633757,
-    "bribes_usd": 8.855557243206638e-05,
+    "fees_usd": 45880.21885741014,
+    "bribes_usd": 8.920015665687909e-05,
     "bribes": [
       {
         "token": "0x532f27101965dd16442e59d40670faf5ebb142e4",
         "symbol": "BRETT",
         "amount": 1661299548486378,
         "amount_token": 0.001661299548486378,
-        "amount_usd": 8.855557243206638e-05
+        "amount_usd": 8.920015665687909e-05
       }
     ],
-    "total_usd": 45432.60228489314
+    "total_usd": 45880.218946610294
   },
   {
     "pool": "0x82321f3beb69f503380d6b233857d5c43562e2d0",
     "symbol": "WETH/AERO",
+    "type": 200,
     "fee0_amount": 6954633453756992422,
     "fee1_amount": 46293378357354905709413,
-    "fees_usd": 43110.52020622335,
+    "fees_usd": 43381.911265670475,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 43110.52020622335
+    "total_usd": 43381.911265670475
   },
   {
     "pool": "0x22a52bb644f855ebd5ca2edb643ff70222d70c31",
     "symbol": "WETH/AIXBT",
+    "type": 200,
     "fee0_amount": 7546790632098564514,
     "fee1_amount": 105586292740774632466066,
-    "fees_usd": 39978.82878933595,
+    "fees_usd": 40168.41369827989,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 39978.82878933595
+    "total_usd": 40168.41369827989
   },
   {
     "pool": "0x4a79b0168296c0ef7b8f314973b82ad406a29f1b",
     "symbol": "WETH/AAVE",
+    "type": 200,
     "fee0_amount": 7275404053320869723,
     "fee1_amount": 68344760620842212805,
-    "fees_usd": 36390.410309808954,
+    "fees_usd": 36712.81882247298,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 36390.410309808954
+    "total_usd": 36712.81882247298
   },
   {
     "pool": "0x01784ef301d79e4b2df3a21ad9a536d4cf09a5ce",
     "symbol": "vAMM-WETH/VVV",
+    "type": -1,
     "fee0_amount": 1848337011746968800,
     "fee1_amount": 1519507779196621235061,
-    "fees_usd": 9459.271773533972,
-    "bribes_usd": 26095.0,
+    "fees_usd": 9545.35232328184,
+    "bribes_usd": 26265.0,
     "bribes": [
       {
         "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
         "symbol": "VVV",
         "amount": 8500000000000000000000,
         "amount_token": 8500.0,
-        "amount_usd": 26095.0
+        "amount_usd": 26265.0
       }
     ],
-    "total_usd": 35554.271773533976
+    "total_usd": 35810.35232328184
   },
   {
     "pool": "0xe8833415bd6aee9c0c7b6aad7dc80421c3f28ca1",
     "symbol": "WETH/COOKIE",
+    "type": 200,
     "fee0_amount": 6255793811432763022,
     "fee1_amount": 61199153531590946856552,
-    "fees_usd": 31417.51130168824,
+    "fees_usd": 31669.40069228544,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 31417.51130168824
+    "total_usd": 31669.40069228544
   },
   {
     "pool": "0x3f53f1fd5b7723ddf38d93a584d280b9b94c3111",
     "symbol": "ZORA/USDC",
+    "type": 100,
     "fee0_amount": 1455423960810091625512051,
     "fee1_amount": 15928007688,
-    "fees_usd": 29741.99133809026,
+    "fees_usd": 29882.044038302858,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 29741.99133809026
+    "total_usd": 29882.044038302858
   },
   {
     "pool": "0xcdac0d6c6c59727a65f871236188350531885c43",
     "symbol": "vAMM-WETH/USDC",
+    "type": -1,
     "fee0_amount": 5407874473392525731,
     "fee1_amount": 14753749212,
-    "fees_usd": 28778.22997994574,
+    "fees_usd": 28941.139730330633,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 28778.22997994574
+    "total_usd": 28941.139730330633
   },
   {
     "pool": "0xb909f567c5c2bb1a4271349708cc4637d7318b4a",
     "symbol": "vAMM-VIRTUAL/cbBTC",
+    "type": -1,
     "fee0_amount": 6763360475302056145443,
     "fee1_amount": 14104833,
-    "fees_usd": 28282.77222917807,
+    "fees_usd": 28460.28248300109,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 28282.77222917807
+    "total_usd": 28460.28248300109
   },
   {
     "pool": "0x4ba1e3e9280facbacafa7baf4ae0b78bea60beca",
     "symbol": "WETH/SPX",
+    "type": 200,
     "fee0_amount": 4181120060349117394,
     "fee1_amount": 1377353823302,
-    "fees_usd": 26271.72833432137,
+    "fees_usd": 26535.44086406989,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 26271.72833432137
+    "total_usd": 26535.44086406989
   },
   {
     "pool": "0x3f0296bf652e19bca772ec3df08b32732f93014a",
     "symbol": "VIRTUAL/WETH",
+    "type": 100,
     "fee0_amount": 6000766539216678394262,
     "fee1_amount": 5106730451736728028,
-    "fees_usd": 25127.814799104406,
+    "fees_usd": 25341.6882530074,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 25127.814799104406
+    "total_usd": 25341.6882530074
   },
   {
     "pool": "0xdfe5f275020def30993f042174fc2d335678b626",
     "symbol": "AERO/cbBTC",
+    "type": 200,
     "fee0_amount": 21861697824879840123188,
     "fee1_amount": 11757626,
-    "fees_usd": 24252.8053316867,
+    "fees_usd": 24373.60446652074,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 24252.8053316867
+    "total_usd": 24373.60446652074
   },
   {
     "pool": "0xe077ddfb9e9d9403a8ec42d3023d17e8417ee399",
     "symbol": "GIZA/USDC",
+    "type": 200,
     "fee0_amount": 78750524732581079492132,
     "fee1_amount": 8152230094,
-    "fees_usd": 22572.183242258772,
+    "fees_usd": 23577.811138633646,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 22572.183242258772
+    "total_usd": 23577.811138633646
   },
   {
     "pool": "0x5d4e504eb4c526995e0cc7a6e327fda75d8b52b5",
     "symbol": "WETH/EURC",
+    "type": 100,
     "fee0_amount": 4051063062608425350,
     "fee1_amount": 10248055066,
-    "fees_usd": 22190.794742709368,
+    "fees_usd": 22312.85327278576,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 22190.794742709368
+    "total_usd": 22312.85327278576
   },
   {
     "pool": "0x5c45b0f48c326f79b56709d8f63ce2bee7697106",
     "symbol": "WETH/uSUI",
+    "type": 200,
     "fee0_amount": 3692819718828939277,
     "fee1_amount": 3686079913054900113247,
-    "fees_usd": 21890.275050076565,
+    "fees_usd": 22001.53970820488,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 21890.275050076565
+    "total_usd": 22001.53970820488
   },
   {
     "pool": "0xe2b3aa806e56603a244bfc111c9474f7dedd03db",
     "symbol": "MAMO/cbBTC",
+    "type": 200,
     "fee0_amount": 231063874063539873854653,
     "fee1_amount": 7814981,
-    "fees_usd": 19849.226563053446,
+    "fees_usd": 19883.301855652076,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 19849.226563053446
+    "total_usd": 19883.301855652076
   },
   {
     "pool": "0xbe00ff35af70e8415d0eb605a286d8a45466a4c1",
     "symbol": "USDC/AERO",
+    "type": 2000,
     "fee0_amount": 8961210338,
     "fee1_amount": 19634386854632751861842,
-    "fees_usd": 19592.754081635296,
+    "fees_usd": 19618.96770005241,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 19592.754081635296
+    "total_usd": 19618.96770005241
   },
   {
     "pool": "0x89d0f320ac73dd7d9513ffc5bc58d1161452a657",
     "symbol": "vAMM-WETH/WELL",
+    "type": -1,
     "fee0_amount": 1413034437574496307,
     "fee1_amount": 216315412641011324908355,
-    "fees_usd": 11848.519873188603,
-    "bribes_usd": 5676.351178064649,
+    "fees_usd": 11988.4711469472,
+    "bribes_usd": 5743.8967777308835,
     "bribes": [
       {
         "token": "0xa88594d404727625a9437c3f886c7643872296ae",
         "symbol": "WELL",
         "amount": 150047982197962499424256,
         "amount_token": 150047.9821979625,
-        "amount_usd": 5676.351178064649
+        "amount_usd": 5743.8967777308835
       }
     ],
-    "total_usd": 17524.871051253253
+    "total_usd": 17732.367924678085
   },
   {
     "pool": "0x3e66e55e97ce60096f74b7c475e8249f2d31a9fb",
     "symbol": "USDC/cbBTC",
+    "type": 2000,
     "fee0_amount": 8561097100,
     "fee1_amount": 7946551,
-    "fees_usd": 16949.03556434,
+    "fees_usd": 17010.9220744358,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 16949.03556434
+    "total_usd": 17010.9220744358
   },
   {
     "pool": "0x088c39ee29fc30df8adc394e9f7dea33e3a26507",
     "symbol": "WETH/doginme",
+    "type": 200,
     "fee0_amount": 3366635372035938734,
     "fee1_amount": 11740462271481880048360157,
-    "fees_usd": 16433.83805214884,
+    "fees_usd": 16486.434452858917,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 16433.83805214884
+    "total_usd": 16486.434452858917
   },
   {
     "pool": "0xafb62448929664bfccb0aae22f232520e765ba88",
     "symbol": "WETH/DEGEN",
+    "type": 200,
     "fee0_amount": 1451108347170064333,
     "fee1_amount": 752438222528997962425012,
-    "fees_usd": 7252.89840771674,
-    "bribes_usd": 8114.3475,
+    "fees_usd": 7306.477242932104,
+    "bribes_usd": 8137.2725,
     "bribes": [
       {
         "token": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
         "symbol": "DEGEN",
         "amount": 1750000000000000000000000,
         "amount_token": 1750000.0,
-        "amount_usd": 8114.3475
+        "amount_usd": 8137.2725
       }
     ],
-    "total_usd": 15367.24590771674
+    "total_usd": 15443.749742932105
   },
   {
     "pool": "0x74e4c08bb50619b70550733d32b7e60424e9628e",
     "symbol": "WETH/TOSHI",
+    "type": 200,
     "fee0_amount": 3009427138537504626,
     "fee1_amount": 11129907727319106423394813,
-    "fees_usd": 13985.670328743163,
+    "fees_usd": 14082.35451860005,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 13985.670328743163
+    "total_usd": 14082.35451860005
   },
   {
     "pool": "0xe140c5930889c4064a3d11b17bb04fe7224a5cdc",
     "symbol": "vAMM-WETH/OX",
+    "type": -1,
     "fee0_amount": 866261609554245715,
     "fee1_amount": 3263318161357806981560438,
-    "fees_usd": 4934.949862735474,
-    "bribes_usd": 8624.23033822,
+    "fees_usd": 5013.8181797005,
+    "bribes_usd": 8793.53408668,
     "bribes": [
       {
         "token": "0xba0dda8762c24da9487f5fa026a9b64b695a07ea",
         "symbol": "OX",
         "amount": 10470238000000000000000000,
         "amount_token": 10470238.0,
-        "amount_usd": 8624.23033822
+        "amount_usd": 8793.53408668
       }
     ],
-    "total_usd": 13559.180200955474
+    "total_usd": 13807.3522663805
   },
   {
     "pool": "0x46d710c35bdfb800a18a820712310048ef8b5256",
     "symbol": "WETH/KTA",
+    "type": 200,
     "fee0_amount": 2010718823626410129,
     "fee1_amount": 6834078850010068629886,
-    "fees_usd": 11949.768568875781,
+    "fees_usd": 12019.153820590456,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 11949.768568875781
+    "total_usd": 12019.153820590456
   },
   {
     "pool": "0xe846373c1a92b167b4e9cd5d8e4d6b1db9e90ec7",
     "symbol": "EURC/USDC",
+    "type": 50,
     "fee0_amount": 5362235763,
     "fee1_amount": 5354848378,
-    "fees_usd": 11466.7261781444,
+    "fees_usd": 11466.715468447645,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 11466.7261781444
+    "total_usd": 11466.715468447645
   },
   {
     "pool": "0x54cdd0222df6b3bc17754c2c1b3d7d4203fe3d89",
     "symbol": "WETH/REI",
+    "type": 200,
     "fee0_amount": 2166140642645779274,
     "fee1_amount": 84553113076641285928575,
-    "fees_usd": 11255.54838791983,
+    "fees_usd": 11442.31702897388,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 11255.54838791983
+    "total_usd": 11442.31702897388
   },
   {
     "pool": "0x56b92e5b391dbfb8b8028ac95a4b97f52ffeb416",
     "symbol": "WETH/KAITO",
+    "type": 100,
     "fee0_amount": 2256836251682061613,
     "fee1_amount": 2468024899238423536061,
-    "fees_usd": 10666.633538390508,
+    "fees_usd": 10808.672761630842,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 10666.633538390508
+    "total_usd": 10808.672761630842
   },
   {
     "pool": "0x37785d5be19d0d9559d4634a5385c72c419b25da",
     "symbol": "vAMM-WETH/RFL",
+    "type": -1,
     "fee0_amount": 672432829455089288,
     "fee1_amount": 17679859916728009678799,
-    "fees_usd": 3195.9100897577982,
-    "bribes_usd": 7307.79,
+    "fees_usd": 3228.6878317303235,
+    "bribes_usd": 7370.802,
     "bribes": [
       {
         "token": "0x6e2c81b6c2c0e02360f00a0da694e489acb0b05e",
         "symbol": "RFL",
         "amount": 89000000000000000000000,
         "amount_token": 89000.0,
-        "amount_usd": 7307.79
+        "amount_usd": 7370.802
       }
     ],
-    "total_usd": 10503.700089757798
+    "total_usd": 10599.489831730323
   },
   {
     "pool": "0x1807af3897aa6419e770d4642df7b8b06e542c02",
     "symbol": "WETH/Anon",
+    "type": 100,
     "fee0_amount": 1967349809685616614,
     "fee1_amount": 1038554458441418479172,
-    "fees_usd": 9921.981685013607,
+    "fees_usd": 9991.643479363847,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 9921.981685013607
+    "total_usd": 9991.643479363847
   },
   {
     "pool": "0x7ec6c9d993d9832aa654593f2dbc21303650bc6c",
     "symbol": "WETH/VVV",
+    "type": 100,
     "fee0_amount": 1904704892501565716,
     "fee1_amount": 1592856460196592393084,
-    "fees_usd": 9830.664306414425,
+    "fees_usd": 9919.91019402943,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 9830.664306414425
+    "total_usd": 9919.91019402943
   },
   {
     "pool": "0x7810f8f3253ced11e8c56c6c8497f3134055d44c",
     "symbol": "vAMM-AERO/TAROT",
+    "type": -1,
     "fee0_amount": 1714364709531846733744,
     "fee1_amount": 3972914882414787465271,
-    "fees_usd": 1343.0249664567816,
-    "bribes_usd": 8123.505,
+    "fees_usd": 1348.275179296115,
+    "bribes_usd": 8143.545,
     "bribes": [
       {
         "token": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
         "symbol": "AERO",
         "amount": 15000000000000000000000,
         "amount_token": 15000.0,
-        "amount_usd": 8123.505
+        "amount_usd": 8143.545
       }
     ],
-    "total_usd": 9466.529966456781
+    "total_usd": 9491.820179296115
   },
   {
     "pool": "0xb099c658e784b41ee435d48a8eb67e8f27285c93",
     "symbol": "WETH/B3",
+    "type": 100,
     "fee0_amount": 1867538719658724221,
     "fee1_amount": 1334457555893380642909006,
-    "fees_usd": 9187.102057737222,
+    "fees_usd": 9216.508368760406,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 9187.102057737222
+    "total_usd": 9216.508368760406
   },
   {
     "pool": "0x3ba9ce0f19cf3ccb631b973c83712c7e6e9585ae",
     "symbol": "WETH/WELL",
+    "type": 200,
     "fee0_amount": 1094128966897247308,
     "fee1_amount": 144372783449654771286829,
-    "fees_usd": 8299.70723331357,
+    "fees_usd": 8397.664191283879,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 8299.70723331357
-  },
-  {
-    "pool": "0x2a36148a416cba81699b555120bd65f4682bdfd2",
-    "symbol": "GAME/WETH",
-    "fee0_amount": 106680073191620288604874,
-    "fee1_amount": 1624296236939412616,
-    "fees_usd": 8016.746686760496,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 8016.746686760496
+    "total_usd": 8397.664191283879
   },
   {
     "pool": "0xcdd442e2de893c07146b2f1072f8e077559f9aa4",
     "symbol": "BNKR/WETH",
+    "type": 200,
     "fee0_amount": 17056890938687412797683530,
     "fee1_amount": 1452310045590996909,
-    "fees_usd": 8014.2983478911965,
+    "fees_usd": 8210.374485647331,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 8014.2983478911965
+    "total_usd": 8210.374485647331
+  },
+  {
+    "pool": "0x2a36148a416cba81699b555120bd65f4682bdfd2",
+    "symbol": "GAME/WETH",
+    "type": 200,
+    "fee0_amount": 106680073191620288604874,
+    "fee1_amount": 1624296236939412616,
+    "fees_usd": 8102.010230500496,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 8102.010230500496
   },
   {
     "pool": "0xd23fe2db317e1a96454a2d1c7e8fc0dbf19bb000",
     "symbol": "CLANKER/WETH",
+    "type": 200,
     "fee0_amount": 134240398309686315036,
     "fee1_amount": 1502667251956086558,
-    "fees_usd": 7541.03796830126,
+    "fees_usd": 7555.438040991469,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 7541.03796830126
+    "total_usd": 7555.438040991469
   },
   {
     "pool": "0x0f664affb82f074937d5cfcd61b97f3f32d5dc50",
     "symbol": "WETH/TIBBIR",
+    "type": 200,
     "fee0_amount": 1442964776188507480,
     "fee1_amount": 44019566214124185203507,
-    "fees_usd": 7456.866724359479,
+    "fees_usd": 7461.0778000030405,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 7456.866724359479
+    "total_usd": 7461.0778000030405
   },
   {
     "pool": "0x1eb79b7111fc98bbcbe79dd8043c2c98bc5698bd",
     "symbol": "vAMM-WETH/MOR",
+    "type": -1,
     "fee0_amount": 67327776803240304,
     "fee1_amount": 32469821318741280677,
-    "fees_usd": 361.9917159812942,
-    "bribes_usd": 6924.0,
+    "fees_usd": 366.6178876018751,
+    "bribes_usd": 7020.0,
     "bribes": [
       {
         "token": "0x7431ada8a591c955a994a21710752ef9b882b8e3",
         "symbol": "MOR",
         "amount": 1200000000000000000000,
         "amount_token": 1200.0,
-        "amount_usd": 6924.0
+        "amount_usd": 7020.0
       }
     ],
-    "total_usd": 7285.991715981294
+    "total_usd": 7386.617887601875
   },
   {
     "pool": "0x0225ba893d5f8ecd6d2022f9dec59b34f61098a1",
     "symbol": "WETH/uSOL",
+    "type": 200,
     "fee0_amount": 1354978801766373855,
     "fee1_amount": 21861836274350424493,
-    "fees_usd": 6933.201302333955,
+    "fees_usd": 7008.787133307394,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 6933.201302333955
+    "total_usd": 7008.787133307394
   },
   {
     "pool": "0xa33f162da19c7273ba1205bfd9d4340da2446e3a",
     "symbol": "tBTC/WETH",
+    "type": 200,
     "fee0_amount": 34504723581459281,
     "fee1_amount": 1102863237388789768,
-    "fees_usd": 6496.054589925795,
-    "bribes_usd": 351.350719,
+    "fees_usd": 6557.19818064572,
+    "bribes_usd": 351.423182,
     "bribes": [
       {
         "token": "0x26f3901ac8a79c50fb0d8289c74f0d09adc42e29",
         "symbol": "T",
         "amount": 23300000000000000000000,
         "amount_token": 23300.0,
-        "amount_usd": 351.350719
+        "amount_usd": 351.423182
       }
     ],
-    "total_usd": 6847.405308925795
+    "total_usd": 6908.621362645719
   },
   {
     "pool": "0x93617b2909a7c207e4180de0e667ea80c9bdfe9e",
     "symbol": "oUSDT/WETH",
+    "type": 100,
     "fee0_amount": 3359661185,
     "fee1_amount": 1265463109808706769,
-    "fees_usd": 6638.346952746211,
+    "fees_usd": 6683.621355585243,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 6638.346952746211
+    "total_usd": 6683.621355585243
   },
   {
     "pool": "0x14f7ce67e16c435c876aff4092eb547584121312",
     "symbol": "vAMM-WETH/LRDS",
+    "type": -1,
     "fee0_amount": 1305838549376522954,
     "fee1_amount": 19162089067636471450285,
-    "fees_usd": 6547.374959698741,
+    "fees_usd": 6636.407172143837,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 6547.374959698741
+    "total_usd": 6636.407172143837
   },
   {
     "pool": "0xe96a4e9ea3a2c6db214174738a19eb7dbb8a3069",
     "symbol": "vAMM-WETH/SPX",
+    "type": -1,
     "fee0_amount": 1240503683840428668,
     "fee1_amount": 270955212776,
-    "fees_usd": 6252.428483568049,
+    "fees_usd": 6316.900380839762,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 6252.428483568049
+    "total_usd": 6316.900380839762
   },
   {
     "pool": "0x565aecf84b5d30a6e79a5cef3f0da0fc4280debc",
     "symbol": "AERO/wstETH",
+    "type": 200,
     "fee0_amount": 8737176406416799594352,
     "fee1_amount": 441868117001185591,
-    "fees_usd": 6111.636589346399,
+    "fees_usd": 6137.148766449849,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 6111.636589346399
+    "total_usd": 6137.148766449849
   },
   {
     "pool": "0xf207d02becd4417aaa3383804b6b87b17602c86d",
     "symbol": "vAMM-WETH/VEIL",
+    "type": -1,
     "fee0_amount": 105524252117294047,
     "fee1_amount": 11764251634829850749004,
-    "fees_usd": 566.5351135735805,
-    "bribes_usd": 4978.078,
+    "fees_usd": 574.9832970270494,
+    "bribes_usd": 5067.65,
     "bribes": [
       {
         "token": "0x767a739d1a152639e9ea1d8c1bd55fdc5b217d7f",
         "symbol": "VEIL",
         "amount": 200000000000000000000000,
         "amount_token": 200000.0,
-        "amount_usd": 4978.078
+        "amount_usd": 5067.65
       }
     ],
-    "total_usd": 5544.61311357358
+    "total_usd": 5642.63329702705
   },
   {
     "pool": "0xc5e51044eb7318950b1afb044fccfb25782c48c1",
     "symbol": "EURC/USDC",
+    "type": 1,
     "fee0_amount": 2535432330,
     "fee1_amount": 2643129547,
-    "fees_usd": 5532.9937772906,
+    "fees_usd": 5532.988491031506,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 5532.9937772906
+    "total_usd": 5532.988491031506
   },
   {
     "pool": "0x41d60ed9c8327ea0c6b16a44343c177e0402feea",
     "symbol": "PROMPT/cbBTC",
+    "type": 100,
     "fee0_amount": 11289857215790817831912,
     "fee1_amount": 2495589,
-    "fees_usd": 4933.527319633247,
+    "fees_usd": 4901.316861181004,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4933.527319633247
+    "total_usd": 4901.316861181004
+  },
+  {
+    "pool": "0xb5f0b4ae66c14f7efaa9aa1468e8fc536a3e288c",
+    "symbol": "WETH/MORPHO",
+    "type": 200,
+    "fee0_amount": 932757932128527733,
+    "fee1_amount": 1743530836722050352865,
+    "fees_usd": 4836.212715373108,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 4836.212715373108
   },
   {
     "pool": "0x7f670f78b17dec44d5ef68a48740b6f8849cc2e6",
     "symbol": "vAMM-WETH/AERO",
+    "type": -1,
     "fee0_amount": 704202381765898773,
     "fee1_amount": 5495484638091296046029,
-    "fees_usd": 4802.796645035936,
+    "fees_usd": 4831.356230275032,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4802.796645035936
+    "total_usd": 4831.356230275032
   },
   {
     "pool": "0x2d25e0514f23c6367687de89bd5167dc754d4934",
     "symbol": "vAMM-WETH/TAROT",
+    "type": -1,
     "fee0_amount": 98682421405336256,
     "fee1_amount": 4636795099865806776743,
-    "fees_usd": 739.8301883202844,
-    "bribes_usd": 4061.7525,
+    "fees_usd": 746.2579020266271,
+    "bribes_usd": 4071.7725,
     "bribes": [
       {
         "token": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
         "symbol": "AERO",
         "amount": 7500000000000000000000,
         "amount_token": 7500.0,
-        "amount_usd": 4061.7525
+        "amount_usd": 4071.7725
       }
     ],
-    "total_usd": 4801.582688320284
-  },
-  {
-    "pool": "0xb5f0b4ae66c14f7efaa9aa1468e8fc536a3e288c",
-    "symbol": "WETH/MORPHO",
-    "fee0_amount": 932757932128527733,
-    "fee1_amount": 1743530836722050352865,
-    "fees_usd": 4773.238102143635,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 4773.238102143635
+    "total_usd": 4818.030402026627
   },
   {
     "pool": "0x138acee5573fa09e7f215965ff60898cc33c6330",
     "symbol": "tBTC/cbBTC",
+    "type": 1,
     "fee0_amount": 2544531239516516,
     "fee1_amount": 858501,
-    "fees_usd": 1174.4577380929811,
-    "bribes_usd": 3545.173993,
+    "fees_usd": 1183.20398665575,
+    "bribes_usd": 3545.905154,
     "bribes": [
       {
         "token": "0x26f3901ac8a79c50fb0d8289c74f0d09adc42e29",
         "symbol": "T",
         "amount": 235100000000000000000000,
         "amount_token": 235100.0,
-        "amount_usd": 3545.173993
+        "amount_usd": 3545.905154
       }
     ],
-    "total_usd": 4719.631731092981
+    "total_usd": 4729.10914065575
   },
   {
     "pool": "0x4d69971ccd4a636c403a3c1b00c85e99bb9b5606",
     "symbol": "WETH/USD+",
+    "type": 100,
     "fee0_amount": 868890194007510230,
     "fee1_amount": 2304083604,
-    "fees_usd": 4556.396143158749,
+    "fees_usd": 4584.068850879587,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4556.396143158749
+    "total_usd": 4584.068850879587
+  },
+  {
+    "pool": "0xe782b72a1157b7bea1a9452835cce214962ad43b",
+    "symbol": "WETH/SKI",
+    "type": 200,
+    "fee0_amount": 846684428911916116,
+    "fee1_amount": 31197832399428,
+    "fees_usd": 4232.604360290978,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 4232.604360290978
   },
   {
     "pool": "0x2e26a29f782e51296d9d31f78d4883462a2d339d",
     "symbol": "vAMM-cbBTC/TAROT",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 1471644032821483618421,
-    "fees_usd": 153.56899811298746,
-    "bribes_usd": 4061.7525,
+    "fees_usd": 154.66537291743947,
+    "bribes_usd": 4071.7725,
     "bribes": [
       {
         "token": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
         "symbol": "AERO",
         "amount": 7500000000000000000000,
         "amount_token": 7500.0,
-        "amount_usd": 4061.7525
+        "amount_usd": 4071.7725
       }
     ],
-    "total_usd": 4215.321498112988
-  },
-  {
-    "pool": "0xe782b72a1157b7bea1a9452835cce214962ad43b",
-    "symbol": "WETH/SKI",
-    "fee0_amount": 846684428911916116,
-    "fee1_amount": 31197832399428,
-    "fees_usd": 4173.275308126881,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 4173.275308126881
+    "total_usd": 4226.43787291744
   },
   {
     "pool": "0x7ce345561e1690445eefa0db04f59d64b65598a8",
     "symbol": "wBLT/USDC",
+    "type": 50,
     "fee0_amount": 1316905494397240216774,
     "fee1_amount": 2650945923,
-    "fees_usd": 4164.8570523722265,
+    "fees_usd": 4178.020805424353,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4164.8570523722265
+    "total_usd": 4178.020805424353
   },
   {
     "pool": "0x7c42dd1556754be827e187ce0870e70c5e571f35",
     "symbol": "WETH/HEU",
+    "type": 200,
     "fee0_amount": 753853725199226447,
     "fee1_amount": 106077612493771698629985,
-    "fees_usd": 4078.3608097367487,
+    "fees_usd": 4145.600500321262,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4078.3608097367487
+    "total_usd": 4145.600500321262
   },
   {
     "pool": "0xb6b777577a05d85ffca7d9ebc7476fb344b92445",
     "symbol": "WETH/LUNA",
+    "type": 200,
     "fee0_amount": 854949533747855005,
     "fee1_amount": 75785991104966004374568,
-    "fees_usd": 3936.7191445447656,
+    "fees_usd": 3971.1759743357948,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3936.7191445447656
+    "total_usd": 3971.1759743357948
   },
   {
     "pool": "0x861a2922be165a5bd41b1e482b49216b465e1b5f",
     "symbol": "WETH/wstETH",
+    "type": 1,
     "fee0_amount": 974954299298467148,
     "fee1_amount": 444214475793458709,
-    "fees_usd": 3916.121614559872,
+    "fees_usd": 3959.4097849795858,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3916.121614559872
+    "total_usd": 3959.4097849795858
   },
   {
     "pool": "0xc900ea56b5227ae2d95c288a2597b278cbf741dd",
     "symbol": "uSOL/cbBTC",
+    "type": 200,
     "fee0_amount": 11864426711826156029,
     "fee1_amount": 1916413,
-    "fees_usd": 3878.512593808256,
+    "fees_usd": 3912.3058895500594,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3878.512593808256
+    "total_usd": 3912.3058895500594
   },
   {
     "pool": "0x28a9ec9928a689410e82e579fd9418fbbf6452f3",
     "symbol": "WETH/FAI",
+    "type": 200,
     "fee0_amount": 723537124101482271,
     "fee1_amount": 103538354644902462757567,
-    "fees_usd": 3873.2819896316796,
+    "fees_usd": 3902.5421016330224,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3873.2819896316796
+    "total_usd": 3902.5421016330224
   },
   {
     "pool": "0xf81e1a62cbfa487e807044618661bfd4802b4982",
     "symbol": "tBTC/USDC",
+    "type": 200,
     "fee0_amount": 13164484040974122,
     "fee1_amount": 1648218815,
-    "fees_usd": 3034.8728808259516,
-    "bribes_usd": 702.701438,
+    "fees_usd": 3045.5196519774695,
+    "bribes_usd": 702.846364,
     "bribes": [
       {
         "token": "0x26f3901ac8a79c50fb0d8289c74f0d09adc42e29",
         "symbol": "T",
         "amount": 46600000000000000000000,
         "amount_token": 46600.0,
-        "amount_usd": 702.701438
+        "amount_usd": 702.846364
       }
     ],
-    "total_usd": 3737.5743188259517
+    "total_usd": 3748.3660159774695
   },
   {
     "pool": "0xc29dc26b28fff463e32834ce6325b5c74fac7098",
     "symbol": "Mog/WETH",
+    "type": 200,
     "fee0_amount": 1774062101631390073810797029,
     "fee1_amount": 771744795961588768,
-    "fees_usd": 3679.1648927714555,
+    "fees_usd": 3736.2507018139904,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3679.1648927714555
+    "total_usd": 3736.2507018139904
   },
   {
     "pool": "0xb211a9ddff3a10806c8fdb92dbc4c34596a23f84",
     "symbol": "WETH/KEYCAT",
+    "type": 200,
     "fee0_amount": 743948823426149754,
     "fee1_amount": 364907727279742738454796,
-    "fees_usd": 3616.0366519792756,
+    "fees_usd": 3662.6379141932066,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3616.0366519792756
+    "total_usd": 3662.6379141932066
   },
   {
     "pool": "0x9aa26b650357bf9cc5439123bcd7e0c0200d90e6",
     "symbol": "WETH/Base is for everyone",
+    "type": 100,
     "fee0_amount": 726911643189976047,
     "fee1_amount": 297259004145049022133865,
-    "fees_usd": 3306.765757232107,
+    "fees_usd": 3346.3634335581755,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3306.765757232107
+    "total_usd": 3346.3634335581755
   },
   {
     "pool": "0x29af315b3bd7566005f14d81c582b59e1c632ffd",
     "symbol": "WETH/HYPER",
+    "type": 200,
     "fee0_amount": 594682551829094703,
     "fee1_amount": 11876493981795644164513,
-    "fees_usd": 3245.7847557752293,
+    "fees_usd": 3265.5433976290183,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3245.7847557752293
+    "total_usd": 3265.5433976290183
   },
   {
     "pool": "0x85c99e6b9adab159a33a999a6303933212ac091e",
     "symbol": "oUSDT/cbBTC",
+    "type": 100,
     "fee0_amount": 1664821602,
     "fee1_amount": 1451166,
-    "fees_usd": 3195.028364214546,
+    "fees_usd": 3209.874022902,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3195.028364214546
+    "total_usd": 3209.874022902
   },
   {
     "pool": "0x963ceee215e5b0b1dcb221c3ba398de66abc73d9",
     "symbol": "vAMM-GENOME/WETH",
+    "type": -1,
     "fee0_amount": 196452842505127068565774,
     "fee1_amount": 318864417977872892,
-    "fees_usd": 1951.210248076662,
-    "bribes_usd": 1144.408,
+    "fees_usd": 1946.358703781958,
+    "bribes_usd": 1129.688,
     "bribes": [
       {
         "token": "0x1db0c569ebb4a8b57ac01833b9792f526305e062",
         "symbol": "GENOME",
         "amount": 200000000000000000000000,
         "amount_token": 200000.0,
-        "amount_usd": 1144.408
+        "amount_usd": 1129.688
       }
     ],
-    "total_usd": 3095.618248076662
+    "total_usd": 3076.046703781958
   },
   {
     "pool": "0x61c6e9e93592e535efc1bee07f491a517e98f6d0",
     "symbol": "uXRP/WETH",
+    "type": 200,
     "fee0_amount": 860623806774651936613,
     "fee1_amount": 399721543872863958,
-    "fees_usd": 2930.2060903406173,
+    "fees_usd": 2942.2497004575066,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2930.2060903406173
+    "total_usd": 2942.2497004575066
   },
   {
     "pool": "0x2578365b3dfa7ffe60108e181efb79feddec2319",
     "symbol": "vAMM-WETH/cbBTC",
+    "type": -1,
     "fee0_amount": 508675503762036983,
     "fee1_amount": 1455786,
-    "fees_usd": 2856.40892981331,
+    "fees_usd": 2883.0758956816603,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2856.40892981331
+    "total_usd": 2883.0758956816603
   },
   {
     "pool": "0x46d398a5b33709877f50c8918a7ee96f1be1d7dd",
     "symbol": "WETH/VVV",
+    "type": 200,
     "fee0_amount": 474982334635841099,
     "fee1_amount": 500502064106188657817,
-    "fees_usd": 2768.593264794561,
+    "fees_usd": 2792.9145238192627,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2768.593264794561
+    "total_usd": 2792.9145238192627
   },
   {
     "pool": "0xfc42a013ebd8b160c35c6a0fe876de4e42da262a",
     "symbol": "vAMM-WETH/SYRUP",
+    "type": -1,
     "fee0_amount": 542632765094306920,
     "fee1_amount": 3240367148980407588933,
-    "fees_usd": 2742.9595335897243,
+    "fees_usd": 2770.5790557461696,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2742.9595335897243
+    "total_usd": 2770.5790557461696
   },
   {
     "pool": "0x016df91005f30039c9f1a89b44db5e8c60613603",
     "symbol": "WETH/PENDLE",
+    "type": 100,
     "fee0_amount": 499338557332580544,
     "fee1_amount": 316350310154792829555,
-    "fees_usd": 2642.8816117388246,
+    "fees_usd": 2673.744197978995,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2642.8816117388246
+    "total_usd": 2673.744197978995
   },
   {
     "pool": "0xa4463789e8f3c6a599b3dfb608dde55513bcf289",
     "symbol": "WETH/ZRO",
+    "type": 100,
     "fee0_amount": 567622777113460299,
     "fee1_amount": 494195604166360016287,
-    "fees_usd": 2638.6526711594433,
+    "fees_usd": 2665.639057517199,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2638.6526711594433
+    "total_usd": 2665.639057517199
   },
   {
     "pool": "0xa41bc0affba7fd420d186b84899d7ab2ac57fcd1",
     "symbol": "USDC/USDT",
+    "type": 1,
     "fee0_amount": 1157718273,
     "fee1_amount": 1287123330,
-    "fees_usd": 2441.1863112876,
+    "fees_usd": 2444.607743908854,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2441.1863112876
+    "total_usd": 2444.607743908854
   },
   {
     "pool": "0x9785ef59e2b499fb741674ecf6faf912df7b3c1b",
     "symbol": "WETH/USDT",
+    "type": 100,
     "fee0_amount": 455695993990324879,
     "fee1_amount": 1212947546,
-    "fees_usd": 2391.746387379204,
+    "fees_usd": 2408.7029481504924,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2391.746387379204
+    "total_usd": 2408.7029481504924
   },
   {
     "pool": "0xf3706dc080c93d0cb597a1ec57dca1ffeef06c84",
     "symbol": "vAMM-WETH/JKL",
+    "type": -1,
     "fee0_amount": 23268985416752053,
     "fee1_amount": 775508114,
-    "fees_usd": 102.39515691825699,
-    "bribes_usd": 2222.487,
+    "fees_usd": 102.98845582101772,
+    "bribes_usd": 2216.788,
     "bribes": [
       {
         "token": "0x4eed0d2deb4c588393c80869b122327581b0d98e",
         "symbol": "JKL",
         "amount": 41000000000,
         "amount_token": 41000.0,
-        "amount_usd": 2222.487
+        "amount_usd": 2216.788
       }
     ],
-    "total_usd": 2324.882156918257
+    "total_usd": 2319.776455821018
   },
   {
     "pool": "0x61907c8c3e6ef7ed813acc2fbbbf8c05ac0f31d5",
     "symbol": "vAMM-wBLT/BMX",
+    "type": -1,
     "fee0_amount": 1046198404736529241430,
     "fee1_amount": 496704273306463064813,
-    "fees_usd": 2251.1741821236456,
+    "fees_usd": 2291.438422569399,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2251.1741821236456
+    "total_usd": 2291.438422569399
   },
   {
     "pool": "0xfd7abc461df4e496a25898cab0c6ea88cdd94cf9",
     "symbol": "WETH/SPEC",
+    "type": 200,
     "fee0_amount": 451823630515440267,
     "fee1_amount": 1054446117198107289686,
-    "fees_usd": 2243.2980520309725,
+    "fees_usd": 2246.3670368464213,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2243.2980520309725
+    "total_usd": 2246.3670368464213
   },
   {
     "pool": "0x0aa3e62f4d97c404012352e881a2d0f2712c24a2",
     "symbol": "vAMM-WETH/RECORD",
+    "type": -1,
     "fee0_amount": 50697311848201910,
     "fee1_amount": 140775252524966081873077,
-    "fees_usd": 308.1001735124014,
-    "bribes_usd": 1881.69,
+    "fees_usd": 311.518295159798,
+    "bribes_usd": 1901.835,
     "bribes": [
       {
         "token": "0xe642657e4f43e6dcf0bd73ef24008394574dee28",
         "symbol": "RECORD",
         "amount": 1500000000000000000000000,
         "amount_token": 1500000.0,
-        "amount_usd": 1881.69
+        "amount_usd": 1901.835
       }
     ],
-    "total_usd": 2189.7901735124015
+    "total_usd": 2213.353295159798
   },
   {
     "pool": "0xea5cb64754ad7aa24f7a6bbe3b724f29b4f822b8",
     "symbol": "USDC/RIZE",
+    "type": 200,
     "fee0_amount": 1201382264,
     "fee1_amount": 19088327543023901012898,
-    "fees_usd": 2165.3315884004232,
+    "fees_usd": 2178.9773398291572,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2165.3315884004232
+    "total_usd": 2178.9773398291572
   },
   {
     "pool": "0x4a311ac4563abc30e71d0631c88a6232c1309ac5",
     "symbol": "vAMM-Mog/WETH",
+    "type": -1,
     "fee0_amount": 1039708189550671063621913015,
     "fee1_amount": 446547553206549096,
-    "fees_usd": 2141.320611259683,
+    "fees_usd": 2174.6033639207176,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2141.320611259683
-  },
-  {
-    "pool": "0x98ecc8425cc4c3f30dd4ef02360b05698008a8fc",
-    "symbol": "USDC/LsETH",
-    "fee0_amount": 1078993737,
-    "fee1_amount": 374634635090373539,
-    "fees_usd": 2130.598393385982,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 2130.598393385982
+    "total_usd": 2174.6033639207176
   },
   {
     "pool": "0xde4fb30ccc2f1210fce2c8ad66410c586c8d1f9a",
     "symbol": "sAMM-WETH/msETH",
+    "type": 0,
     "fee0_amount": 818167428165345716,
     "fee1_amount": 1039202233641223718,
-    "fees_usd": 2122.2363102438085,
+    "fees_usd": 2146.8876948544303,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2122.2363102438085
+    "total_usd": 2146.8876948544303
+  },
+  {
+    "pool": "0x98ecc8425cc4c3f30dd4ef02360b05698008a8fc",
+    "symbol": "USDC/LsETH",
+    "type": 100,
+    "fee0_amount": 1078993737,
+    "fee1_amount": 374634635090373539,
+    "fees_usd": 2140.007057431978,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 2140.007057431978
   },
   {
     "pool": "0x326841efd63340767e02ec88e583f18a82af4a48",
     "symbol": "WETH/MIGGLES",
+    "type": 200,
     "fee0_amount": 432646063601948167,
     "fee1_amount": 28443710904919224212824,
-    "fees_usd": 2030.7170467352155,
+    "fees_usd": 2068.701789214683,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2030.7170467352155
+    "total_usd": 2068.701789214683
   },
   {
     "pool": "0x5230845439fa66fbea20af7cf09bc413b99e10b7",
     "symbol": "cbBTC/EDGE",
+    "type": 200,
     "fee0_amount": 1001460,
     "fee1_amount": 9732135880526425544440,
-    "fees_usd": 1936.7069399002482,
+    "fees_usd": 1950.4935768667722,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1936.7069399002482
+    "total_usd": 1950.4935768667722
   },
   {
     "pool": "0x52f38a65dab3cf23478cc567110bec90162ab832",
     "symbol": "SEKOIA/WETH",
+    "type": 200,
     "fee0_amount": 219153112495622159086142,
     "fee1_amount": 419200645642343292,
-    "fees_usd": 1925.9979613744651,
+    "fees_usd": 1949.2902757505808,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1925.9979613744651
+    "total_usd": 1949.2902757505808
   },
   {
     "pool": "0x87cd18069b6547a0e88b6155dd657e71779500ea",
     "symbol": "WETH/PRIME",
+    "type": 200,
     "fee0_amount": 384744007808370295,
     "fee1_amount": 294983372474465685192,
-    "fees_usd": 1868.1845832137274,
+    "fees_usd": 1876.8270864442488,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1868.1845832137274
+    "total_usd": 1876.8270864442488
   },
   {
     "pool": "0x4796eda5a091b8ca92efa7d7ee6f4de113a626fe",
     "symbol": "LsETH/cbBTC",
+    "type": 100,
     "fee0_amount": 324934169281471130,
     "fee1_amount": 889323,
-    "fees_usd": 1851.1935748129656,
+    "fees_usd": 1866.283747315316,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1851.1935748129656
+    "total_usd": 1866.283747315316
   },
   {
     "pool": "0x4289a0666397f517c2a761652aaebaf6a4f7a693",
     "symbol": "WETH/USDS",
+    "type": 100,
     "fee0_amount": 343663627930213065,
     "fee1_amount": 917149737250562780424,
-    "fees_usd": 1808.4579899360951,
+    "fees_usd": 1818.8391723880127,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1808.4579899360951
+    "total_usd": 1818.8391723880127
   },
   {
     "pool": "0x37e769d2dcf3e3e8dfc37c0df83eeb56edfc0fd2",
     "symbol": "vAMM-VIRTUAL/WAI",
+    "type": -1,
     "fee0_amount": 330196320833623116105,
     "fee1_amount": 12518090722626587102049,
-    "fees_usd": 1788.91666388763,
+    "fees_usd": 1781.7785394332957,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1788.91666388763
+    "total_usd": 1781.7785394332957
   },
   {
     "pool": "0x984faeed533d60b53f142ad76b629d64849ea507",
     "symbol": "WETH/ACOLYT",
+    "type": 200,
     "fee0_amount": 357475183910852284,
     "fee1_amount": 135503349393361015032277,
-    "fees_usd": 1760.5440572574275,
+    "fees_usd": 1769.3323705470366,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1760.5440572574275
+    "total_usd": 1769.3323705470366
   },
   {
     "pool": "0x26029ed89a19b919b5698f10cf776a4f4aea1529",
     "symbol": "vAMM-WETH/CHAMP",
+    "type": -1,
     "fee0_amount": 325253920321217604,
     "fee1_amount": 162581213954386873736465,
-    "fees_usd": 1742.4982552924123,
+    "fees_usd": 1756.1025563182234,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1742.4982552924123
+    "total_usd": 1756.1025563182234
   },
   {
     "pool": "0x139e9f235588a9720e7eab045da29dc781c4b658",
     "symbol": "vAMM-WETH/doginme",
+    "type": -1,
     "fee0_amount": 327855240162083517,
     "fee1_amount": 1341796098120417116621674,
-    "fees_usd": 1730.5715794661144,
+    "fees_usd": 1734.867986084017,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1730.5715794661144
+    "total_usd": 1734.867986084017
   },
   {
     "pool": "0x598299fb3f3829f7ba08662948706cdff7ec2350",
     "symbol": "vAMM-WETH/SAM",
+    "type": -1,
     "fee0_amount": 14539661575591340,
     "fee1_amount": 23621140426707916419073,
-    "fees_usd": 104.39014826958758,
-    "bribes_usd": 1571.67073696,
+    "fees_usd": 105.28931293398949,
+    "bribes_usd": 1582.53933632,
     "bribes": [
       {
         "token": "0xed1779845520339693cdbffec49a74246e7d671b",
         "symbol": "SAM",
         "amount": 556793000000000000000000,
         "amount_token": 556793.0,
-        "amount_usd": 1571.67073696
+        "amount_usd": 1582.53933632
       }
     ],
-    "total_usd": 1676.0608852295875
+    "total_usd": 1687.8286492539894
   },
   {
     "pool": "0xb7068556049df8fb3ae77ccbb9611fe0e85b2641",
     "symbol": "USDC/ODOS",
+    "type": 100,
     "fee0_amount": 804438923,
     "fee1_amount": 116664563986941863187158,
-    "fees_usd": 1539.4456184073135,
+    "fees_usd": 1545.9037264374244,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1539.4456184073135
+    "total_usd": 1545.9037264374244
   },
   {
     "pool": "0x9c38b55f9a9aba91bbcedeb12bf4428f47a6a0b8",
     "symbol": "vAMM-USDC/cbBTC",
+    "type": -1,
     "fee0_amount": 737358274,
     "fee1_amount": 713198,
-    "fees_usd": 1490.1767228252,
+    "fees_usd": 1495.731060528652,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1490.1767228252
+    "total_usd": 1495.731060528652
   },
   {
     "pool": "0x3c5428b3d6e07f6de38b0c7f84ea9d30b3b27231",
     "symbol": "EIGEN/WETH",
+    "type": 200,
     "fee0_amount": 950985912431227220773,
     "fee1_amount": 556132270206410883,
-    "fees_usd": 1442.5459343657071,
+    "fees_usd": 1459.3021996670263,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1442.5459343657071
+    "total_usd": 1459.3021996670263
   },
   {
     "pool": "0x385b47e56b73eb6549378f78f7c7cbc42c56c9e0",
     "symbol": "DRB/WETH",
+    "type": 200,
     "fee0_amount": 19660491241296576868159283,
     "fee1_amount": 271061712253157850,
-    "fees_usd": 1417.5665165050611,
+    "fees_usd": 1454.241318195129,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1417.5665165050611
+    "total_usd": 1454.241318195129
   },
   {
     "pool": "0x1dda8b6469df243971381f1f3f4137814ca68722",
     "symbol": "vAMM-WMTX/WETH",
+    "type": -1,
     "fee0_amount": 4264812961,
     "fee1_amount": 266122321531313060,
-    "fees_usd": 1402.1618136080947,
+    "fees_usd": 1412.8455872564582,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1402.1618136080947
+    "total_usd": 1412.8455872564582
   },
   {
     "pool": "0x32450cebe156b2ca77dd517e0182409d89b723ff",
     "symbol": "vAMM-cbBTC/CHAMP",
+    "type": -1,
     "fee0_amount": 652617,
     "fee1_amount": 128131344000179883489428,
-    "fees_usd": 1397.3772152846745,
+    "fees_usd": 1405.4593751642788,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1397.3772152846745
+    "total_usd": 1405.4593751642788
   },
   {
     "pool": "0x8a7b72f8ff5299e493317d4430293894107af859",
     "symbol": "WETH/SIGN",
+    "type": 200,
     "fee0_amount": 515557832127366513,
     "fee1_amount": 16770829847394058479674,
-    "fees_usd": 1337.3003051768546,
+    "fees_usd": 1352.8340626588522,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1337.3003051768546
+    "total_usd": 1352.8340626588522
   },
   {
     "pool": "0x55f618171d851d57906431ce9feee96dc6f3877e",
     "symbol": "vAMM-BOTTO/WETH",
+    "type": -1,
     "fee0_amount": 3043315568511480958810,
     "fee1_amount": 211111591989186829,
-    "fees_usd": 1323.6974536799241,
+    "fees_usd": 1342.4232371014205,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1323.6974536799241
+    "total_usd": 1342.4232371014205
   },
   {
     "pool": "0x8b49c7ec53cb4ca3666bb16727fc5c5f6d12226f",
     "symbol": "vAMM-VIRTUAL/AERO",
+    "type": -1,
     "fee0_amount": 316791856428736748889,
     "fee1_amount": 1217966881071116497992,
-    "fees_usd": 1286.8585456099402,
+    "fees_usd": 1291.6536679273386,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1286.8585456099402
+    "total_usd": 1291.6536679273386
   },
   {
     "pool": "0xb0f400ded843b39370b059ad49acff6eb7365eef",
     "symbol": "EMP/WETH",
+    "type": 200,
     "fee0_amount": 6052181377161235559,
     "fee1_amount": 271045665944106547,
-    "fees_usd": 1240.859479610306,
+    "fees_usd": 1266.5168897051979,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1240.859479610306
+    "total_usd": 1266.5168897051979
   },
   {
     "pool": "0x80866012a372c686a3b71a2ab05d004e29b36e1b",
     "symbol": "WETH/RED",
+    "type": 200,
     "fee0_amount": 472051555078207741,
     "fee1_amount": 2958798934301630524844,
-    "fees_usd": 1224.4498082018122,
+    "fees_usd": 1238.6727215563187,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1224.4498082018122
+    "total_usd": 1238.6727215563187
   },
   {
     "pool": "0x3eb2a8015de1419a5089dab37b0056f0fc24f821",
     "symbol": "vAMM-WETH/SYMM",
+    "type": -1,
     "fee0_amount": 214271236341033991,
     "fee1_amount": 17439414999230415776387,
-    "fees_usd": 1214.2408370675382,
+    "fees_usd": 1219.9361221362271,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1214.2408370675382
+    "total_usd": 1219.9361221362271
   },
   {
     "pool": "0x948e80fbb383694b462f79557a3a44a25416dc72",
     "symbol": "SEAM/USDC",
+    "type": 200,
     "fee0_amount": 1289200131870652354258,
     "fee1_amount": 621073364,
-    "fees_usd": 1209.836431563736,
+    "fees_usd": 1211.985575236968,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1209.836431563736
+    "total_usd": 1211.985575236968
   },
   {
     "pool": "0x887de0c0aa6c1d5e781b17867b29734f84dc1372",
     "symbol": "vAMM-WETH/PEGG",
+    "type": -1,
     "fee0_amount": 118721647332402013,
     "fee1_amount": 2939092904773563525042,
-    "fees_usd": 596.352324172855,
-    "bribes_usd": 588.756,
+    "fees_usd": 604.2381176053783,
+    "bribes_usd": 597.552,
     "bribes": [
       {
         "token": "0x82b0e1a2374ea0198f62a48b14ffab53db6c1e36",
         "symbol": "PEGG",
         "amount": 6000000000000000000000,
         "amount_token": 6000.0,
-        "amount_usd": 588.756
+        "amount_usd": 597.552
       }
     ],
-    "total_usd": 1185.108324172855
+    "total_usd": 1201.7901176053783
   },
   {
     "pool": "0x9bf387b4cdb6bcdb2107981e0e7c16d71576a970",
     "symbol": "vAMM-MODE/WETH",
+    "type": -1,
     "fee0_amount": 147215583381502818889713,
     "fee1_amount": 225325948441249642,
-    "fees_usd": 1060.2052428787686,
+    "fees_usd": 1068.6475447066775,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1060.2052428787686
+    "total_usd": 1068.6475447066775
   },
   {
     "pool": "0x04f8375dad560480d6639b9600cd88ca594e2293",
     "symbol": "WETH/LsETH",
+    "type": 1,
     "fee0_amount": 266452285557313538,
     "fee1_amount": 124671177065753327,
-    "fees_usd": 1041.1734690022984,
+    "fees_usd": 1052.3334163340319,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1041.1734690022984
+    "total_usd": 1052.3334163340319
   },
   {
     "pool": "0x32bb4ad5fed77f7abf97d1435f8d6aaae59aa64e",
     "symbol": "WETH/POKT",
+    "type": 200,
     "fee0_amount": 81734113444199587,
     "fee1_amount": 14947211613,
-    "fees_usd": 1025.8401302147859,
+    "fees_usd": 1020.1565487237746,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1025.8401302147859
+    "total_usd": 1020.1565487237746
   },
   {
     "pool": "0x2223f9fe624f69da4d8256a7bcc9104fba7f8f75",
     "symbol": "vAMM-AERO/USDbC",
+    "type": -1,
     "fee0_amount": 941028358170254316992,
     "fee1_amount": 461165778,
-    "fees_usd": 968.3902421511422,
+    "fees_usd": 972.5140625137055,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 968.3902421511422
-  },
-  {
-    "pool": "0x7501bc8bb51616f79bfa524e464fb7b41f0b10fb",
-    "symbol": "msUSD/USDC",
-    "fee0_amount": 1011447457930204655707,
-    "fee1_amount": 918003108,
-    "fees_usd": 917.8195073784,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 917.8195073784
+    "total_usd": 972.5140625137055
   },
   {
     "pool": "0x323121cd6f6274c9aeb9f87e0664c8fda5d343a5",
     "symbol": "vAMM-tBTC/USDC",
+    "type": -1,
     "fee0_amount": 1015710511902062,
     "fee1_amount": 107639690,
-    "fees_usd": 214.63139017497744,
-    "bribes_usd": 702.701438,
+    "fees_usd": 215.4528846997262,
+    "bribes_usd": 702.846364,
     "bribes": [
       {
         "token": "0x26f3901ac8a79c50fb0d8289c74f0d09adc42e29",
         "symbol": "T",
         "amount": 46600000000000000000000,
         "amount_token": 46600.0,
-        "amount_usd": 702.701438
+        "amount_usd": 702.846364
       }
     ],
-    "total_usd": 917.3328281749774
+    "total_usd": 918.2992486997263
+  },
+  {
+    "pool": "0x7501bc8bb51616f79bfa524e464fb7b41f0b10fb",
+    "symbol": "msUSD/USDC",
+    "type": 50,
+    "fee0_amount": 1011447457930204655707,
+    "fee1_amount": 918003108,
+    "fees_usd": 917.817671372184,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 917.817671372184
   },
   {
     "pool": "0x0c40e7f5b43f6759060a3c4d2fb406dfecf03b57",
     "symbol": "USDC/TRUMP",
+    "type": 100,
     "fee0_amount": 899438606,
     "fee1_amount": 84918745360037469064,
-    "fees_usd": 899.2587182788,
+    "fees_usd": 899.256919401588,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 899.2587182788
+    "total_usd": 899.256919401588
   },
   {
     "pool": "0x2ae9df02539887d4ebce0230168a302d34784c82",
     "symbol": "WETH/bsdETH",
+    "type": 1,
     "fee0_amount": 205419645307892175,
     "fee1_amount": 130303474700323526,
-    "fees_usd": 880.7214835573592,
+    "fees_usd": 890.7768815648445,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 880.7214835573592
+    "total_usd": 890.7768815648445
   },
   {
     "pool": "0x09da4832d34bebbb55783340d5bede7a70f5c48e",
     "symbol": "CADC/USDC",
+    "type": 10,
     "fee0_amount": 663464471130043055353,
     "fee1_amount": 400126458,
-    "fees_usd": 879.7279280130655,
+    "fees_usd": 880.2034952504208,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 879.7279280130655
+    "total_usd": 880.2034952504208
   },
   {
     "pool": "0x3d36cf85a0c275cf4894315a6c1d6c558d6d984c",
     "symbol": "vAMM-fBOMB/cbBTC",
+    "type": -1,
     "fee0_amount": 31215400756582352180754,
     "fee1_amount": 0,
-    "fees_usd": 879.2885189797295,
+    "fees_usd": 878.0920326687296,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 879.2885189797295
+    "total_usd": 878.0920326687296
   },
   {
     "pool": "0x3667af77ff1481aca513d2c97a32c0ac31ba813d",
     "symbol": "vAMM-Anon/USDC",
+    "type": -1,
     "fee0_amount": 89025676516513909356,
     "fee1_amount": 433483807,
-    "fees_usd": 846.4762492752245,
+    "fees_usd": 847.3656390727757,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 846.4762492752245
+    "total_usd": 847.3656390727757
   },
   {
     "pool": "0x594b83709464a83f37ac77e69ddd447a8a33c0ee",
     "symbol": "vAMM-cbBTC/EDGE",
+    "type": -1,
     "fee0_amount": 678213,
     "fee1_amount": 765207255122147845803,
-    "fees_usd": 785.1750496600924,
+    "fees_usd": 790.9289313919925,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 785.1750496600924
-  },
-  {
-    "pool": "0x48a346a833775ed92bf52dd598246e5a71f3d4a5",
-    "symbol": "vAMM-AERO/CHAMP",
-    "fee0_amount": 722311456881602850979,
-    "fee1_amount": 69854509014150737120835,
-    "fees_usd": 777.368606218461,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 777.368606218461
+    "total_usd": 790.9289313919925
   },
   {
     "pool": "0xfd22d75b2fb405ee185155d57b0277b9db2f8e29",
     "symbol": "BITCOIN/WETH",
+    "type": 200,
     "fee0_amount": 592584298135,
     "fee1_amount": 131947176431514384,
-    "fees_usd": 774.0074552521205,
+    "fees_usd": 784.1933071224569,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 774.0074552521205
+    "total_usd": 784.1933071224569
+  },
+  {
+    "pool": "0x48a346a833775ed92bf52dd598246e5a71f3d4a5",
+    "symbol": "vAMM-AERO/CHAMP",
+    "type": -1,
+    "fee0_amount": 722311456881602850979,
+    "fee1_amount": 69854509014150737120835,
+    "fees_usd": 779.9682098357858,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 779.9682098357858
   },
   {
     "pool": "0x2c4909355b0c036840819484c3a882a95659abf3",
     "symbol": "vAMM-WETH/DEGEN",
+    "type": -1,
     "fee0_amount": 155649518507231530,
     "fee1_amount": 78681993049920459303008,
-    "fees_usd": 768.5680344748025,
-    "bribes_usd": 5.41567e-05,
+    "fees_usd": 774.2884885763793,
+    "bribes_usd": 5.42903e-05,
     "bribes": [
       {
         "token": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
         "symbol": "AERO",
         "amount": 100000000000000,
         "amount_token": 0.0001,
-        "amount_usd": 5.41567e-05
+        "amount_usd": 5.42903e-05
       }
     ],
-    "total_usd": 768.5680886315025
+    "total_usd": 774.2885428666793
   },
   {
     "pool": "0xc90e88d30b99442b6994915f3b146ce3d55982d9",
     "symbol": "vAMM-MAVIA/WETH",
+    "type": -1,
     "fee0_amount": 2164461801040407630407,
     "fee1_amount": 152419104225010339,
-    "fees_usd": 765.6415284093988,
+    "fees_usd": 769.6733204132289,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 765.6415284093988
+    "total_usd": 769.6733204132289
   },
   {
     "pool": "0x569f22ad5ce151aa4507adf2302b79e5ca6b4049",
     "symbol": "WETH/uBERA",
+    "type": 200,
     "fee0_amount": 149466308036803170,
     "fee1_amount": 147731123079469076038,
-    "fees_usd": 762.9362143754348,
+    "fees_usd": 767.4396342365837,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 762.9362143754348
+    "total_usd": 767.4396342365837
   },
   {
     "pool": "0x3333e1d9174720d6ec2cf815e65b82915a9eae1e",
     "symbol": "WETH/PEPE",
+    "type": 200,
     "fee0_amount": 292047774190250673,
     "fee1_amount": 54828260073812167836626251,
-    "fees_usd": 757.5398009943493,
+    "fees_usd": 766.3392004307016,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 757.5398009943493
+    "total_usd": 766.3392004307016
   },
   {
     "pool": "0x72be417afb0abea66913141c605d313bb389b59c",
     "symbol": "WETH/LINK",
+    "type": 100,
     "fee0_amount": 140544479504305253,
     "fee1_amount": 27788228065397959865,
-    "fees_usd": 755.5372888215717,
+    "fees_usd": 761.7170699536142,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 755.5372888215717
+    "total_usd": 761.7170699536142
   },
   {
     "pool": "0x4b241e7e1ba2d76c888aaacb6f099b42f57aec2b",
     "symbol": "USDC/CARV",
+    "type": 200,
     "fee0_amount": 411798964,
     "fee1_amount": 1006709957618699939255,
-    "fees_usd": 751.8134291895254,
+    "fees_usd": 752.1176387087559,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 751.8134291895254
+    "total_usd": 752.1176387087559
   },
   {
     "pool": "0x04e5a1c883dafd1eae6b11bd6d3eb784d90ce515",
     "symbol": "vAMM-WETH/PDT",
+    "type": -1,
     "fee0_amount": 43569622668847403,
     "fee1_amount": 23078277474770591597361,
-    "fees_usd": 722.9642201089187,
+    "fees_usd": 730.4061017716806,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 722.9642201089187
+    "total_usd": 730.4061017716806
   },
   {
     "pool": "0xa0e2bac96ab51c92d3284781aee1eec817f6f9c2",
     "symbol": "WETH/DRV",
+    "type": 200,
     "fee0_amount": 121145062037612961,
     "fee1_amount": 16307151273697732156286,
-    "fees_usd": 698.5944005601339,
+    "fees_usd": 710.1818440902867,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 698.5944005601339
+    "total_usd": 710.1818440902867
   },
   {
     "pool": "0x8f5f1d63599362115e7f9fe71bfd5ab883d82c82",
     "symbol": "vAMM-WETH/TN100x",
+    "type": -1,
     "fee0_amount": 105612433452812610,
     "fee1_amount": 2533283738557033292114451,
-    "fees_usd": 686.0616335973742,
+    "fees_usd": 693.1449931746854,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 686.0616335973742
+    "total_usd": 693.1449931746854
   },
   {
     "pool": "0x47ca96ea59c13f72745928887f84c9f52c3d7348",
     "symbol": "cbETH/WETH",
+    "type": 1,
     "fee0_amount": 91963860050744173,
     "fee1_amount": 162157359514468711,
-    "fees_usd": 683.2266734774882,
+    "fees_usd": 690.3223662766786,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 683.2266734774882
+    "total_usd": 690.3223662766786
   },
   {
     "pool": "0xcefc8b799a8ee5d9b312aeca73262645d664aaf7",
     "symbol": "sAMM-msUSD/USDC",
+    "type": 0,
     "fee0_amount": 872109617071629060523,
     "fee1_amount": 667114388,
-    "fees_usd": 666.9809651224,
+    "fees_usd": 666.979630893624,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 666.9809651224
+    "total_usd": 666.979630893624
   },
   {
     "pool": "0x9d029df22ceefc6245d382a41bc232c8dc988bf9",
     "symbol": "WETH/PLAY",
+    "type": 200,
     "fee0_amount": 106155824876314552,
     "fee1_amount": 62230597871134102560001,
-    "fees_usd": 649.2454322699418,
+    "fees_usd": 641.7875396940121,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 649.2454322699418
+    "total_usd": 641.7875396940121
   },
   {
     "pool": "0xfd4f716cb3c493afddd40c67d3f42426aeb2d902",
     "symbol": "WETH/uLINK",
+    "type": 100,
     "fee0_amount": 85834860058357239,
     "fee1_amount": 26732525114284870448,
-    "fees_usd": 597.1688620079033,
+    "fees_usd": 601.3590178483187,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 597.1688620079033
+    "total_usd": 601.3590178483187
   },
   {
     "pool": "0xd9edc75a3a797ec92ca370f19051babebfb2edee",
     "symbol": "vAMM-WETH/KTA",
+    "type": -1,
     "fee0_amount": 97562926406643316,
     "fee1_amount": 329991545280953681967,
-    "fees_usd": 578.23555804051,
+    "fees_usd": 581.6001581234641,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 578.23555804051
+    "total_usd": 581.6001581234641
   },
   {
     "pool": "0xb378137c90444bbcecd44a1f766851fbf53d2a9e",
     "symbol": "WETH/mooBIFI",
+    "type": 200,
     "fee0_amount": 57442677364799677,
     "fee1_amount": 2030377501096916264,
-    "fees_usd": 567.278055390756,
+    "fees_usd": 571.242218510964,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 567.278055390756
+    "total_usd": 571.242218510964
   },
   {
     "pool": "0x47f6f4b438b9d91e7387d6c1cf953a86bf5de1a5",
     "symbol": "WETH/PEPE",
+    "type": 200,
     "fee0_amount": 78651795307044480,
     "fee1_amount": 7529734122940628919964901750,
-    "fees_usd": 536.5723426027854,
+    "fees_usd": 546.4342066477126,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 536.5723426027854
+    "total_usd": 546.4342066477126
+  },
+  {
+    "pool": "0x346edb1aaa704df6ddbfc604724aafcdc12b2fed",
+    "symbol": "WETH/TALENT",
+    "type": 200,
+    "fee0_amount": 90415421547923844,
+    "fee1_amount": 46825938548935984316290,
+    "fees_usd": 525.779260007162,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 525.779260007162
   },
   {
     "pool": "0x2722c8f9b5e2ac72d1f225f8e8c990e449ba0078",
     "symbol": "vAMM-tBTC/WETH",
+    "type": -1,
     "fee0_amount": 887026671094052,
     "fee1_amount": 29856116567401069,
-    "fees_usd": 170.89883821614308,
-    "bribes_usd": 351.350719,
+    "fees_usd": 172.51600758523398,
+    "bribes_usd": 351.423182,
     "bribes": [
       {
         "token": "0x26f3901ac8a79c50fb0d8289c74f0d09adc42e29",
         "symbol": "T",
         "amount": 23300000000000000000000,
         "amount_token": 23300.0,
-        "amount_usd": 351.350719
+        "amount_usd": 351.423182
       }
     ],
-    "total_usd": 522.2495572161431
-  },
-  {
-    "pool": "0x346edb1aaa704df6ddbfc604724aafcdc12b2fed",
-    "symbol": "WETH/TALENT",
-    "fee0_amount": 90415421547923844,
-    "fee1_amount": 46825938548935984316290,
-    "fees_usd": 518.850542333614,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 518.850542333614
+    "total_usd": 523.939189585234
   },
   {
     "pool": "0xebec4772aba30d82bc64bbb99187b4ca29928e2e",
     "symbol": "WETH/BENJI",
+    "type": 200,
     "fee0_amount": 102188904436764714,
     "fee1_amount": 11913247335606366579096,
-    "fees_usd": 517.5729390390642,
+    "fees_usd": 520.6287790299128,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 517.5729390390642
+    "total_usd": 520.6287790299128
   },
   {
     "pool": "0x256d96010e9d9801b1f4c2320b2ad44715c8078f",
     "symbol": "MXNe/USDC",
+    "type": 10,
     "fee0_amount": 3965330503,
     "fee1_amount": 290264932,
-    "fees_usd": 496.312862568031,
+    "fees_usd": 496.312282038167,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 496.312862568031
+    "total_usd": 496.312282038167
   },
   {
     "pool": "0x7a9b4ccc4f80506259c301bb07cf9a97b4d8805e",
     "symbol": "WETH/RWAX",
+    "type": 200,
     "fee0_amount": 111083366936322654,
     "fee1_amount": 2850290107802151998832,
-    "fees_usd": 485.6517379727159,
+    "fees_usd": 490.8798712896567,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 485.6517379727159
+    "total_usd": 490.8798712896567
   },
   {
     "pool": "0xeda5c8f08e92e6983ae29ab2d5dc244342bf70c8",
     "symbol": "WETH/LAY",
+    "type": 200,
     "fee0_amount": 96303286897563362,
     "fee1_amount": 21547448379911486032638,
-    "fees_usd": 475.17696202730764,
+    "fees_usd": 479.250114829947,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 475.17696202730764
+    "total_usd": 479.250114829947
   },
   {
     "pool": "0xb37642e87613d8569fd8ec80888ea6c63684e79e",
     "symbol": "vAMM-WETH/KLIMA",
+    "type": -1,
     "fee0_amount": 96276351816644809,
     "fee1_amount": 1053322091033,
-    "fees_usd": 474.07312509443136,
+    "fees_usd": 477.49743265391027,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 474.07312509443136
-  },
-  {
-    "pool": "0x1c3fcea97a3161434901097878faf90227cd3394",
-    "symbol": "vAMM-USDC/MCADE",
-    "fee0_amount": 261563193,
-    "fee1_amount": 12564762726788691546578,
-    "fees_usd": 460.7197905466622,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 460.7197905466622
+    "total_usd": 477.49743265391027
   },
   {
     "pool": "0xaace080ea9ce5e7942ea826d311b6170bdfcf73b",
     "symbol": "vAMM-WETH/TOWER",
+    "type": -1,
     "fee0_amount": 90968493387055621,
     "fee1_amount": 519160865792723395547383,
-    "fees_usd": 459.38833551430616,
+    "fees_usd": 467.85556056975184,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 459.38833551430616
+    "total_usd": 467.85556056975184
+  },
+  {
+    "pool": "0x1c3fcea97a3161434901097878faf90227cd3394",
+    "symbol": "vAMM-USDC/MCADE",
+    "type": -1,
+    "fee0_amount": 261563193,
+    "fee1_amount": 12564762726788691546578,
+    "fees_usd": 456.2191976496768,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 456.2191976496768
   },
   {
     "pool": "0x58c5649e6bc93969f4530673e8892faf762cc7e7",
     "symbol": "USDC/CHAMP",
+    "type": 200,
     "fee0_amount": 227049558,
     "fee1_amount": 39197942606256099357683,
-    "fees_usd": 443.7087978488087,
+    "fees_usd": 444.62557560667904,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 443.7087978488087
+    "total_usd": 444.62557560667904
   },
   {
     "pool": "0xa7c2693022cfb693c198eaa743e9b54d7921588e",
     "symbol": "USDC/STAR",
+    "type": 1,
     "fee0_amount": 195972603,
     "fee1_amount": 229861067509992874093,
-    "fees_usd": 425.0727122374115,
+    "fees_usd": 425.07278001434054,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 425.0727122374115
+    "total_usd": 425.07278001434054
   },
   {
     "pool": "0x9dff4b5ae4fd673213502ab8fbf6d36015efb3e1",
     "symbol": "vAMM-WETH/EURC",
+    "type": -1,
     "fee0_amount": 74808397244959567,
     "fee1_amount": 188636811,
-    "fees_usd": 409.09071806972815,
+    "fees_usd": 411.3446950787188,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 409.09071806972815
+    "total_usd": 411.3446950787188
   },
   {
     "pool": "0xef70044c0249a07234e07d673606e09b364dc977",
     "symbol": "vAMM-cbETH/SPECTRA",
+    "type": -1,
     "fee0_amount": 67408694792923974,
     "fee1_amount": 8831677069162408387402,
-    "fees_usd": 382.3805209681912,
+    "fees_usd": 384.2817291354887,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 382.3805209681912
+    "total_usd": 384.2817291354887
   },
   {
     "pool": "0x20000fbfedfd172821821c9c59284129b04ffb2e",
     "symbol": "vAMM-TYBG/WETH",
+    "type": -1,
     "fee0_amount": 2977360936063063431754010,
     "fee1_amount": 68258963411490801,
-    "fees_usd": 377.3730863817548,
+    "fees_usd": 384.04463840024073,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 377.3730863817548
+    "total_usd": 384.04463840024073
   },
   {
     "pool": "0x2a1463cebe85315224c536afd389b381b43f3206",
     "symbol": "sAMM-USDC/MAI",
+    "type": 0,
     "fee0_amount": 213218707,
     "fee1_amount": 157035879205224464378,
-    "fees_usd": 370.1349948830139,
+    "fees_usd": 370.1194930011962,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 370.1349948830139
-  },
-  {
-    "pool": "0xb0d931138bf96501654f2268cdd84420151ff52e",
-    "symbol": "vAMM-SEAM/USDC",
-    "fee0_amount": 391475416775375347393,
-    "fee1_amount": 188161212,
-    "fees_usd": 366.9436780093398,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 366.9436780093398
+    "total_usd": 370.1194930011962
   },
   {
     "pool": "0xb4885bc63399bf5518b994c1d0c153334ee579d0",
     "symbol": "vAMM-WETH/USDbC",
+    "type": -1,
     "fee0_amount": 67926776222988411,
     "fee1_amount": 189279441,
-    "fees_usd": 364.4867450127914,
+    "fees_usd": 367.70993978564604,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 364.4867450127914
+    "total_usd": 367.70993978564604
+  },
+  {
+    "pool": "0xb0d931138bf96501654f2268cdd84420151ff52e",
+    "symbol": "vAMM-SEAM/USDC",
+    "type": -1,
+    "fee0_amount": 391475416775375347393,
+    "fee1_amount": 188161212,
+    "fees_usd": 367.5962826820971,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 367.5962826820971
   },
   {
     "pool": "0x0dfb9cb66a18468850d6216fcc691aa20ad1e091",
     "symbol": "vAMM-WETH/GHST",
+    "type": -1,
     "fee0_amount": 61535871318090943,
     "fee1_amount": 491405354878953454546,
-    "fees_usd": 364.3392091226293,
+    "fees_usd": 367.3466132933443,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 364.3392091226293
+    "total_usd": 367.3466132933443
   },
   {
     "pool": "0x95b9662f58d638b65ac957acb1365697c34c832b",
     "symbol": "vAMM-USDC/AITECH",
+    "type": -1,
     "fee0_amount": 176622158,
     "fee1_amount": 3686058358505524700444,
-    "fees_usd": 359.30725291920265,
+    "fees_usd": 359.00320532672936,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 359.30725291920265
+    "total_usd": 359.00320532672936
   },
   {
     "pool": "0xb07d7eece8866e549601af5c7622d8cdbedc914e",
     "symbol": "EURC/cbBTC",
+    "type": 100,
     "fee0_amount": 282568313,
     "fee1_amount": 0,
     "fees_usd": 322.12787682,
@@ -1842,933 +2006,1024 @@
   {
     "pool": "0xc84f7c63742ea1894ee04e5f49fbae8c3a4a734d",
     "symbol": "sAMM-oUSDT/USDC",
+    "type": 0,
     "fee0_amount": 156308654,
     "fee1_amount": 164731033,
-    "fees_usd": 320.830580940342,
+    "fees_usd": 321.162719985334,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 320.830580940342
+    "total_usd": 321.162719985334
   },
   {
     "pool": "0xc75799e0646470128a42d07335ab3bfa9e8ee7c2",
     "symbol": "sAMM-jEUR/EURC",
+    "type": 0,
     "fee0_amount": 1469987173563384981,
     "fee1_amount": 7384121,
     "fees_usd": 8.41789794,
-    "bribes_usd": 309.6076400852,
+    "bribes_usd": 309.607020746052,
     "bribes": [
       {
         "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
         "symbol": "USDC",
         "amount": 309669574,
         "amount_token": 309.669574,
-        "amount_usd": 309.6076400852
+        "amount_usd": 309.607020746052
       }
     ],
-    "total_usd": 318.0255380252
+    "total_usd": 318.024918686052
   },
   {
     "pool": "0xe4faa73134c66832c272f067adc401f0963a9d7a",
     "symbol": "vAMM-WETH/ANZ",
+    "type": -1,
     "fee0_amount": 59022941075587522,
     "fee1_amount": 142094540707947861522233,
-    "fees_usd": 308.35151180405956,
+    "fees_usd": 308.84818026148133,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 308.35151180405956
+    "total_usd": 308.84818026148133
   },
   {
     "pool": "0xcc79bfa7a3212d94390c358e88afcd39294549ca",
     "symbol": "vAMM-SNX/USDC",
+    "type": -1,
     "fee0_amount": 209388286276364424654,
     "fee1_amount": 160426382,
-    "fees_usd": 307.00525272658876,
+    "fees_usd": 308.12746247655235,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 307.00525272658876
+    "total_usd": 308.12746247655235
   },
   {
     "pool": "0x6446021f4e396da3df4235c62537431372195d38",
     "symbol": "WETH/superOETHb",
+    "type": 1,
     "fee0_amount": 35937347815723214,
     "fee1_amount": 68530588498580825,
-    "fees_usd": 270.91597249077637,
+    "fees_usd": 273.7003792928839,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 270.91597249077637
+    "total_usd": 273.7003792928839
+  },
+  {
+    "pool": "0x17c9a4b6cad28f5074c81b056c32bad334329f25",
+    "symbol": "vAMM-BNKR/wBLT",
+    "type": -1,
+    "fee0_amount": 607719007403407308457242,
+    "fee1_amount": 98798715596908822164,
+    "fees_usd": 271.35547367197506,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 271.35547367197506
   },
   {
     "pool": "0x0c1a09d5d0445047da3ab4994262b22404288a3b",
     "symbol": "USDC/USD+",
+    "type": 1,
     "fee0_amount": 140294867,
     "fee1_amount": 129193766,
-    "fees_usd": 269.376856466232,
+    "fees_usd": 269.460293436866,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 269.376856466232
+    "total_usd": 269.460293436866
   },
   {
     "pool": "0x488d6ea6064eee9352fdcdb7bc50d98a7ff3ad4e",
     "symbol": "sAMM-tBTC/cbBTC",
+    "type": 0,
     "fee0_amount": 173789829217747,
     "fee1_amount": 0,
-    "fees_usd": 18.31014882672339,
-    "bribes_usd": 248.810595,
+    "fees_usd": 18.450744798560546,
+    "bribes_usd": 248.86191,
     "bribes": [
       {
         "token": "0x26f3901ac8a79c50fb0d8289c74f0d09adc42e29",
         "symbol": "T",
         "amount": 16500000000000000000000,
         "amount_token": 16500.0,
-        "amount_usd": 248.810595
+        "amount_usd": 248.86191
       }
     ],
-    "total_usd": 267.1207438267234
-  },
-  {
-    "pool": "0x17c9a4b6cad28f5074c81b056c32bad334329f25",
-    "symbol": "vAMM-BNKR/wBLT",
-    "fee0_amount": 607719007403407308457242,
-    "fee1_amount": 98798715596908822164,
-    "fees_usd": 264.94055577989354,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 264.94055577989354
-  },
-  {
-    "pool": "0x43bbb129b56a998732767725a183b7a566843dba",
-    "symbol": "vAMM-BRETT/AERO",
-    "fee0_amount": 2295951929680881911842,
-    "fee1_amount": 260509110892868198218,
-    "fees_usd": 263.46885527055736,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 263.46885527055736
+    "total_usd": 267.3126547985606
   },
   {
     "pool": "0xbd3cd0d9d429b41f0a2e1c026552bd598294d5e0",
     "symbol": "weETH/WETH",
+    "type": 1,
     "fee0_amount": 7028383641989694,
     "fee1_amount": 93913235549990989,
-    "fees_usd": 263.0874990465467,
+    "fees_usd": 266.10103763357887,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 263.0874990465467
+    "total_usd": 266.10103763357887
   },
   {
     "pool": "0xdc7ead706795eda3feda08ad519d9452badf2c0d",
     "symbol": "ezETH/WETH",
+    "type": 1,
     "fee0_amount": 28866555807253843,
     "fee1_amount": 71024499980233840,
-    "fees_usd": 262.6786469777541,
+    "fees_usd": 265.4314521419465,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 262.6786469777541
+    "total_usd": 265.4314521419465
+  },
+  {
+    "pool": "0x43bbb129b56a998732767725a183b7a566843dba",
+    "symbol": "vAMM-BRETT/AERO",
+    "type": -1,
+    "fee0_amount": 2295951929680881911842,
+    "fee1_amount": 260509110892868198218,
+    "fees_usd": 264.7077247914264,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 264.7077247914264
   },
   {
     "pool": "0x80fda26eef8eaefbbb2c75b84bf351c99c2a6d47",
     "symbol": "LUM/WETH",
+    "type": 200,
     "fee0_amount": 61698915981001678080,
     "fee1_amount": 46533264597834787,
-    "fees_usd": 254.58881738645132,
+    "fees_usd": 256.6078538085941,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 254.58881738645132
+    "total_usd": 256.6078538085941
   },
   {
     "pool": "0x266f421f80016d670c9de757d561a5c4a6a9ffac",
     "symbol": "WETH/stTAO",
+    "type": 200,
     "fee0_amount": 97698649220168183,
     "fee1_amount": 639727956,
-    "fees_usd": 253.41954922570204,
+    "fees_usd": 256.3632095267057,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 253.41954922570204
+    "total_usd": 256.3632095267057
   },
   {
     "pool": "0x864cc817099761c7b7f8228822f2bde0b74a6588",
     "symbol": "WETH/uNEAR",
+    "type": 200,
     "fee0_amount": 48681817951196518,
     "fee1_amount": 49649361690055275362,
-    "fees_usd": 250.39868499056732,
+    "fees_usd": 252.85845539923798,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 250.39868499056732
+    "total_usd": 252.85845539923798
   },
   {
     "pool": "0x5d7411a51442d287d742ffefc02658d2c9865f29",
     "symbol": "KEYCAT/USD+",
+    "type": 200,
     "fee0_amount": 26401224336931440623227,
     "fee1_amount": 126000109,
-    "fees_usd": 247.92406284743893,
+    "fees_usd": 249.75558406712275,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 247.92406284743893
+    "total_usd": 249.75558406712275
   },
   {
     "pool": "0xde5ff829fef54d1bdec957d9538a306f0ead1368",
     "symbol": "USDz/USDC",
+    "type": 1,
     "fee0_amount": 117628100608201965413,
     "fee1_amount": 128653447,
-    "fees_usd": 245.6824975564376,
+    "fees_usd": 245.72588027486924,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 245.6824975564376
+    "total_usd": 245.72588027486924
   },
   {
     "pool": "0x027256310ddd3773bc410f1cbd83524c42321cd0",
     "symbol": "WETH/GEKKO",
+    "type": 200,
     "fee0_amount": 44432536433277389,
     "fee1_amount": 121898620830365672003324,
-    "fees_usd": 241.0281089016852,
+    "fees_usd": 241.43067981644262,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 241.0281089016852
-  },
-  {
-    "pool": "0xead784afe3bdf564367d36debd3619a31ef2bd6a",
-    "symbol": "USDC/TRYB",
-    "fee0_amount": 79682880,
-    "fee1_amount": 6145089377,
-    "fees_usd": 236.61074403666066,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 236.61074403666066
+    "total_usd": 241.43067981644262
   },
   {
     "pool": "0xc35d9e6fc72e8ec2935fae56f07afad2ce4dcb1b",
     "symbol": "tBTC/T",
+    "type": 200,
     "fee0_amount": 1064484929589942,
     "fee1_amount": 8249889845690347193537,
-    "fees_usd": 236.55563964753551,
+    "fees_usd": 237.44246511299386,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 236.55563964753551
+    "total_usd": 237.44246511299386
   },
   {
     "pool": "0x2092f4acbb18bb1649595df59b9cb601bba1ebb7",
     "symbol": "WETH/RDNT",
+    "type": 200,
     "fee0_amount": 45834739649229327,
     "fee1_amount": 4689828296513472324541,
-    "fees_usd": 235.4769655693502,
+    "fees_usd": 237.1347599410417,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 235.4769655693502
+    "total_usd": 237.1347599410417
+  },
+  {
+    "pool": "0xead784afe3bdf564367d36debd3619a31ef2bd6a",
+    "symbol": "USDC/TRYB",
+    "type": 10,
+    "fee0_amount": 79682880,
+    "fee1_amount": 6145089377,
+    "fees_usd": 236.6107075726882,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 236.6107075726882
   },
   {
     "pool": "0xf91e0dfe1265b914182de54e08c9ca2068beddde",
     "symbol": "vAMM-WETH/MET",
+    "type": -1,
     "fee0_amount": 88088422035691862,
     "fee1_amount": 498521390789316543112,
-    "fees_usd": 228.49167703416077,
+    "fees_usd": 231.14578119009616,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 228.49167703416077
+    "total_usd": 231.14578119009616
   },
   {
     "pool": "0x862a9d8443bbf74cf86bc05afc8e05c63319dc1e",
     "symbol": "vAMM-WETH/SEXY",
+    "type": -1,
     "fee0_amount": 35332302315563664,
     "fee1_amount": 2718468109995501165582,
-    "fees_usd": 225.71262265947757,
+    "fees_usd": 228.3579741342079,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 225.71262265947757
+    "total_usd": 228.3579741342079
   },
   {
     "pool": "0x9e4cb8b916289864321661ce02cf66aa5ba63c94",
     "symbol": "vAMM-WETH/DEUS",
+    "type": -1,
     "fee0_amount": 27039958382383284,
     "fee1_amount": 13669733741093498184,
-    "fees_usd": 223.23969554872735,
+    "fees_usd": 224.46450150702137,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 223.23969554872735
+    "total_usd": 224.46450150702137
   },
   {
     "pool": "0x51c230951b82dbf7b8696b6fcd2be199cc10779f",
     "symbol": "RFL/USDC",
+    "type": 100,
     "fee0_amount": 1242242986386956992465,
     "fee1_amount": 120830449,
-    "fees_usd": 222.80685452243304,
+    "fees_usd": 223.686120895897,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 222.80685452243304
-  },
-  {
-    "pool": "0xfd198524340203da7896909941e92e5ef0d2b753",
-    "symbol": "USDC/AAA",
-    "fee0_amount": 125769790,
-    "fee1_amount": 2315548621204141825577,
-    "fees_usd": 221.52735106908176,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 221.52735106908176
+    "total_usd": 223.686120895897
   },
   {
     "pool": "0x1524a14c55f097bb54f0b24383f3ae3e3743804a",
     "symbol": "vAMM-YFI/wstETH",
+    "type": -1,
     "fee0_amount": 30174681404768349,
     "fee1_amount": 19174256632018445,
-    "fees_usd": 220.60390609597428,
+    "fees_usd": 222.13171177325762,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 220.60390609597428
+    "total_usd": 222.13171177325762
+  },
+  {
+    "pool": "0xfd198524340203da7896909941e92e5ef0d2b753",
+    "symbol": "USDC/AAA",
+    "type": 50,
+    "fee0_amount": 125769790,
+    "fee1_amount": 2315548621204141825577,
+    "fees_usd": 221.52536286803584,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 221.52536286803584
   },
   {
     "pool": "0x03cd22d89bba07b109b869da1b5fd344d0ad6b40",
     "symbol": "WETH/DOGE",
+    "type": 200,
     "fee0_amount": 37566075826284206,
     "fee1_amount": 6695284964151924496897,
-    "fees_usd": 216.6739786049967,
+    "fees_usd": 219.0389151014905,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 216.6739786049967
+    "total_usd": 219.0389151014905
   },
   {
     "pool": "0x2c206c7de24787f85b5c52d2ea339adc6d5af40f",
     "symbol": "USDz/KEYCAT",
+    "type": 200,
     "fee0_amount": 101871376395505628825,
     "fee1_amount": 24710144832413802436476,
-    "fees_usd": 215.5656237079529,
+    "fees_usd": 217.24120638808805,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 215.5656237079529
+    "total_usd": 217.24120638808805
   },
   {
     "pool": "0xed445a77e75f18b04818d940d0e490c15c6072b7",
     "symbol": "vAMM-WETH/COOKIE",
+    "type": -1,
     "fee0_amount": 43131610356931967,
     "fee1_amount": 392183174896652838191,
-    "fees_usd": 209.22518391206475,
+    "fees_usd": 210.93104110131202,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 209.22518391206475
+    "total_usd": 210.93104110131202
   },
   {
     "pool": "0xb452f81d9322936c2c8ac6445f6892cb957afb4c",
     "symbol": "vAMM-WETH/OVER",
+    "type": -1,
     "fee0_amount": 38294860657313403,
     "fee1_amount": 751977167421573526642,
-    "fees_usd": 207.5181072330056,
+    "fees_usd": 209.27576905004997,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 207.5181072330056
+    "total_usd": 209.27576905004997
   },
   {
     "pool": "0x82a0c1a0d4ef0c0ca3cfda3ad1aa78309cc6139b",
     "symbol": "vAMM-AERO/wstETH",
+    "type": -1,
     "fee0_amount": 254288957241374808690,
     "fee1_amount": 21006980285961495,
-    "fees_usd": 203.31531581314306,
+    "fees_usd": 204.31298448257382,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 203.31531581314306
+    "total_usd": 204.31298448257382
   },
   {
     "pool": "0x4f9dc2229f2357b27c22db56cb39582c854ad6d5",
     "symbol": "vAMM-WETH/fBOMB",
+    "type": -1,
     "fee0_amount": 5988656784093449,
     "fee1_amount": 6653124512095794502830,
-    "fees_usd": 202.9419225147016,
+    "fees_usd": 202.86734648105767,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 202.9419225147016
-  },
-  {
-    "pool": "0xc02dc3a9b6ead739c56cdea716d8fec4ffe4c799",
-    "symbol": "vAMM-WETH/MOXIE",
-    "fee0_amount": 44776173511975233,
-    "fee1_amount": 934737448470966551208033,
-    "fees_usd": 197.8124795838858,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 197.8124795838858
+    "total_usd": 202.86734648105767
   },
   {
     "pool": "0xf930e1342fc23c5c7bceae58cbbc776eeb4cfb87",
     "symbol": "vAMM-WETH/HEU",
+    "type": -1,
     "fee0_amount": 42160272494838362,
     "fee1_amount": 4374778594398128508877,
-    "fees_usd": 196.9122094481152,
+    "fees_usd": 200.01881177338328,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 196.9122094481152
+    "total_usd": 200.01881177338328
+  },
+  {
+    "pool": "0xc02dc3a9b6ead739c56cdea716d8fec4ffe4c799",
+    "symbol": "vAMM-WETH/MOXIE",
+    "type": -1,
+    "fee0_amount": 44776173511975233,
+    "fee1_amount": 934737448470966551208033,
+    "fees_usd": 199.29244893458753,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 199.29244893458753
   },
   {
     "pool": "0x0bd7cfd63db4b508c616368fc83635baca65c710",
     "symbol": "WETH/$PAAL",
+    "type": 200,
     "fee0_amount": 39736855412149697,
     "fee1_amount": 741683360030844623050,
-    "fees_usd": 192.22559681080858,
+    "fees_usd": 194.0755496212038,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 192.22559681080858
+    "total_usd": 194.0755496212038
   },
   {
     "pool": "0xcb1f3e1a6bb8a0e2d97bdc9d48db093b2c0095f9",
     "symbol": "USDC/rETH",
+    "type": 100,
     "fee0_amount": 95696694,
     "fee1_amount": 32083744485425615,
-    "fees_usd": 190.1705989196755,
+    "fees_usd": 191.04565207584994,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 190.1705989196755
+    "total_usd": 191.04565207584994
   },
   {
     "pool": "0x7c36577aec1d99d9b872b7075bd86c8f1334ecf2",
     "symbol": "vAMM-WETH/ATH",
+    "type": -1,
     "fee0_amount": 3620885746138,
     "fee1_amount": 1940049538213312606,
-    "fees_usd": 0.7206841818204259,
-    "bribes_usd": 183.318,
+    "fees_usd": 0.7248654430886668,
+    "bribes_usd": 184.3675,
     "bribes": [
       {
         "token": "0x58d75a1c4477914f9a98a8708feaed1dbe40b8a3",
         "symbol": "ATH",
         "amount": 500000000000000000000,
         "amount_token": 500.0,
-        "amount_usd": 183.318
+        "amount_usd": 184.3675
       }
     ],
-    "total_usd": 184.03868418182043
+    "total_usd": 185.09236544308865
   },
   {
     "pool": "0xbe700f5c75dfcbef3cae37873aeeb1724daed3f6",
     "symbol": "uDOGE/WETH",
+    "type": 200,
     "fee0_amount": 482458870260505945731,
     "fee1_amount": 32378078784263581,
-    "fees_usd": 178.6450524994355,
+    "fees_usd": 180.55174963280814,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 178.6450524994355
+    "total_usd": 180.55174963280814
   },
   {
     "pool": "0xfad14c545e464e04c737d00643296144eb20c7f8",
     "symbol": "BRETT/USD+",
+    "type": 200,
     "fee0_amount": 1541382007333608182309,
     "fee1_amount": 95425924,
-    "fees_usd": 177.527455902166,
+    "fees_usd": 178.1873481197634,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 177.527455902166
+    "total_usd": 178.1873481197634
   },
   {
     "pool": "0xbd1f3d188de7ee07b1b323c0d26d6720cafb8780",
     "symbol": "vAMM-fBOMB/wstETH",
+    "type": -1,
     "fee0_amount": 6079503178669531543524,
     "fee1_amount": 1008967087695778,
-    "fees_usd": 174.40081143922566,
+    "fees_usd": 174.1993849315739,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 174.40081143922566
+    "total_usd": 174.1993849315739
   },
   {
     "pool": "0x6fb655476fdcfb9712dd200308d941a1c6d1119e",
     "symbol": "vAMM-OGN/OETHb",
+    "type": -1,
     "fee0_amount": 1970836511690270450421,
     "fee1_amount": 22543646016679133,
-    "fees_usd": 173.63682150104313,
+    "fees_usd": 174.06256334884233,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 173.63682150104313
-  },
-  {
-    "pool": "0xcdb55b284257fd5f879598ba9e4b852bb0c3edf1",
-    "symbol": "vAMM-USDC/XSWAP",
-    "fee0_amount": 75327956,
-    "fee1_amount": 2211665447576204170359,
-    "fees_usd": 170.0124459928619,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 170.0124459928619
+    "total_usd": 174.06256334884233
   },
   {
     "pool": "0x98c7a2338336d2d354663246f64676009c7bda97",
     "symbol": "USDC/USDbC",
+    "type": 1,
     "fee0_amount": 79274206,
     "fee1_amount": 90325929,
-    "fees_usd": 169.113140113136,
+    "fees_usd": 169.674447539388,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 169.113140113136
+    "total_usd": 169.674447539388
+  },
+  {
+    "pool": "0xcdb55b284257fd5f879598ba9e4b852bb0c3edf1",
+    "symbol": "vAMM-USDC/XSWAP",
+    "type": -1,
+    "fee0_amount": 75327956,
+    "fee1_amount": 2211665447576204170359,
+    "fees_usd": 169.15113916162716,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 169.15113916162716
   },
   {
     "pool": "0x84ff3b6e2046579fb2f2b891ce18ee10b5fbdbf2",
     "symbol": "vAMM-EXTRA/WETH",
+    "type": -1,
     "fee0_amount": 3761956250455112103171,
     "fee1_amount": 29474971581297509,
-    "fees_usd": 160.4232775667951,
+    "fees_usd": 162.10975843557367,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 160.4232775667951
+    "total_usd": 162.10975843557367
   },
   {
     "pool": "0x5e14319d52c9c18a04bfbbe12dd3a0fe3c1a816a",
     "symbol": "vAMM-WETH/NPC",
+    "type": -1,
     "fee0_amount": 29398872700909197,
     "fee1_amount": 6024244544024853158051,
-    "fees_usd": 159.3193642285034,
+    "fees_usd": 160.45509816911337,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 159.3193642285034
-  },
-  {
-    "pool": "0x5fede9d65714907381a76aa9bf949219dd1c5023",
-    "symbol": "sAMM-USDC/cUSDO",
-    "fee0_amount": 120845695,
-    "fee1_amount": 34941294176552114162,
-    "fees_usd": 156.46164592108315,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 156.46164592108315
-  },
-  {
-    "pool": "0xff0df9b15c29542fa5d7efe169452507b4d648c2",
-    "symbol": "USDC/AVAIL",
-    "fee0_amount": 81765487,
-    "fee1_amount": 2262761494232723424868,
-    "fees_usd": 155.88009678837665,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 155.88009678837665
+    "total_usd": 160.45509816911337
   },
   {
     "pool": "0x8a86610952343beff5f1a906fd5bd9185c031a90",
     "symbol": "WETH/MOXIE",
+    "type": 200,
     "fee0_amount": 34018154956724214,
     "fee1_amount": 771654074807062510631034,
-    "fees_usd": 155.6587684765904,
+    "fees_usd": 156.7917670559095,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 155.6587684765904
+    "total_usd": 156.7917670559095
   },
   {
-    "pool": "0x43b97febdadad12afde21baa96eb762bc26d13f3",
-    "symbol": "USDC/axlUSDC",
-    "fee0_amount": 77940111,
-    "fee1_amount": 76114536,
-    "fees_usd": 153.926181120912,
+    "pool": "0x5fede9d65714907381a76aa9bf949219dd1c5023",
+    "symbol": "sAMM-USDC/cUSDO",
+    "type": 0,
+    "fee0_amount": 120845695,
+    "fee1_amount": 34941294176552114162,
+    "fees_usd": 156.4963455238697,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 153.926181120912
+    "total_usd": 156.4963455238697
   },
   {
     "pool": "0x1d6aaa7ae38856fffc37e5e3c99d1c392631f450",
     "symbol": "WETH/AION",
+    "type": 200,
     "fee0_amount": 28287104428735596,
     "fee1_amount": 308515911609906671384,
-    "fees_usd": 152.9090393196869,
+    "fees_usd": 155.97770808513027,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 152.9090393196869
+    "total_usd": 155.97770808513027
+  },
+  {
+    "pool": "0xff0df9b15c29542fa5d7efe169452507b4d648c2",
+    "symbol": "USDC/AVAIL",
+    "type": 200,
+    "fee0_amount": 81765487,
+    "fee1_amount": 2262761494232723424868,
+    "fees_usd": 155.85474872197182,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 155.85474872197182
+  },
+  {
+    "pool": "0x43b97febdadad12afde21baa96eb762bc26d13f3",
+    "symbol": "USDC/axlUSDC",
+    "type": 1,
+    "fee0_amount": 77940111,
+    "fee1_amount": 76114536,
+    "fees_usd": 154.038903097578,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 154.038903097578
   },
   {
     "pool": "0x5447f7fe76894d98753a0a6d69b9cb840037c13d",
     "symbol": "vAMM-WETH/FAI",
+    "type": -1,
     "fee0_amount": 22141268149665099,
     "fee1_amount": 4653593769840811047852,
-    "fees_usd": 147.1661923780081,
+    "fees_usd": 148.16860021847455,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 147.1661923780081
+    "total_usd": 148.16860021847455
   },
   {
     "pool": "0xf53b7af40be75043eeba493c622f4f56b3c27a31",
     "symbol": "sAMM-LUSD/USDC",
+    "type": 0,
     "fee0_amount": 70348265471190048001,
     "fee1_amount": 76059597,
-    "fees_usd": 146.53334708273243,
+    "fees_usd": 146.24835483664558,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 146.53334708273243
-  },
-  {
-    "pool": "0x82bdbc291762b478de875e44fff7b9717651bfe5",
-    "symbol": "vAMM-WETH/ZENT",
-    "fee0_amount": 18996817486458170,
-    "fee1_amount": 9812477749200390789559,
-    "fees_usd": 135.04132230250252,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 135.04132230250252
+    "total_usd": 146.24835483664558
   },
   {
     "pool": "0xac4e562d7c6108f971321f14238e24ae2cc398ac",
     "symbol": "vAMM-WETH/DRV",
+    "type": -1,
     "fee0_amount": 25513262898484454,
     "fee1_amount": 2912936395998183648798,
-    "fees_usd": 134.83612967169555,
+    "fees_usd": 137.02268694421505,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 134.83612967169555
+    "total_usd": 137.02268694421505
   },
   {
-    "pool": "0x113138dc05b05afbe25e8c31ca9de9b445caca48",
-    "symbol": "wXCH/USDC",
-    "fee0_amount": 10058365179762626243,
-    "fee1_amount": 129259000,
-    "fees_usd": 129.2331482,
+    "pool": "0x82bdbc291762b478de875e44fff7b9717651bfe5",
+    "symbol": "vAMM-WETH/ZENT",
+    "type": -1,
+    "fee0_amount": 18996817486458170,
+    "fee1_amount": 9812477749200390789559,
+    "fees_usd": 135.9955980473684,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 129.2331482
+    "total_usd": 135.9955980473684
   },
   {
     "pool": "0x14dccdd311ab827c42cca448ba87b1ac1039e2a4",
     "symbol": "wstETH/wrsETH",
+    "type": 1,
     "fee0_amount": 8986280735037035,
     "fee1_amount": 37083333069782997,
-    "fees_usd": 128.57051746120595,
+    "fees_usd": 129.8776927665375,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 128.57051746120595
+    "total_usd": 129.8776927665375
+  },
+  {
+    "pool": "0x113138dc05b05afbe25e8c31ca9de9b445caca48",
+    "symbol": "wXCH/USDC",
+    "type": 200,
+    "fee0_amount": 10058365179762626243,
+    "fee1_amount": 129259000,
+    "fees_usd": 129.232889682,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 129.232889682
   },
   {
     "pool": "0xa19acc3b4f11c46c2b1fc36b5f592af422ee338c",
     "symbol": "DEGEN/USD+",
+    "type": 200,
     "fee0_amount": 12549356458985017889411,
     "fee1_amount": 63030368,
-    "fees_usd": 121.17800386986396,
+    "fees_usd": 121.38324411794066,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 121.17800386986396
+    "total_usd": 121.38324411794066
   },
   {
     "pool": "0x923bebd9fbcaf0f85251a3d5a11bf5bfaa19942f",
     "symbol": "vAMM-WETH/CXT",
+    "type": -1,
     "fee0_amount": 45879754200200667,
     "fee1_amount": 2418199083255048004220,
-    "fees_usd": 119.00703562235852,
+    "fees_usd": 120.38939261641056,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 119.00703562235852
+    "total_usd": 120.38939261641056
   },
   {
     "pool": "0xf213f2d02837012dc0236cc105061e121bb03e37",
     "symbol": "sAMM-DOLA/USDC",
+    "type": 0,
     "fee0_amount": 39723068393214758541,
     "fee1_amount": 78375511,
-    "fees_usd": 118.06200995703993,
+    "fees_usd": 118.07222092686855,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 118.06200995703993
+    "total_usd": 118.07222092686855
   },
   {
     "pool": "0x2f48c208d7bd2b4ff6da005a9427ef38f035b2d8",
     "symbol": "vAMM-BMX/USDC",
+    "type": -1,
     "fee0_amount": 25808933886805123008,
     "fee1_amount": 60902673,
-    "fees_usd": 115.34734296655881,
+    "fees_usd": 116.89575719442112,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 115.34734296655881
+    "total_usd": 116.89575719442112
   },
   {
     "pool": "0x5a1401c002f67ca00557e7179d34c3fe6d753b28",
     "symbol": "EXTRA/WETH",
+    "type": 200,
     "fee0_amount": 2808596827642760504002,
     "fee1_amount": 19600956214156878,
-    "fees_usd": 113.53178511799341,
+    "fees_usd": 114.71843043345658,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 113.53178511799341
+    "total_usd": 114.71843043345658
   },
   {
     "pool": "0xa88c07bd10813cf9b4111deab984c4026f2c83bf",
     "symbol": "WETH/uAPT",
+    "type": 200,
     "fee0_amount": 22627307921466279,
     "fee1_amount": 10981584840879256877,
-    "fees_usd": 111.73380252585898,
+    "fees_usd": 112.96464255557672,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 111.73380252585898
-  },
-  {
-    "pool": "0xda9b1279a069a7166560f3d7f20b5b0237af8459",
-    "symbol": "vAMM-USDC/MET",
-    "fee0_amount": 111080443,
-    "fee1_amount": 224126881998490166883,
-    "fees_usd": 111.0582269114,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 111.0582269114
+    "total_usd": 112.96464255557672
   },
   {
     "pool": "0xfefe4e80f2d747a484154f7ae18b20d478e49d40",
     "symbol": "WETH/ETHFI",
+    "type": 200,
     "fee0_amount": 42703009642429369,
     "fee1_amount": 86116283145972163544,
-    "fees_usd": 110.76690968140112,
+    "fees_usd": 112.05355136192752,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 110.76690968140112
+    "total_usd": 112.05355136192752
+  },
+  {
+    "pool": "0xda9b1279a069a7166560f3d7f20b5b0237af8459",
+    "symbol": "vAMM-USDC/MET",
+    "type": -1,
+    "fee0_amount": 111080443,
+    "fee1_amount": 224126881998490166883,
+    "fees_usd": 111.058004750514,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 111.058004750514
   },
   {
     "pool": "0xa441378a1cb4df371535296e539a1e0def6924e4",
     "symbol": "USDS/USDC",
+    "type": 1,
     "fee0_amount": 54107830292222949004,
     "fee1_amount": 53747548,
-    "fees_usd": 107.83770298034554,
+    "fees_usd": 107.83916461232802,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 107.83770298034554
+    "total_usd": 107.83916461232802
   },
   {
     "pool": "0x2db199a5d0effae36236e13fdb62aa43eb3e14ec",
     "symbol": "USDC/KLIMA",
+    "type": 200,
     "fee0_amount": 61588323,
     "fee1_amount": 204724714072,
-    "fees_usd": 105.17950328673899,
+    "fees_usd": 105.28112829298678,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 105.17950328673899
+    "total_usd": 105.28112829298678
   },
   {
     "pool": "0x0e62644261fa9c5f2a068d133927bb0678ac042d",
     "symbol": "PONKE/USDC",
+    "type": 200,
     "fee0_amount": 339118839751558723155,
     "fee1_amount": 57021315,
-    "fees_usd": 104.84669251003437,
+    "fees_usd": 104.85539555723791,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 104.84669251003437
-  },
-  {
-    "pool": "0x0f3027d68fe4e2a56860d7b18b3d80cae8d716d1",
-    "symbol": "vAMM-AERO/BENJI",
-    "fee0_amount": 99653718272853653296,
-    "fee1_amount": 2189878551654250864051,
-    "fees_usd": 100.38453899639256,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 100.38453899639256
+    "total_usd": 104.85539555723791
   },
   {
     "pool": "0x006b41c8b19e73324808ece954dddff978c9c8f3",
     "symbol": "WETH/uHBAR",
+    "type": 200,
     "fee0_amount": 38634709518090335,
     "fee1_amount": 909155983626035880480,
-    "fees_usd": 100.21418667187933,
+    "fees_usd": 101.3782504696594,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 100.21418667187933
+    "total_usd": 101.3782504696594
+  },
+  {
+    "pool": "0x0f3027d68fe4e2a56860d7b18b3d80cae8d716d1",
+    "symbol": "vAMM-AERO/BENJI",
+    "type": -1,
+    "fee0_amount": 99653718272853653296,
+    "fee1_amount": 2189878551654250864051,
+    "fees_usd": 100.51342799961488,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 100.51342799961488
   },
   {
     "pool": "0xb79c8a96d89f5cca7b907d3d1229b61373c3d439",
     "symbol": "WETH/uADA",
+    "type": 200,
     "fee0_amount": 15324383426303063,
     "fee1_amount": 82117866291865225679,
-    "fees_usd": 96.30926651283835,
+    "fees_usd": 97.58584577268704,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 96.30926651283835
+    "total_usd": 97.58584577268704
   },
   {
     "pool": "0x3fc28bfac25fc8e93b5b2fc15efbbd5a8aa44efe",
     "symbol": "vAMM-wUSDR/USDbC",
+    "type": -1,
     "fee0_amount": 599744957516,
     "fee1_amount": 96106263,
-    "fees_usd": 95.604972732192,
+    "fees_usd": 96.202369263,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 95.604972732192
+    "total_usd": 96.202369263
   },
   {
     "pool": "0xdc9279ce30a5044bbc345bf50030d44f45f0e768",
     "symbol": "WETH/YGG",
+    "type": 200,
     "fee0_amount": 17740097627470317,
     "fee1_amount": 252807401734346179926,
-    "fees_usd": 94.74828063024022,
+    "fees_usd": 95.58792830564926,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 94.74828063024022
+    "total_usd": 95.58792830564926
   },
   {
     "pool": "0x41fe2f2fd39e87e7e92a62e04e689be807066a44",
     "symbol": "vAMM-AERO/TOWER",
+    "type": -1,
     "fee0_amount": 88212766505669069791,
     "fee1_amount": 107718963459229038536851,
-    "fees_usd": 94.13105643248949,
+    "fees_usd": 95.43704885549636,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 94.13105643248949
+    "total_usd": 95.43704885549636
   },
   {
     "pool": "0xfc13b664e814098f08f10ba0fb23b1bb916f344e",
     "symbol": "vAMM-AERO/L2VE",
+    "type": -1,
     "fee0_amount": 57209633467618168913,
     "fee1_amount": 308070589878949510161695,
-    "fees_usd": 92.92968378101673,
+    "fees_usd": 93.64998338417648,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 92.92968378101673
+    "total_usd": 93.64998338417648
   },
   {
     "pool": "0x6d0b9c9e92a3de30081563c3657b5258b3ffa38b",
     "symbol": "sAMM-USDz/USDC",
+    "type": 0,
     "fee0_amount": 38900093636751386260,
     "fee1_amount": 52334642,
-    "fees_usd": 91.03466965196586,
+    "fees_usd": 91.04899691742109,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 91.03466965196586
-  },
-  {
-    "pool": "0x61366a4e6b1db1b85dd701f2f4bfa275ef271197",
-    "symbol": "vAMM-OVN/USD+",
-    "fee0_amount": 35596680417504464231,
-    "fee1_amount": 70656118,
-    "fees_usd": 89.41851527105241,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 89.41851527105241
-  },
-  {
-    "pool": "0x637e0567edd057f865afb4602f3b961909e09774",
-    "symbol": "vAMM-USDC/G",
-    "fee0_amount": 43511754,
-    "fee1_amount": 3433654883229786134777,
-    "fees_usd": 89.02950404390658,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 89.02950404390658
+    "total_usd": 91.04899691742109
   },
   {
     "pool": "0x178904d6f5f49074fc3fdb918f0170e0dbb1677e",
     "symbol": "PSTAKE/USDC",
+    "type": 200,
     "fee0_amount": 599004774584233980992,
     "fee1_amount": 43824700,
-    "fees_usd": 85.75944738593724,
+    "fees_usd": 90.02547174112614,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 85.75944738593724
+    "total_usd": 90.02547174112614
+  },
+  {
+    "pool": "0x61366a4e6b1db1b85dd701f2f4bfa275ef271197",
+    "symbol": "vAMM-OVN/USD+",
+    "type": -1,
+    "fee0_amount": 35596680417504464231,
+    "fee1_amount": 70656118,
+    "fees_usd": 89.55347011996227,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 89.55347011996227
+  },
+  {
+    "pool": "0x637e0567edd057f865afb4602f3b961909e09774",
+    "symbol": "vAMM-USDC/G",
+    "type": -1,
+    "fee0_amount": 43511754,
+    "fee1_amount": 3433654883229786134777,
+    "fees_usd": 89.24508488361424,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 89.24508488361424
   },
   {
     "pool": "0xbae6f0e8d43e6158d3df940b332adc75beeba75f",
     "symbol": "SIMMI/WETH",
+    "type": 200,
     "fee0_amount": 1429437081354722020489820,
     "fee1_amount": 16645228025391024,
-    "fees_usd": 84.50091654474653,
+    "fees_usd": 85.4026796479309,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 84.50091654474653
+    "total_usd": 85.4026796479309
   },
   {
     "pool": "0xdc4260f59cbc870c6be271100430c23fd632d33e",
     "symbol": "vAMM-OX/cbBTC",
+    "type": -1,
     "fee0_amount": 101181496709542054188570,
     "fee1_amount": 0,
-    "fees_usd": 83.3421870246827,
+    "fees_usd": 84.978291826476,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 83.3421870246827
+    "total_usd": 84.978291826476
   },
   {
     "pool": "0xa51c7a5a121ad3d73e2e9888bb016e07bdd5ba94",
     "symbol": "EURC/USD+",
+    "type": 50,
     "fee0_amount": 37802298,
     "fee1_amount": 37019954,
-    "fees_usd": 80.090584789808,
+    "fees_usd": 80.11457372,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 80.090584789808
+    "total_usd": 80.11457372
   },
   {
     "pool": "0x958682ec6282bc7e939fa8ba9397805c214c3a09",
     "symbol": "vAMM-USDC/KLIMA",
+    "type": -1,
     "fee0_amount": 62102914,
     "fee1_amount": 61077536851,
-    "fees_usd": 75.09915368094708,
+    "fees_usd": 75.12938501093403,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 75.09915368094708
-  },
-  {
-    "pool": "0x988702fe529a3461ec7fd09eea3f962856709fd9",
-    "symbol": "USDC/eUSD",
-    "fee0_amount": 44315340,
-    "fee1_amount": 28622872743604788673,
-    "fees_usd": 72.90768216093788,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 72.90768216093788
-  },
-  {
-    "pool": "0x04b27c418aaad06539210ae9a0298076904cd70b",
-    "symbol": "vAMM-WETH/RIZ",
-    "fee0_amount": 14407051951284644,
-    "fee1_amount": 834975328114,
-    "fees_usd": 72.40428630045776,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 72.40428630045776
-  },
-  {
-    "pool": "0xf3e7e359b75a7223ba9d71065c57ddd4f5d8747e",
-    "symbol": "vAMM-WETH/AIXBT",
-    "fee0_amount": 14705685568403011,
-    "fee1_amount": 177226917087138370396,
-    "fees_usd": 72.39190574310933,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 72.39190574310933
+    "total_usd": 75.12938501093403
   },
   {
     "pool": "0x3f386acc3a8e9194cf6279c219df8dd3c5b71974",
     "symbol": "vAMM-WETH/THALES",
+    "type": -1,
     "fee0_amount": 13314381530351545,
     "fee1_amount": 265867560536507929630,
-    "fees_usd": 72.20601815749977,
+    "fees_usd": 73.2489847641444,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 72.20601815749977
+    "total_usd": 73.2489847641444
+  },
+  {
+    "pool": "0x988702fe529a3461ec7fd09eea3f962856709fd9",
+    "symbol": "USDC/eUSD",
+    "type": 1,
+    "fee0_amount": 44315340,
+    "fee1_amount": 28622872743604788673,
+    "fees_usd": 72.92691396935982,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 72.92691396935982
+  },
+  {
+    "pool": "0x04b27c418aaad06539210ae9a0298076904cd70b",
+    "symbol": "vAMM-WETH/RIZ",
+    "type": -1,
+    "fee0_amount": 14407051951284644,
+    "fee1_amount": 834975328114,
+    "fees_usd": 72.79678900440987,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 72.79678900440987
+  },
+  {
+    "pool": "0xf3e7e359b75a7223ba9d71065c57ddd4f5d8747e",
+    "symbol": "vAMM-WETH/AIXBT",
+    "type": -1,
+    "fee0_amount": 14705685568403011,
+    "fee1_amount": 177226917087138370396,
+    "fees_usd": 72.77154081296811,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 72.77154081296811
   },
   {
     "pool": "0x33a20ce534ae0f2fc00bc28e7133836b34415e7b",
     "symbol": "vAMM-USDC/OX",
+    "type": -1,
     "fee0_amount": 34819048,
     "fee1_amount": 44216643409201614116472,
-    "fees_usd": 71.23289120012528,
+    "fees_usd": 71.94780468595607,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 71.23289120012528
+    "total_usd": 71.94780468595607
   },
   {
     "pool": "0xcaedc2561356b6a01a94e3c0438011459e91fbb9",
     "symbol": "vAMM-WETH/WELS",
+    "type": -1,
     "fee0_amount": 11232553260419846,
     "fee1_amount": 16025443164140420362886,
-    "fees_usd": 70.74398744474969,
+    "fees_usd": 71.33386347773151,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 70.74398744474969
+    "total_usd": 71.33386347773151
   },
   {
     "pool": "0xd88b9f7185f404015b665e070a5ef03a7e26661f",
     "symbol": "vAMM-TKN/AERO",
+    "type": -1,
     "fee0_amount": 3308028058712081984011,
     "fee1_amount": 89521218739542859828,
-    "fees_usd": 70.62855567854777,
+    "fees_usd": 71.04164427615272,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 70.62855567854777
+    "total_usd": 71.04164427615272
   },
   {
     "pool": "0xcf88b8bf7ccce2d836878e538197eb20fc673bce",
     "symbol": "USDz/WETH",
+    "type": 100,
     "fee0_amount": 34850903704463401095,
     "fee1_amount": 12996592082872548,
-    "fees_usd": 68.39277063765012,
+    "fees_usd": 68.79728764238142,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 68.39277063765012
+    "total_usd": 68.79728764238142
   },
   {
     "pool": "0x2de3fe21d32319a1550264da37846737885ad7a1",
     "symbol": "sAMM-BOLD/USDC",
+    "type": 0,
     "fee0_amount": 74060893696492905869,
     "fee1_amount": 66031069,
-    "fees_usd": 66.0178627862,
+    "fees_usd": 66.017730724062,
     "bribes_usd": 0.0,
     "bribes": [
       {
@@ -2779,799 +3034,877 @@
         "amount_usd": 0.0
       }
     ],
-    "total_usd": 66.0178627862
-  },
-  {
-    "pool": "0x9cadc7e36191c8b40d0d02b830dc32ce2242d27b",
-    "symbol": "IDRX/USDC",
-    "fee0_amount": 39052873,
-    "fee1_amount": 39943291,
-    "fees_usd": 63.8395659051,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 63.8395659051
+    "total_usd": 66.017730724062
   },
   {
     "pool": "0xd9932a538e4c7621d9ab1b45de31a5d60e672b1c",
     "symbol": "HIGHER/WETH",
+    "type": 200,
     "fee0_amount": 7355931502254209731263,
     "fee1_amount": 13123081116044781,
-    "fees_usd": 63.385140655300205,
+    "fees_usd": 64.18106955962438,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 63.385140655300205
+    "total_usd": 64.18106955962438
+  },
+  {
+    "pool": "0x9cadc7e36191c8b40d0d02b830dc32ce2242d27b",
+    "symbol": "IDRX/USDC",
+    "type": 10,
+    "fee0_amount": 39052873,
+    "fee1_amount": 39943291,
+    "fees_usd": 63.823864869318,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 63.823864869318
   },
   {
     "pool": "0x1a9f461a371559f82976fa18c46a6a0d29f131d0",
     "symbol": "vAMM-WETH/TKN",
+    "type": -1,
     "fee0_amount": 4787169833365182,
     "fee1_amount": 7534964687322116334782,
-    "fees_usd": 62.863000995279826,
+    "fees_usd": 63.67574048941834,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 62.863000995279826
+    "total_usd": 63.67574048941834
   },
   {
     "pool": "0xcedf590857ae7fbd4a342ce9ee9ca111570a1ca2",
     "symbol": "vAMM-HIGHER/WETH",
+    "type": -1,
     "fee0_amount": 7233739626171710247388,
     "fee1_amount": 12543694517296973,
-    "fees_usd": 61.394810611743296,
+    "fees_usd": 62.166629250194504,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 61.394810611743296
+    "total_usd": 62.166629250194504
   },
   {
     "pool": "0xbf4f004307f623c2fa2c6cf8ce8095200e389b13",
     "symbol": "MOCA/USDC",
+    "type": 200,
     "fee0_amount": 352229446100516749873,
     "fee1_amount": 30903647,
-    "fees_usd": 60.8239366996382,
+    "fees_usd": 61.30819038073241,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 60.8239366996382
+    "total_usd": 61.30819038073241
   },
   {
     "pool": "0x0652202c4b2d09cb93aedefadc14b36869483a98",
     "symbol": "WETH/USDC",
+    "type": 2000,
     "fee0_amount": 8175870420653724,
     "fee1_amount": 28097018,
-    "fees_usd": 49.29870712182949,
-    "bribes_usd": 11.1465193,
+    "fees_usd": 49.54498990356778,
+    "bribes_usd": 11.2179174,
     "bribes": [
       {
         "token": "0x4200000000000000000000000000000000000006",
         "symbol": "WETH",
         "amount": 2370000000000000,
         "amount_token": 0.00237,
-        "amount_usd": 6.1475193
+        "amount_usd": 6.2189274
       },
       {
         "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
         "symbol": "USDC",
         "amount": 5000000,
         "amount_token": 5.0,
-        "amount_usd": 4.999
+        "amount_usd": 4.99899
       }
     ],
-    "total_usd": 60.44522642182949
+    "total_usd": 60.762907303567786
   },
   {
     "pool": "0x688f778c51db4d990bf1abaf8d33fd95e48c6641",
     "symbol": "vAMM-EXTRA/AERO",
+    "type": -1,
     "fee0_amount": 1027749654494669495905,
     "fee1_amount": 64594574473842918949,
-    "fees_usd": 57.922093857251596,
+    "fees_usd": 58.226511517922056,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 57.922093857251596
+    "total_usd": 58.226511517922056
   },
   {
     "pool": "0x5ee2663489320d3b58b6e323ebffc81d02176cb3",
     "symbol": "WETH/uIP",
+    "type": 200,
     "fee0_amount": 21950742981613589,
     "fee1_amount": 14213572049622504166,
-    "fees_usd": 56.937812712577674,
+    "fees_usd": 57.59918859861369,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 56.937812712577674
-  },
-  {
-    "pool": "0xd43decd5df4bdffd5a4cf35ca1f9557e33b7246c",
-    "symbol": "USDC/BRZ",
-    "fee0_amount": 56333732,
-    "fee1_amount": 395280957344865336345,
-    "fees_usd": 56.3224652536,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 56.3224652536
+    "total_usd": 57.59918859861369
   },
   {
     "pool": "0xd433b339c5c801228e1343c678dc26213a7b8aac",
     "symbol": "vAMM-AERO/MORPHO",
+    "type": -1,
     "fee0_amount": 49912329063369988501,
     "fee1_amount": 21519714319726647261,
-    "fees_usd": 56.08248464549307,
+    "fees_usd": 56.57956180351626,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 56.08248464549307
+    "total_usd": 56.57956180351626
+  },
+  {
+    "pool": "0xd43decd5df4bdffd5a4cf35ca1f9557e33b7246c",
+    "symbol": "USDC/BRZ",
+    "type": 10,
+    "fee0_amount": 56333732,
+    "fee1_amount": 395280957344865336345,
+    "fees_usd": 56.322352586136,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 56.322352586136
   },
   {
     "pool": "0xeb3458046d3aa2fdbbbf4fee58c755744ec42ce2",
     "symbol": "vAMM-VIRTUAL/AIXBT",
+    "type": -1,
     "fee0_amount": 13711302293875082772,
     "fee1_amount": 145396503036264163458,
-    "fees_usd": 55.244507995594276,
+    "fees_usd": 55.32956907044605,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 55.244507995594276
+    "total_usd": 55.32956907044605
   },
   {
     "pool": "0xd3ee0a3b349237d68517df30bfb66be971f46ad9",
     "symbol": "sAMM-USR/USDC",
+    "type": 0,
     "fee0_amount": 55173348697822869801,
     "fee1_amount": 54505411,
-    "fees_usd": 54.4945099178,
+    "fees_usd": 54.494400906978,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 54.4945099178
+    "total_usd": 54.494400906978
   },
   {
     "pool": "0xffa80952b3800240f11ad25e45e8d3e5c1593e70",
     "symbol": "sAMM-BRETT/AERO",
+    "type": 0,
     "fee0_amount": 452507939113076867309,
     "fee1_amount": 50760840278802605865,
-    "fees_usd": 51.61133168169285,
+    "fees_usd": 51.85472124468121,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 51.61133168169285
-  },
-  {
-    "pool": "0xd448670823ff9667848c821bee829c642f67e064",
-    "symbol": "vAMM-WETH/RWAX",
-    "fee0_amount": 11190298566997774,
-    "fee1_amount": 316989304456749866413,
-    "fees_usd": 50.99249439158479,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 50.99249439158479
+    "total_usd": 51.85472124468121
   },
   {
     "pool": "0x8d628d22d298b4a6e3dc9171d4b7aa5229e2353c",
     "symbol": "TYBG/WETH",
+    "type": 200,
     "fee0_amount": 371986473417207128713852,
     "fee1_amount": 9884750666823656,
-    "fees_usd": 50.66720583867691,
+    "fees_usd": 51.54161241006498,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 50.66720583867691
+    "total_usd": 51.54161241006498
+  },
+  {
+    "pool": "0xd448670823ff9667848c821bee829c642f67e064",
+    "symbol": "vAMM-WETH/RWAX",
+    "type": -1,
+    "fee0_amount": 11190298566997774,
+    "fee1_amount": 316989304456749866413,
+    "fees_usd": 51.538871028349895,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 51.538871028349895
   },
   {
     "pool": "0xa01fd0f24a2e6fef6b2ed7573cb6f59164d396e0",
     "symbol": "vAMM-WETH/DOG",
+    "type": -1,
     "fee0_amount": 11947914299692727,
     "fee1_amount": 15208001554977451797065,
-    "fees_usd": 50.10407929703233,
+    "fees_usd": 50.47684467618825,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 50.10407929703233
+    "total_usd": 50.47684467618825
   },
   {
     "pool": "0xcd401de1cbaa0d770ee5fb70ff622c752c92b8c5",
     "symbol": "vAMM-AERO/WELL",
+    "type": -1,
     "fee0_amount": 40742049340232898226,
     "fee1_amount": 735286073248683065680,
-    "fees_usd": 49.88059805469717,
+    "fees_usd": 50.26602581134935,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 49.88059805469717
+    "total_usd": 50.26602581134935
   },
   {
     "pool": "0xee16ce7cf7f4714c9fc20463ab6c5223e826a2eb",
     "symbol": "AERO/CHAMP",
+    "type": 200,
     "fee0_amount": 47134875191694327775,
     "fee1_amount": 4219813892126326452468,
-    "fees_usd": 48.855807461143954,
+    "fees_usd": 49.01752329947581,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 48.855807461143954
-  },
-  {
-    "pool": "0x4660ff55a4db144734ae76550ee3093e0ba7f8d1",
-    "symbol": "vAMM-AERO/TOSHI",
-    "fee0_amount": 44063066983753388866,
-    "fee1_amount": 39371996193220265685863,
-    "fees_usd": 45.723222723590126,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 45.723222723590126
+    "total_usd": 49.01752329947581
   },
   {
     "pool": "0x45d8c7bf5be7c99d39cdc724f60497bd79546458",
     "symbol": "vAMM-AERO/ZOOMER",
+    "type": -1,
     "fee0_amount": 79151133662611612924,
     "fee1_amount": 273502537689681290777857,
-    "fees_usd": 45.688188193217094,
+    "fees_usd": 45.83495948844379,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 45.688188193217094
+    "total_usd": 45.83495948844379
+  },
+  {
+    "pool": "0x4660ff55a4db144734ae76550ee3093e0ba7f8d1",
+    "symbol": "vAMM-AERO/TOSHI",
+    "type": -1,
+    "fee0_amount": 44063066983753388866,
+    "fee1_amount": 39371996193220265685863,
+    "fees_usd": 45.80335185902476,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 45.80335185902476
   },
   {
     "pool": "0xaea775cb2879f54e197ec085f9bb08e4b59f1d9e",
     "symbol": "MIGGLES/USD+",
+    "type": 200,
     "fee0_amount": 689730251276388000372,
     "fee1_amount": 22977338,
-    "fees_usd": 44.992157018643326,
+    "fees_usd": 45.61203632627189,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 44.992157018643326
+    "total_usd": 45.61203632627189
   },
   {
     "pool": "0xeb754f9750e1d2cd87835592d37ee9f15c217b50",
     "symbol": "sAMM-Bold/USDC",
+    "type": 0,
     "fee0_amount": 22966329437885217548,
     "fee1_amount": 20476173,
-    "fees_usd": 43.358438444182504,
+    "fees_usd": 43.35837452550707,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 43.358438444182504
-  },
-  {
-    "pool": "0x0fac819628a7f612abac1cad939768058cc0170c",
-    "symbol": "vAMM-ION/WETH",
-    "fee0_amount": 31783716535987913965231,
-    "fee1_amount": 3179505869434537,
-    "fees_usd": 42.169095627031375,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 42.169095627031375
+    "total_usd": 43.35837452550707
   },
   {
     "pool": "0x3225b7a01f8f3e68d89292141e22f1c6829e08cd",
     "symbol": "vAMM-PEGG/AERO",
+    "type": -1,
     "fee0_amount": 193205651841169783633,
     "fee1_amount": 42060780498920933549,
-    "fees_usd": 41.73722850502574,
+    "fees_usd": 42.07666119337145,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 41.73722850502574
+    "total_usd": 42.07666119337145
   },
   {
     "pool": "0x5535b3174f3d335c87475e54d3682099c1f9fb70",
     "symbol": "WETH/CHAMP",
+    "type": 200,
     "fee0_amount": 7642339843161520,
     "fee1_amount": 3920535717813105368454,
-    "fees_usd": 41.49795299563645,
+    "fees_usd": 41.81995723090774,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 41.49795299563645
+    "total_usd": 41.81995723090774
+  },
+  {
+    "pool": "0x0fac819628a7f612abac1cad939768058cc0170c",
+    "symbol": "vAMM-ION/WETH",
+    "type": -1,
+    "fee0_amount": 31783716535987913965231,
+    "fee1_amount": 3179505869434537,
+    "fees_usd": 41.165495383897614,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 41.165495383897614
   },
   {
     "pool": "0x06709c364dd4e2f5b0c10b1ebf80b2ce483dbdc5",
     "symbol": "vAMM-WETH/QI",
+    "type": -1,
     "fee0_amount": 6789209095531026,
     "fee1_amount": 1394440590508834287699,
-    "fees_usd": 40.253764388448865,
+    "fees_usd": 40.736625711550964,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 40.253764388448865
+    "total_usd": 40.736625711550964
   },
   {
     "pool": "0xe20eeb487186ec2e9272b9d2b5732d31e115d3e3",
     "symbol": "vAMM-WETH/VRTX",
+    "type": -1,
     "fee0_amount": 8594108299938086,
     "fee1_amount": 461030087969166144286,
-    "fees_usd": 39.5589009477916,
+    "fees_usd": 39.82182473082879,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 39.5589009477916
+    "total_usd": 39.82182473082879
   },
   {
     "pool": "0x27e13dfa957231a606ab7f535b34275865a66f44",
     "symbol": "vAMM-WETH/MIGGLES",
+    "type": -1,
     "fee0_amount": 7882909123104122,
     "fee1_amount": 554058695042229989262,
-    "fees_usd": 38.14381224149936,
+    "fees_usd": 38.86731133714783,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 38.14381224149936
-  },
-  {
-    "pool": "0x95f04b5594e2a944ca91d56933d119841eef9a99",
-    "symbol": "vAMM-RSR/bsdETH",
-    "fee0_amount": 3517549644173705938067,
-    "fee1_amount": 3771558836860006,
-    "fees_usd": 35.50615399511495,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 35.50615399511495
+    "total_usd": 38.86731133714783
   },
   {
     "pool": "0x112aab1af0393325ae24ba4cf4555783574e16f7",
     "symbol": "vAMM-EXTRA/cbBTC",
+    "type": -1,
     "fee0_amount": 1588924927405460967384,
     "fee1_amount": 0,
-    "fees_usd": 35.4654717281594,
+    "fees_usd": 35.80268926550266,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 35.4654717281594
+    "total_usd": 35.80268926550266
+  },
+  {
+    "pool": "0x95f04b5594e2a944ca91d56933d119841eef9a99",
+    "symbol": "vAMM-RSR/bsdETH",
+    "type": -1,
+    "fee0_amount": 3517549644173705938067,
+    "fee1_amount": 3771558836860006,
+    "fees_usd": 35.732728264204646,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 35.732728264204646
   },
   {
     "pool": "0xa5b1c80b6ddc11e751e405d9374265055762f66e",
     "symbol": "vAMM-WETH/YFI",
+    "type": -1,
     "fee0_amount": 5517299210034342,
     "fee1_amount": 3910833962665284,
-    "fees_usd": 35.142441675071495,
+    "fees_usd": 35.42885782794254,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 35.142441675071495
+    "total_usd": 35.42885782794254
   },
   {
     "pool": "0xe2cb3a61d580004306e70f32341e00d596b4ecc4",
     "symbol": "RSR/bsdETH",
+    "type": 200,
     "fee0_amount": 2750967288302089446531,
     "fee1_amount": 4868619937279795,
-    "fees_usd": 32.8916350433767,
+    "fees_usd": 33.12576853051444,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 32.8916350433767
+    "total_usd": 33.12576853051444
   },
   {
     "pool": "0xe22c335bc83f4013930768c450a5e50318dee2db",
     "symbol": "vAMM-IDRX/USDC",
+    "type": -1,
     "fee0_amount": 25491407,
     "fee1_amount": 16695803,
-    "fees_usd": 32.2957540641,
+    "fees_usd": 32.285524109694,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 32.2957540641
-  },
-  {
-    "pool": "0x68ae3f59217490f3e02b8076ae117c9f9dc0febe",
-    "symbol": "LOGX/USDC",
-    "fee0_amount": 1240400969237171939151,
-    "fee1_amount": 17752974,
-    "fees_usd": 31.99207945427198,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 31.99207945427198
+    "total_usd": 32.285524109694
   },
   {
     "pool": "0x1da71ce5ebf772f9fdd44e29bec53c7185e188ba",
     "symbol": "WETH/OVN",
+    "type": 200,
     "fee0_amount": 6297366312618291,
     "fee1_amount": 29518320981208583609,
-    "fees_usd": 31.931241243157658,
+    "fees_usd": 32.19492428421477,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 31.931241243157658
+    "total_usd": 32.19492428421477
+  },
+  {
+    "pool": "0x68ae3f59217490f3e02b8076ae117c9f9dc0febe",
+    "symbol": "LOGX/USDC",
+    "type": 200,
+    "fee0_amount": 1240400969237171939151,
+    "fee1_amount": 17752974,
+    "fees_usd": 32.013093552771934,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 32.013093552771934
   },
   {
     "pool": "0x43cdb48293fbdf1fa1dc56965ac97e0df211d7e8",
     "symbol": "vAMM-WETH/DOGE",
+    "type": -1,
     "fee0_amount": 5920689780390604,
     "fee1_amount": 869798997155839914029,
-    "fees_usd": 30.847268193497698,
+    "fees_usd": 31.18584945788706,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 30.847268193497698
+    "total_usd": 31.18584945788706
   },
   {
     "pool": "0xf185f82a1948d014bae23d30b06fa8da35110315",
     "symbol": "vAMM-USDC/DEUS",
+    "type": -1,
     "fee0_amount": 15202258,
     "fee1_amount": 1384359606391741239,
-    "fees_usd": 30.704045139987503,
+    "fees_usd": 30.745545523663253,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 30.704045139987503
+    "total_usd": 30.745545523663253
   },
   {
     "pool": "0x9941dfa4d724fd7a2e5e5d9777560b20de98ce0d",
     "symbol": "vAMM-wIRON/USDC",
+    "type": -1,
     "fee0_amount": 28304447327,
     "fee1_amount": 29289005,
-    "fees_usd": 29.283147199,
+    "fees_usd": 29.28308862099,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 29.283147199
+    "total_usd": 29.28308862099
   },
   {
     "pool": "0xcea8ef6ce6235f2c2cdd13c9e8a3ed470725a638",
     "symbol": "sAMM-USDz/DOLA",
+    "type": 0,
     "fee0_amount": 12829738872531187554,
     "fee1_amount": 16402923046267007209,
-    "fees_usd": 29.16150183401114,
+    "fees_usd": 29.170542830047925,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 29.16150183401114
+    "total_usd": 29.170542830047925
   },
   {
     "pool": "0x19c3c7eefb070ee00dde367a9768de1df52cbe5d",
     "symbol": "vAMM-WETH/AIXCB",
+    "type": -1,
     "fee0_amount": 5777831458472507,
     "fee1_amount": 1331783808986734857166,
-    "fees_usd": 28.511350457753725,
+    "fees_usd": 28.44065465550574,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 28.511350457753725
+    "total_usd": 28.44065465550574
   },
   {
     "pool": "0x859c91f9fe1ec10e38a7ccad0b87f0aae0b88cfe",
     "symbol": "WETH/uSEI",
+    "type": 200,
     "fee0_amount": 5028049702997600,
     "fee1_amount": 74363652244243542976,
-    "fees_usd": 27.799154086412866,
+    "fees_usd": 28.092609436098446,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 27.799154086412866
+    "total_usd": 28.092609436098446
   },
   {
     "pool": "0xffa3f8737c39e36dec4300b162c2153c67c8352f",
     "symbol": "vAMM-WETH/WELL",
+    "type": -1,
     "fee0_amount": 10213722055604567,
     "fee1_amount": 1171922857303889948919,
-    "fees_usd": 26.49327150281213,
+    "fees_usd": 26.801010948347496,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 26.49327150281213
+    "total_usd": 26.801010948347496
   },
   {
     "pool": "0x0b15b1d434f86ecaa83d14398c8db6d162f3921e",
     "symbol": "vAMM-LUSD/POOL",
+    "type": -1,
     "fee0_amount": 7891291935847631832,
     "fee1_amount": 58735034539101766055,
-    "fees_usd": 24.66635307000301,
+    "fees_usd": 24.557517068743078,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 24.66635307000301
-  },
-  {
-    "pool": "0xe98654b21d013eff949a6d8ff80a9b23b284f8dd",
-    "symbol": "yTRYB/USDC",
-    "fee0_amount": 34110320802,
-    "fee1_amount": 11501341,
-    "fees_usd": 22.58489158141792,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 22.58489158141792
+    "total_usd": 24.557517068743078
   },
   {
     "pool": "0x16f7e8199b46ff86d33be983ee6c642d9c14a5ae",
     "symbol": "vAMM-AERO/AUKI",
+    "type": -1,
     "fee0_amount": 20988636147107335067,
     "fee1_amount": 577094249569750508979,
-    "fees_usd": 22.53859909990887,
+    "fees_usd": 22.905047985749107,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 22.53859909990887
+    "total_usd": 22.905047985749107
+  },
+  {
+    "pool": "0xe98654b21d013eff949a6d8ff80a9b23b284f8dd",
+    "symbol": "yTRYB/USDC",
+    "type": 10,
+    "fee0_amount": 34110320802,
+    "fee1_amount": 11501341,
+    "fees_usd": 22.584889044928403,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 22.584889044928403
   },
   {
     "pool": "0x63b9877618e27081181a59f9ca52040ada1332fc",
     "symbol": "vAMM-WETH/XCAD",
+    "type": -1,
     "fee0_amount": 2655753624534824,
     "fee1_amount": 280017608920692129877,
-    "fees_usd": 19.257575384402415,
+    "fees_usd": 19.434938562674837,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 19.257575384402415
+    "total_usd": 19.434938562674837
   },
   {
     "pool": "0xa4eb9849f46e1e9db3700bcdadb62096a7bc4aab",
     "symbol": "WETH/DOG",
+    "type": 200,
     "fee0_amount": 5451255061768766,
     "fee1_amount": 3601371619974344559852,
-    "fees_usd": 18.665943761857942,
+    "fees_usd": 18.833215229029815,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 18.665943761857942
+    "total_usd": 18.833215229029815
   },
   {
     "pool": "0x418457ca08fa5ec77f811b105f2c585cd051ac10",
     "symbol": "sAMM-USDC/USD+",
+    "type": 0,
     "fee0_amount": 9043790,
     "fee1_amount": 8907112,
-    "fees_usd": 17.943321433424,
+    "fees_usd": 17.94907515442,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 17.943321433424
+    "total_usd": 17.94907515442
   },
   {
     "pool": "0xaa10db59a60e511872a70aaaf1aff09fb173ba75",
     "symbol": "vAMM-BOLD/POOL",
+    "type": -1,
     "fee0_amount": 9060860454490832092,
     "fee1_amount": 61272853154764073207,
-    "fees_usd": 17.483412100620917,
+    "fees_usd": 17.40320593584133,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 17.483412100620917
-  },
-  {
-    "pool": "0x7754839ffb5501ee0191026924a5e6aaf04cddd8",
-    "symbol": "yTRYB/TRYB",
-    "fee0_amount": 16538472341,
-    "fee1_amount": 449471974,
-    "fees_usd": 16.854385726065306,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 16.854385726065306
+    "total_usd": 17.40320593584133
   },
   {
     "pool": "0x20086910e220d5f4c9695b784d304a72a0de403b",
     "symbol": "USD+/USDbC",
+    "type": 1,
     "fee0_amount": 8522304,
     "fee1_amount": 8339992,
-    "fees_usd": 16.813272148736,
+    "fees_usd": 16.870635992,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 16.813272148736
+    "total_usd": 16.870635992
+  },
+  {
+    "pool": "0x7754839ffb5501ee0191026924a5e6aaf04cddd8",
+    "symbol": "yTRYB/TRYB",
+    "type": 10,
+    "fee0_amount": 16538472341,
+    "fee1_amount": 449471974,
+    "fees_usd": 16.85440463858819,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 16.85440463858819
   },
   {
     "pool": "0x982534133b2b71ab012404256be316344bb9f261",
     "symbol": "vAMM-cbBTC/DEUS",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 1480649733149552415,
-    "fees_usd": 16.583277011274987,
+    "fees_usd": 16.627696503269473,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 16.583277011274987
+    "total_usd": 16.627696503269473
   },
   {
     "pool": "0x3548029694fbb241d45fb24ba0cd9c9d4e745f16",
     "symbol": "sAMM-WETH/USDC",
+    "type": 0,
     "fee0_amount": 3084030640075287,
     "fee1_amount": 8140988,
-    "fees_usd": 16.138996039384885,
+    "fees_usd": 16.231901600594355,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 16.138996039384885
+    "total_usd": 16.231901600594355
   },
   {
     "pool": "0xff8e0bd2d8f02904e7e18dd00ea50aec68f37a10",
     "symbol": "vAMM-fBOMB/USDC",
+    "type": -1,
     "fee0_amount": 296994932140359894376,
     "fee1_amount": 7377441,
-    "fees_usd": 15.741843498201156,
+    "fees_usd": 15.730444927570217,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 15.741843498201156
+    "total_usd": 15.730444927570217
   },
   {
     "pool": "0x2ce63497999f520cc2afaaadbcfc37afd9def4b0",
     "symbol": "vAMM-USDz/WETH",
+    "type": -1,
     "fee0_amount": 7932718457323486982,
     "fee1_amount": 2793697817472387,
-    "fees_usd": 15.140599219325942,
+    "fees_usd": 15.227716373114053,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 15.140599219325942
+    "total_usd": 15.227716373114053
   },
   {
     "pool": "0x295e0f68384ac506b0c033592eef9674da5e4f99",
     "symbol": "vAMM-USDC/superOETHb",
+    "type": -1,
     "fee0_amount": 7919330,
     "fee1_amount": 2768283925721996,
-    "fees_usd": 15.095850987718622,
+    "fees_usd": 15.164571638934298,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 15.095850987718622
+    "total_usd": 15.164571638934298
   },
   {
     "pool": "0xd16cc119b7c113660580291580cbeb588c9e2653",
     "symbol": "vAMM-wXCH/USDC",
+    "type": -1,
     "fee0_amount": 1023014333034531971,
     "fee1_amount": 13510938,
-    "fees_usd": 13.5082358124,
+    "fees_usd": 13.508208790524,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 13.5082358124
+    "total_usd": 13.508208790524
   },
   {
     "pool": "0x1afc638d3d53f0993096350403b5845be7c77f43",
     "symbol": "vAMM-TYBG/wBLT",
+    "type": -1,
     "fee0_amount": 114635275073565842961540,
     "fee1_amount": 4647581237931125228,
-    "fees_usd": 13.057379730570304,
+    "fees_usd": 13.281540219313642,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 13.057379730570304
+    "total_usd": 13.281540219313642
   },
   {
     "pool": "0x723aef6543aece026a15662be4d3fb3424d502a9",
     "symbol": "vAMM-tBTC/USDbC",
+    "type": -1,
     "fee0_amount": 62897023162221,
     "fee1_amount": 6280890,
-    "fees_usd": 12.87483344408528,
+    "fees_usd": 12.964759148063516,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 12.87483344408528
+    "total_usd": 12.964759148063516
   },
   {
     "pool": "0xaa46e69d85c79bb3effe0902c1ad69f712b5b382",
     "symbol": "vAMM-BITCOIN/WETH",
+    "type": -1,
     "fee0_amount": 10287537639,
     "fee1_amount": 1643184713577076,
-    "fees_usd": 11.757637445099451,
+    "fees_usd": 11.914959994976249,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 11.757637445099451
+    "total_usd": 11.914959994976249
   },
   {
     "pool": "0x8a24d81c24f125341b46a52de3e4cf0e0c7e7f72",
     "symbol": "vAMM-PRE/USDC",
+    "type": -1,
     "fee0_amount": 1697571101405533897080,
     "fee1_amount": 5650526,
-    "fees_usd": 11.294498835413963,
+    "fees_usd": 11.2811276497939,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 11.294498835413963
+    "total_usd": 11.2811276497939
   },
   {
     "pool": "0xf471d220f16cc9c3400b5bd97d728072a87b9c75",
     "symbol": "vAMM-BET/USDC",
+    "type": -1,
     "fee0_amount": 1363206959626488350154,
     "fee1_amount": 720485,
-    "fees_usd": 10.876396337052494,
+    "fees_usd": 10.876394896082493,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 10.876396337052494
+    "total_usd": 10.876394896082493
   },
   {
     "pool": "0x9d933f0af9dc01a6f9e5d2e6dcb25b6d0837ea81",
     "symbol": "vAMM-wBaseDOGE/WETH",
+    "type": -1,
     "fee0_amount": 49175993632243971868564887,
     "fee1_amount": 725115803658631,
-    "fees_usd": 10.690946595143123,
+    "fees_usd": 10.820588112349236,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 10.690946595143123
+    "total_usd": 10.820588112349236
   },
   {
     "pool": "0xbbf71aad6e1f8d180d3b1d898528654c1d18b2ff",
     "symbol": "vAMM-fBOMB/AERO",
+    "type": -1,
     "fee0_amount": 99819289121770893986,
     "fee1_amount": 14452867486065161369,
-    "fees_usd": 10.638947745909325,
+    "fees_usd": 10.65443070351867,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 10.638947745909325
+    "total_usd": 10.65443070351867
   },
   {
     "pool": "0x4d9199269d4f89a367965e90d07d6f4af7750ed0",
     "symbol": "cbBTC/superOETHb",
+    "type": 100,
     "fee0_amount": 0,
     "fee1_amount": 4062938304935192,
-    "fees_usd": 10.535117765930854,
+    "fees_usd": 10.636000524042394,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 10.535117765930854
+    "total_usd": 10.636000524042394
   },
   {
     "pool": "0xa6385c73961dd9c58db2ef0c4eb98ce4b60651e8",
     "symbol": "vAMM-WETH/wstETH",
+    "type": -1,
     "fee0_amount": 2698377294447063,
     "fee1_amount": 1073589003505520,
-    "fees_usd": 10.351908356330366,
+    "fees_usd": 10.466835271801848,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 10.351908356330366
+    "total_usd": 10.466835271801848
   },
   {
     "pool": "0xc01162ed99a018d02b8a12f4712b0b9b87a9852f",
     "symbol": "vAMM-DEGEN/TKN",
+    "type": -1,
     "fee0_amount": 1180069969714901902180,
     "fee1_amount": 717995474400608342969,
-    "fees_usd": 10.278599395175366,
+    "fees_usd": 10.357758870267453,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 10.278599395175366
+    "total_usd": 10.357758870267453
   },
   {
     "pool": "0x285de0b9fda5dc3f3704b1c1510a5d7a1a28d355",
     "symbol": "sAMM-Bold/LUSD",
+    "type": 0,
     "fee0_amount": 5609250185585798956,
     "fee1_amount": 4499214250017917687,
-    "fees_usd": 10.097931454957543,
+    "fees_usd": 10.079708527209034,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 10.097931454957543
+    "total_usd": 10.079708527209034
   },
   {
     "pool": "0x0511a888d009029781f34696996742b0a55db585",
     "symbol": "WETH/TRVL",
+    "type": 200,
     "fee0_amount": 1264030155233107,
     "fee1_amount": 734698838768998413624,
-    "fees_usd": 9.745794767853958,
+    "fees_usd": 9.798000908112272,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 9.745794767853958
+    "total_usd": 9.798000908112272
   },
   {
     "pool": "0xae092538552d0b772014346d9e9a6273c24c5612",
     "symbol": "WETH/ANZ",
+    "type": 200,
     "fee0_amount": 1649323885473026,
     "fee1_amount": 4619956513999856867529,
-    "fees_usd": 9.325929220485872,
+    "fees_usd": 9.333951341398894,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 9.325929220485872
+    "total_usd": 9.333951341398894
   },
   {
     "pool": "0x65ee5a0ee82027d054efeb31a1f7079c37c5dbd8",
     "symbol": "vAMM-CRYO/WETH",
+    "type": -1,
     "fee0_amount": 9939672344984803320,
     "fee1_amount": 3529170032159137,
-    "fees_usd": 9.154278854717264,
+    "fees_usd": 9.260612747786219,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 9.154278854717264
+    "total_usd": 9.260612747786219
   },
   {
     "pool": "0x562d63bfcea2eae8be3265b1f841d42af6dde0b7",
     "symbol": "USDC/CTX",
+    "type": 200,
     "fee0_amount": 4510725,
     "fee1_amount": 2163254130854758251,
-    "fees_usd": 8.403680290538565,
+    "fees_usd": 8.36040618647147,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 8.403680290538565
+    "total_usd": 8.36040618647147
   },
   {
     "pool": "0x710fb3b0ba5f2c69fa01fccedb49e3916cd318fd",
     "symbol": "vAMM-SPX/AERO",
+    "type": -1,
     "fee0_amount": 395544077,
     "fee1_amount": 6952441229274109138,
-    "fees_usd": 8.19530640161429,
+    "fees_usd": 8.244149270796601,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 8.19530640161429
+    "total_usd": 8.244149270796601
   },
   {
     "pool": "0xcdf927c0f7b81b146c0c9e9323eb5a28d1bfa183",
     "symbol": "xPufETH/WETH",
+    "type": 50,
     "fee0_amount": 8503286408875,
     "fee1_amount": 3140710798247285,
-    "fees_usd": 8.14665833246565,
+    "fees_usd": 8.24128794881684,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 8.14665833246565
-  },
-  {
-    "pool": "0x9ed7eb51a8e6af23d77180acc32a3312a06bdc79",
-    "symbol": "cbBTC/uBTC",
-    "fee0_amount": 0,
-    "fee1_amount": 74061700681126,
-    "fees_usd": 7.860612663491989,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 7.860612663491989
+    "total_usd": 8.24128794881684
   },
   {
     "pool": "0x0b25c51637c43decd6cc1c1e3da4518d54ddb528",
     "symbol": "sAMM-DOLA/USDbC",
+    "type": 0,
     "fee0_amount": 489818503672128854,
     "fee1_amount": 7386090,
-    "fees_usd": 7.837125013699198,
+    "fees_usd": 7.883164791768656,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 7.837125013699198
+    "total_usd": 7.883164791768656
+  },
+  {
+    "pool": "0x9ed7eb51a8e6af23d77180acc32a3312a06bdc79",
+    "symbol": "cbBTC/uBTC",
+    "type": 50,
+    "fee0_amount": 0,
+    "fee1_amount": 74061700681126,
+    "fees_usd": 7.871573795192796,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 7.871573795192796
   },
   {
     "pool": "0x0b8711d0f80eacb3de9f653bd554af3ba654fa1f",
     "symbol": "vAMM-WETH/LBM",
+    "type": -1,
     "fee0_amount": 1218740686824641,
     "fee1_amount": 246280197828270735573,
-    "fees_usd": 7.69208869118833,
+    "fees_usd": 7.773085602047923,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 7.69208869118833
+    "total_usd": 7.773085602047923
   },
   {
     "pool": "0xef3efc734a3fe0bf20762992ec839939ba3af050",
     "symbol": "sAMM-BOLD/LUSD",
+    "type": 0,
     "fee0_amount": 6211582771050551766,
     "fee1_amount": 7386375278836618703,
-    "fees_usd": 7.4011480293942915,
+    "fees_usd": 7.371240595890282,
     "bribes_usd": 0.0,
     "bribes": [
       {
@@ -3582,587 +3915,644 @@
         "amount_usd": 0.0
       }
     ],
-    "total_usd": 7.4011480293942915
+    "total_usd": 7.371240595890282
   },
   {
     "pool": "0xd07b4d7cea966b6e8087c8be3347e4b790679785",
     "symbol": "vAMM-HPC/WETH",
+    "type": -1,
     "fee0_amount": 17820575661561336564926,
     "fee1_amount": 847299009896802,
-    "fees_usd": 6.943597933211615,
+    "fees_usd": 7.251404970858937,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 6.943597933211615
+    "total_usd": 7.251404970858937
   },
   {
     "pool": "0xec394d416d2fd269a051627dbbf1934a37a5d04e",
     "symbol": "vAMM-BRETT/cbBTC",
+    "type": -1,
     "fee0_amount": 126337616255659649448,
     "fee1_amount": 0,
-    "fees_usd": 6.734426634507938,
+    "fees_usd": 6.783445629615134,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 6.734426634507938
+    "total_usd": 6.783445629615134
   },
   {
     "pool": "0x3a1d086839af6e86f48d96ca6648b48244f91a89",
     "symbol": "vAMM-WETH/stTAO",
+    "type": -1,
     "fee0_amount": 2439662729196193,
     "fee1_amount": 16081116,
-    "fees_usd": 6.328216756634713,
+    "fees_usd": 6.401723794665394,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 6.328216756634713
+    "total_usd": 6.401723794665394
   },
   {
     "pool": "0x8f72e491e293ecb223e77123a046521d6d7cad49",
     "symbol": "vAMM-TKN/USD+",
+    "type": -1,
     "fee0_amount": 468282333577919255644,
     "fee1_amount": 3116044,
-    "fees_usd": 6.249114150088804,
+    "fees_usd": 6.292679355235837,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 6.249114150088804
+    "total_usd": 6.292679355235837
   },
   {
     "pool": "0xe05ce080119b33dd30482a6ec9b8911508ae226e",
     "symbol": "USD+/cbBTC",
+    "type": 100,
     "fee0_amount": 5869303,
     "fee1_amount": 0,
-    "fees_usd": 5.865499691656,
+    "fees_usd": 5.869303,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 5.865499691656
+    "total_usd": 5.869303
   },
   {
     "pool": "0x74f22a01da78294f8df640c98a414fe209e33f60",
     "symbol": "vAMM-WETH/BID",
+    "type": -1,
     "fee0_amount": 957746711241720,
     "fee1_amount": 64273059814133255107,
-    "fees_usd": 5.780597762450423,
+    "fees_usd": 5.767612908921135,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 5.780597762450423
+    "total_usd": 5.767612908921135
   },
   {
     "pool": "0x9f7700b6030471d89c643f30b2315a670ab13bb4",
     "symbol": "vAMM-VIRTUAL/GAME",
+    "type": -1,
     "fee0_amount": 1366425295550234136,
     "fee1_amount": 82736102747915325775,
-    "fees_usd": 5.655340486735823,
+    "fees_usd": 5.697175555315963,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 5.655340486735823
+    "total_usd": 5.697175555315963
   },
   {
     "pool": "0x6cd89bc86e4a418f7f11e453384904b4493c4077",
     "symbol": "vAMM-cbBTC/KLIMA",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 20805303209,
-    "fees_usd": 4.431238309272074,
+    "fees_usd": 4.441578544966947,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4.431238309272074
-  },
-  {
-    "pool": "0xbe753b54a37fe6b5c83bc2ed1bf133b4f230adf4",
-    "symbol": "USDC/FAI",
-    "fee0_amount": 2216752,
-    "fee1_amount": 110925182850927055625,
-    "fees_usd": 4.355253437722371,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 4.355253437722371
+    "total_usd": 4.441578544966947
   },
   {
     "pool": "0x91f0f34916ca4e2cce120116774b0e4fa0cdcaa8",
     "symbol": "vAMM-weETH.base/WETH",
+    "type": -1,
     "fee0_amount": 729660249429450,
     "fee1_amount": 898000701732309,
-    "fees_usd": 4.352371047784512,
+    "fees_usd": 4.398523017655275,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4.352371047784512
+    "total_usd": 4.398523017655275
   },
   {
-    "pool": "0x688b0380360c84135769d4f75d70038119846a8e",
-    "symbol": "vAMM-WETH/DHT",
-    "fee0_amount": 242749190565252,
-    "fee1_amount": 31671883154354029131,
-    "fees_usd": 4.113920235608942,
+    "pool": "0xbe753b54a37fe6b5c83bc2ed1bf133b4f230adf4",
+    "symbol": "USDC/FAI",
+    "type": 200,
+    "fee0_amount": 2216752,
+    "fee1_amount": 110925182850927055625,
+    "fees_usd": 4.36324116364278,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4.113920235608942
+    "total_usd": 4.36324116364278
   },
   {
     "pool": "0x0d4953d2bde145d316296cc72cce509d899a5529",
     "symbol": "vAMM-WETH/LUCHA",
+    "type": -1,
     "fee0_amount": 314662666334507,
     "fee1_amount": 180076761735258930242,
-    "fees_usd": 4.1017927005866985,
+    "fees_usd": 4.139954312564932,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4.1017927005866985
+    "total_usd": 4.139954312564932
+  },
+  {
+    "pool": "0x688b0380360c84135769d4f75d70038119846a8e",
+    "symbol": "vAMM-WETH/DHT",
+    "type": -1,
+    "fee0_amount": 242749190565252,
+    "fee1_amount": 31671883154354029131,
+    "fees_usd": 4.125636660479129,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 4.125636660479129
   },
   {
     "pool": "0x44ecc644449fc3a9858d2007caa8cfaa4c561f91",
     "symbol": "vAMM-cbETH/WETH",
+    "type": -1,
     "fee0_amount": 609746116653331,
     "fee1_amount": 829207439507120,
-    "fees_usd": 3.892039506133709,
+    "fees_usd": 3.9316757254692383,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3.892039506133709
+    "total_usd": 3.9316757254692383
   },
   {
     "pool": "0x8e9154ac849e839d60299e85156bcb589de2693a",
     "symbol": "sAMM-DOLA/USD+",
+    "type": 0,
     "fee0_amount": 450087380625666009,
     "fee1_amount": 3253046,
-    "fees_usd": 3.7007886608554568,
+    "fees_usd": 3.7030141074698,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3.7007886608554568
+    "total_usd": 3.7030141074698
   },
   {
     "pool": "0xa65bc40c8368ac2f814b13cacc75a47a30a2ac81",
     "symbol": "vAMM-AERO/uADA",
+    "type": -1,
     "fee0_amount": 3434858638150457906,
     "fee1_amount": 2508153217167457854,
-    "fees_usd": 3.587721697943487,
+    "fees_usd": 3.617199073458009,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3.587721697943487
+    "total_usd": 3.617199073458009
   },
   {
     "pool": "0x75d18ee68bb93be5cb2dccfa0d8151e25cbc8eb8",
     "symbol": "vAMM-WETH/HOP",
+    "type": -1,
     "fee0_amount": 919763777239674,
     "fee1_amount": 48869645132273952962,
-    "fees_usd": 2.8586634478921447,
+    "fees_usd": 2.8871729944124835,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.8586634478921447
+    "total_usd": 2.8871729944124835
   },
   {
     "pool": "0x4ba79157c6e7ab14bce06a869af2d14c51c8e269",
     "symbol": "WETH/LINKS",
+    "type": 100,
     "fee0_amount": 163118297495100,
     "fee1_amount": 21872254214167585554505,
-    "fees_usd": 2.80171856648029,
+    "fees_usd": 2.829817910250835,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.80171856648029
+    "total_usd": 2.829817910250835
   },
   {
     "pool": "0x413d78628d688edcde29518199a3a3db955068ec",
     "symbol": "sAMM-MAI/eUSD",
+    "type": 0,
     "fee0_amount": 1341638155242769005,
     "fee1_amount": 1443067072450959014,
-    "fees_usd": 2.7829554232238136,
+    "fees_usd": 2.783800696234815,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.7829554232238136
-  },
-  {
-    "pool": "0xb5e331615fdba7df49e05cdeaceb14acdd5091c3",
-    "symbol": "vAMM-hyUSD/eUSD",
-    "fee0_amount": 1266287468897196719,
-    "fee1_amount": 1365863263550560564,
-    "fees_usd": 2.738751208813511,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 2.738751208813511
+    "total_usd": 2.783800696234815
   },
   {
     "pool": "0x6d99904cd4ec6f558d279a643b64d2dc8e2e4c18",
     "symbol": "WETH/COW",
+    "type": 200,
     "fee0_amount": 1051485405814654,
     "fee1_amount": 7955153821847257402,
-    "fees_usd": 2.727437479288573,
+    "fees_usd": 2.759118734565768,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.727437479288573
+    "total_usd": 2.759118734565768
+  },
+  {
+    "pool": "0xb5e331615fdba7df49e05cdeaceb14acdd5091c3",
+    "symbol": "vAMM-hyUSD/eUSD",
+    "type": -1,
+    "fee0_amount": 1266287468897196719,
+    "fee1_amount": 1365863263550560564,
+    "fees_usd": 2.739673166516408,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 2.739673166516408
   },
   {
     "pool": "0x80bedfb71d9f447aa82184d1bea40b33c161906e",
     "symbol": "vAMM-WETH/uSOL",
+    "type": -1,
     "fee0_amount": 411250175929571,
     "fee1_amount": 10399618671586595,
-    "fees_usd": 2.692926090517951,
+    "fees_usd": 2.7218524520065315,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.692926090517951
+    "total_usd": 2.7218524520065315
   },
   {
     "pool": "0xb86d18195349aaa6941042bd539289f26142a87b",
     "symbol": "USDC/ZARP",
+    "type": 10,
     "fee0_amount": 1314451,
     "fee1_amount": 22188816715453723756,
-    "fees_usd": 2.5247433833450086,
+    "fees_usd": 2.527492167715725,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.5247433833450086
+    "total_usd": 2.527492167715725
   },
   {
     "pool": "0xbe54ed1762172820d088aa676a8e2947aeeb10b0",
     "symbol": "vAMM-USDC/CARV",
+    "type": -1,
     "fee0_amount": 1353609,
     "fee1_amount": 3415149844082044486,
-    "fees_usd": 2.5070783500262372,
+    "fees_usd": 2.508110433210994,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.5070783500262372
+    "total_usd": 2.508110433210994
   },
   {
     "pool": "0xfdf5139b38525627b47538536042a7c8d2686bd9",
     "symbol": "vAMM-EURC/USDC",
+    "type": -1,
     "fee0_amount": 1095775,
     "fee1_amount": 1225677,
-    "fees_usd": 2.4746153646,
+    "fees_usd": 2.474612913246,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.4746153646
+    "total_usd": 2.474612913246
   },
   {
     "pool": "0x6eaf8196a9a3207a9cdf06efd112fef7a27e34fb",
     "symbol": "WETH/FLAY",
+    "type": 200,
     "fee0_amount": 404869844743668,
     "fee1_amount": 76117547701363360306,
-    "fees_usd": 2.1999502501905397,
+    "fees_usd": 2.223406763917698,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.1999502501905397
+    "total_usd": 2.223406763917698
   },
   {
     "pool": "0x72cccbd837e15500169323d3cc3fcc266db03700",
     "symbol": "vAMM-Bold/POOL",
+    "type": -1,
     "fee0_amount": 371548833001211168,
     "fee1_amount": 6357239414945203207,
-    "fees_usd": 2.1842107229069203,
+    "fees_usd": 2.175888724963924,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 2.1842107229069203
+    "total_usd": 2.175888724963924
   },
   {
     "pool": "0x96cc4b6a75fa1dfea66091589d1f25aff3aa0318",
     "symbol": "USDz/sUSDz",
+    "type": 50,
     "fee0_amount": 855766903117749225,
     "fee1_amount": 842520971696256692,
-    "fees_usd": 1.8541958515504988,
+    "fees_usd": 1.8545133410715555,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1.8541958515504988
+    "total_usd": 1.8545133410715555
   },
   {
     "pool": "0x4a3636608d7bc5776cb19eb72caa36ebb9ea683b",
     "symbol": "sAMM-USD+/USDbC",
+    "type": 0,
     "fee0_amount": 908865,
     "fee1_amount": 886114,
-    "fees_usd": 1.789768084856,
+    "fees_usd": 1.795865114,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1.789768084856
+    "total_usd": 1.795865114
   },
   {
     "pool": "0x73dddbe505f9197138785e1ccfa2988705ce4bfd",
     "symbol": "vAMM-GNUS/AERO",
+    "type": -1,
     "fee0_amount": 21760709624064490,
     "fee1_amount": 3077653943629861711,
-    "fees_usd": 1.7122356964040881,
+    "fees_usd": 1.7170002633614996,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1.7122356964040881
+    "total_usd": 1.7170002633614996
   },
   {
     "pool": "0x78abf9026c500744cb033842744b87ffa0f73689",
     "symbol": "WETH/RIZ",
+    "type": 200,
     "fee0_amount": 321213794166023,
     "fee1_amount": 18020648355,
-    "fees_usd": 1.5893054142932308,
+    "fees_usd": 1.5980861576233742,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1.5893054142932308
+    "total_usd": 1.5980861576233742
   },
   {
     "pool": "0xdab27fb1923fc017e941d837040add59b9aff9fd",
     "symbol": "vAMM-wBaseDOGE/AERO",
+    "type": -1,
     "fee0_amount": 1682223643174577000819731,
     "fee1_amount": 2340748734035055696,
-    "fees_usd": 1.5690493642144612,
+    "fees_usd": 1.5758640387489706,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1.5690493642144612
+    "total_usd": 1.5758640387489706
   },
   {
     "pool": "0x7a034374c89c463dd65d8c9bcfe63bcbced41f4f",
     "symbol": "sAMM-eUSD/USDC",
+    "type": 0,
     "fee0_amount": 755345,
     "fee1_amount": 723512199801251653,
-    "fees_usd": 1.4781584320660022,
+    "fees_usd": 1.478645292110868,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1.4781584320660022
+    "total_usd": 1.478645292110868
   },
   {
     "pool": "0xe95bc2fe68952f1f83b9b9b171f122e540990510",
     "symbol": "vAMM-AAA/cbBTC",
+    "type": -1,
     "fee0_amount": 1093914387702949315,
     "fee1_amount": 0,
-    "fees_usd": 0.045249790525620254,
-    "bribes_usd": 1.3732700436,
+    "fees_usd": 0.04524897008982948,
+    "bribes_usd": 1.3746056688,
     "bribes": [
       {
         "token": "0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4",
         "symbol": "TOSHI",
         "amount": 2473380000000000000000,
         "amount_token": 2473.38,
-        "amount_usd": 1.3732700436
+        "amount_usd": 1.3746056688
       }
     ],
-    "total_usd": 1.4185198341256202
+    "total_usd": 1.4198546388898294
   },
   {
     "pool": "0xf6aec4f97623e691a9426a69baf5501509fca05d",
     "symbol": "sAMM-MAI/USDbC",
+    "type": 0,
     "fee0_amount": 461073573350621749,
     "fee1_amount": 928852,
-    "fees_usd": 1.38485475526768,
+    "fees_usd": 1.3905842362366383,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1.38485475526768
+    "total_usd": 1.3905842362366383
   },
   {
     "pool": "0x3ff5bfe3ff5e1877664fe25862871554e632b9c9",
     "symbol": "sAMM-USD+/MAI",
+    "type": 0,
     "fee0_amount": 932941,
     "fee1_amount": 364102066456634009,
-    "fees_usd": 1.2962601106760703,
+    "fees_usd": 1.2968297026456905,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1.2962601106760703
+    "total_usd": 1.2968297026456905
   },
   {
     "pool": "0xf629864e8b4914284f79641ef9ce034c161f26ae",
     "symbol": "vAMM-USDC/CTX",
+    "type": -1,
     "fee0_amount": 733890,
     "fee1_amount": 136646986363753520,
-    "fees_usd": 0.9797077974547563,
+    "fees_usd": 0.9769733899474813,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.9797077974547563
+    "total_usd": 0.9769733899474813
   },
   {
     "pool": "0xe63296472be7fcb0160b1f65d12e1a7774ba1069",
     "symbol": "vAMM-yTRYB/USDC",
+    "type": -1,
     "fee0_amount": 166192214,
     "fee1_amount": 740362,
-    "fees_usd": 0.7942263805307787,
+    "fees_usd": 0.794224999522107,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.7942263805307787
+    "total_usd": 0.794224999522107
   },
   {
     "pool": "0x9e8bfeb5c73f3f897bebdb49cc4161fece0b0c55",
     "symbol": "sAMM-cbETH/WETH",
+    "type": 0,
     "fee0_amount": 127167705267705,
     "fee1_amount": 140541000820481,
-    "fees_usd": 0.7276829090724851,
+    "fees_usd": 0.7349732493847891,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.7276829090724851
+    "total_usd": 0.7349732493847891
   },
   {
     "pool": "0x27a8afa3bd49406e48a074350fb7b2020c43b2bd",
     "symbol": "sAMM-USDC/USDbC",
+    "type": 0,
     "fee0_amount": 682561,
     "fee1_amount": 0,
-    "fees_usd": 0.6824244878,
+    "fees_usd": 0.682423122678,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.6824244878
+    "total_usd": 0.682423122678
   },
   {
     "pool": "0x83ee4a0d418aa520a7bc1a3782bdb445f31b8e29",
     "symbol": "SolvBTC/cbBTC",
+    "type": 1,
     "fee0_amount": 5880188489151,
     "fee1_amount": 0,
-    "fees_usd": 0.6217476100888701,
+    "fees_usd": 0.6220886610212409,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.6217476100888701
+    "total_usd": 0.6220886610212409
   },
   {
     "pool": "0x9b0025d10e824e7e2b148953009a40b0c0792f30",
     "symbol": "vAMM-pwBLT/USDC",
+    "type": -1,
     "fee0_amount": 483702969549140581,
     "fee1_amount": 617766,
-    "fees_usd": 0.6176424468,
+    "fees_usd": 0.617641211268,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.6176424468
+    "total_usd": 0.617641211268
   },
   {
     "pool": "0xeff0891e5a1bd47a8f1e77abebfee4145974d088",
     "symbol": "vAMM-WETH/JARVIS",
+    "type": -1,
     "fee0_amount": 163561220419176,
     "fee1_amount": 5775877264162488720,
-    "fees_usd": 0.5854078871199101,
+    "fees_usd": 0.5903359866911398,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.5854078871199101
+    "total_usd": 0.5903359866911398
   },
   {
     "pool": "0xb8866732424acddd729c6fcf7146b19bfe4a2e36",
     "symbol": "sAMM-WETH/rETH",
+    "type": 0,
     "fee0_amount": 113293475691698,
     "fee1_amount": 95024058401232,
-    "fees_usd": 0.573735670465247,
+    "fees_usd": 0.5797414592010235,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.573735670465247
+    "total_usd": 0.5797414592010235
   },
   {
     "pool": "0x6b87b8663ee63191887f18225f79d9eeb2de0d34",
     "symbol": "vAMM-WETH/bsdETH",
+    "type": -1,
     "fee0_amount": 109557046930409,
     "fee1_amount": 100577464639326,
-    "fees_usd": 0.5527016493310376,
+    "fees_usd": 0.5589867365308996,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.5527016493310376
+    "total_usd": 0.5589867365308996
   },
   {
     "pool": "0x456c166e63634d75a4b49edec86cb51424d4c926",
     "symbol": "vAMM-sfrxETH/wstETH",
+    "type": -1,
     "fee0_amount": 396152147367379,
     "fee1_amount": 109719683920881,
-    "fees_usd": 0.3426337261449664,
+    "fees_usd": 0.3460701466453684,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.3426337261449664
+    "total_usd": 0.3460701466453684
   },
   {
     "pool": "0x30a30f266e1173a75985997b2523ecbc19c60ff3",
     "symbol": "sAMM-DAI/MAI",
+    "type": 0,
     "fee0_amount": 160755385824516904,
     "fee1_amount": 171311565002622764,
-    "fees_usd": 0.33152758815224753,
+    "fees_usd": 0.3319665622500481,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.33152758815224753
+    "total_usd": 0.3319665622500481
   },
   {
     "pool": "0x67b00b46fa4f4f24c03855c5c8013c0b938b3eec",
     "symbol": "sAMM-DAI/USDC",
+    "type": 0,
     "fee0_amount": 253382821188471395,
     "fee1_amount": 0,
-    "fees_usd": 0.25266498765604445,
+    "fees_usd": 0.2533828211884714,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.25266498765604445
+    "total_usd": 0.2533828211884714
   },
   {
     "pool": "0xa24382874a6fd59de45bbccfa160488647514c28",
     "symbol": "vAMM-WETH/wrsETH",
+    "type": -1,
     "fee0_amount": 67672954916172,
     "fee1_amount": 19503872586270,
-    "fees_usd": 0.22839813201425455,
+    "fees_usd": 0.23097659526161504,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.22839813201425455
+    "total_usd": 0.23097659526161504
+  },
+  {
+    "pool": "0x84e6bea6efe00399b6697fe9be3d303fcf3f4f8e",
+    "symbol": "vAMM-ZORA/WETH",
+    "type": -1,
+    "fee0_amount": 10323239359518628587,
+    "fee1_amount": 44523106984952,
+    "fees_usd": 0.2158275304653527,
+    "bribes_usd": 0.0,
+    "bribes": [],
+    "total_usd": 0.2158275304653527
   },
   {
     "pool": "0x261a73b82334ec0a877ea99f5ba40404fe7ce543",
     "symbol": "vAMM-WETH/SPECTRA",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
-    "bribes_usd": 0.214537466457265,
+    "bribes_usd": 0.21506671224806634,
     "bribes": [
       {
         "token": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
         "symbol": "AERO",
         "amount": 396142058983034434,
         "amount_token": 0.39614205898303445,
-        "amount_usd": 0.214537466457265
+        "amount_usd": 0.21506671224806634
       }
     ],
-    "total_usd": 0.214537466457265
-  },
-  {
-    "pool": "0x84e6bea6efe00399b6697fe9be3d303fcf3f4f8e",
-    "symbol": "vAMM-ZORA/WETH",
-    "fee0_amount": 10323239359518628587,
-    "fee1_amount": 44523106984952,
-    "fees_usd": 0.2134924374635424,
-    "bribes_usd": 0.0,
-    "bribes": [],
-    "total_usd": 0.2134924374635424
+    "total_usd": 0.21506671224806634
   },
   {
     "pool": "0xa2a0066840586c997e9f3cc5f1bc0a482510b870",
     "symbol": "vAMM-BOLD/LUCHA",
+    "type": -1,
     "fee0_amount": 158794888364794526,
     "fee1_amount": 8812899932520032110,
-    "fees_usd": 0.16079585384779357,
+    "fees_usd": 0.16219948442004603,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.16079585384779357
+    "total_usd": 0.16219948442004603
   },
   {
     "pool": "0x497139e8435e01555ac1e3740fccab7aff149e02",
     "symbol": "sAMM-ezETH/WETH",
+    "type": 0,
     "fee0_amount": 12677545897332,
     "fee1_amount": 36384262403631,
-    "fees_usd": 0.12882978023857974,
+    "fees_usd": 0.13019518236420152,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.12882978023857974
+    "total_usd": 0.13019518236420152
   },
   {
     "pool": "0x42e8dc1b1891c103291ec01d903451e729daaacc",
     "symbol": "vAMM-SEAM/USDbC",
+    "type": -1,
     "fee0_amount": 212190601074990570,
     "fee1_amount": 0,
-    "fees_usd": 0.09692548371203957,
+    "fees_usd": 0.09727941763463265,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.09692548371203957
+    "total_usd": 0.09727941763463265
   },
   {
     "pool": "0xbcfe92d07d138aa4cddc408acadf08fe53da1260",
     "symbol": "vAMM-AERO/USDT",
+    "type": -1,
     "fee0_amount": 79891009084600899,
     "fee1_amount": 0,
-    "fees_usd": 0.043266334116920054,
+    "fees_usd": 0.04337306850505708,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.043266334116920054
+    "total_usd": 0.04337306850505708
   },
   {
     "pool": "0x5d122990b1a25ae84c223bb4116bdc8b2e8fa827",
     "symbol": "USD\u20ae0/WETH",
+    "type": 10,
     "fee0_amount": 0,
     "fee1_amount": 8886572648681,
-    "fees_usd": 0.02305079192768716,
+    "fees_usd": 0.023318544361591916,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.02305079192768716
+    "total_usd": 0.023318544361591916
   },
   {
     "pool": "0x29bbb5f85f01702ec85d217ceeb2d9657700cf04",
     "symbol": "sAMM-WETH/wstETH",
+    "type": 0,
     "fee0_amount": 4582011526100,
     "fee1_amount": 2924923463873,
-    "fees_usd": 0.02101921411965277,
+    "fees_usd": 0.021248878729822666,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.02101921411965277
+    "total_usd": 0.021248878729822666
   },
   {
     "pool": "0x0b3936b83cddea7c3e9c159740a6484d309c3b2a",
     "symbol": "vAMM-cbBTC/sUSDz",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 4102226258236016,
     "fees_usd": 0.004881649247300859,
@@ -4173,66 +4563,73 @@
   {
     "pool": "0xcdb772f5dc8aebd476cb1d10fe815d91ef9fa9c1",
     "symbol": "vAMM-TOSHI/PEPE",
+    "type": -1,
     "fee0_amount": 8373344471670510431,
     "fee1_amount": 313773555181592116758,
-    "fees_usd": 0.0046490483175609006,
+    "fees_usd": 0.004653569923575603,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.0046490483175609006
+    "total_usd": 0.004653569923575603
   },
   {
     "pool": "0xda353757c951289c0d2ac757df4a2a6005f866fd",
     "symbol": "USDC/VIRGEN",
+    "type": 100,
     "fee0_amount": 0,
     "fee1_amount": 192754689398706166,
-    "fees_usd": 0.004278049620281023,
+    "fees_usd": 0.0043774127351191615,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.004278049620281023
+    "total_usd": 0.0043774127351191615
   },
   {
     "pool": "0x0c8bf3cb3e1f951b284ef14aa95444be86a33e2f",
     "symbol": "vAMM-ezETH/WETH",
+    "type": -1,
     "fee0_amount": 218568395429,
     "fee1_amount": 873058294354,
-    "fees_usd": 0.0028586073932955645,
+    "fees_usd": 0.0028895528467394083,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 0.0028586073932955645
+    "total_usd": 0.0028895528467394083
   },
   {
     "pool": "0x19438a54bd0656bddf98760a4ac5eb17e3df2e00",
     "symbol": "vAMM-USDC/cUSDO",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 48615956808466,
-    "fees_usd": 4.958827594463532e-05,
+    "fees_usd": 4.9636891901443783e-05,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 4.958827594463532e-05
+    "total_usd": 4.9636891901443783e-05
   },
   {
     "pool": "0x7818b53f423457151407103321d8f961773815d1",
     "symbol": "vAMM-USDz/sUSDz",
+    "type": -1,
     "fee0_amount": 36445659642182,
     "fee1_amount": 0,
-    "fees_usd": 3.6268023497086e-05,
+    "fees_usd": 3.628154483681325e-05,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 3.6268023497086e-05
+    "total_usd": 3.628154483681325e-05
   },
   {
     "pool": "0x01706ee0121b5e5541a8114b92aad07efbafd96c",
     "symbol": "sAMM-DRB/AERO",
+    "type": 0,
     "fee0_amount": 327821322024833,
     "fee1_amount": 0,
-    "fees_usd": 1.1913026842382431e-08,
+    "fees_usd": 1.238836775931844e-08,
     "bribes_usd": 0.0,
     "bribes": [],
-    "total_usd": 1.1913026842382431e-08
+    "total_usd": 1.238836775931844e-08
   },
   {
     "pool": "0x68a5aea4de3d938a755d85d1868fe79a9c7b6ae1",
     "symbol": "WETH/DEGEN",
+    "type": 100,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4243,6 +4640,7 @@
   {
     "pool": "0x03ff264046b085450649a993cdd65dcdd01a893e",
     "symbol": "vAMM-pHAM/pwBLT",
+    "type": -1,
     "fee0_amount": 1161519956960766880,
     "fee1_amount": 2791366476665523601,
     "fees_usd": 0.0,
@@ -4253,6 +4651,7 @@
   {
     "pool": "0x3c589883d42d5d45b50b9fff4f07d990a1242a3f",
     "symbol": "WETH/GIZA",
+    "type": 200,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4263,6 +4662,7 @@
   {
     "pool": "0xd73a3ef449043aac66bff3fee37e83b4f8dae998",
     "symbol": "vAMM-sfrxETH/sFRAX",
+    "type": -1,
     "fee0_amount": 121342176303768,
     "fee1_amount": 475322535874435936,
     "fees_usd": 0.0,
@@ -4273,6 +4673,7 @@
   {
     "pool": "0xa39a6dcf59124cecc11865bcae8693187a669258",
     "symbol": "vAMM-AIXBT/B3",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4283,6 +4684,7 @@
   {
     "pool": "0xdc5f7c7916c7792603fdc17f05f7929b423015ac",
     "symbol": "vAMM-WETH/KING",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4293,6 +4695,7 @@
   {
     "pool": "0x2e19a8ea24aa5c9117a30bab9f0bb730c1c862fe",
     "symbol": "vAMM-LOGX/AERO",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4303,6 +4706,7 @@
   {
     "pool": "0x1f019b4420936a800ff6f54c00d9da05445de433",
     "symbol": "sAMM-USDC/USX",
+    "type": 0,
     "fee0_amount": 0,
     "fee1_amount": 16957586978803986,
     "fees_usd": 0.0,
@@ -4313,6 +4717,7 @@
   {
     "pool": "0x452ab8f24ed8d701201476307f5969d4f6a76d15",
     "symbol": "vAMM-AERO/PENDLE",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4323,6 +4728,7 @@
   {
     "pool": "0x5d224ee6f81d3c1197cabbf48637889e464cdf7c",
     "symbol": "vAMM-EIGEN/AERO",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4333,6 +4739,7 @@
   {
     "pool": "0x114b11bf85cfcd9753feb0f8bdee5d3a17851633",
     "symbol": "vAMM-RFL/AERO",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4343,6 +4750,7 @@
   {
     "pool": "0xbb38eebd670a9f3cafe6d3170862ccd930cb25f9",
     "symbol": "vAMM-USD+/sFRAX",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 1592201550462465,
     "fees_usd": 0.0,
@@ -4353,6 +4761,7 @@
   {
     "pool": "0x5aac53d1b18f1eaf908c223a94916b339b74309f",
     "symbol": "vAMM-MET/cbBTC",
+    "type": -1,
     "fee0_amount": 29525576372502608992,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4363,6 +4772,7 @@
   {
     "pool": "0xf45f6cdbcd0d2d4bf4d9758b032a66a2cf4e55c8",
     "symbol": "sAMM-USDC/STAR",
+    "type": 0,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4373,6 +4783,7 @@
   {
     "pool": "0xa44d3bb767d953711ea4bce8c0f01f4d7d299af6",
     "symbol": "cbBTC/LBTC",
+    "type": 1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4383,6 +4794,7 @@
   {
     "pool": "0xfb5f29f851b2ecd4451c4fe649a936bba6c45ff1",
     "symbol": "vAMM-doginme/USDC",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4393,6 +4805,7 @@
   {
     "pool": "0xb69c83feb63819d2bd34e90911475afe6edcda8b",
     "symbol": "vAMM-WETH/PEPE",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4403,6 +4816,7 @@
   {
     "pool": "0xd64c5b0c64748445b625076da10c4168d6289db2",
     "symbol": "eBTC/cbBTC",
+    "type": 1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4413,6 +4827,7 @@
   {
     "pool": "0x5bd7a6393bc746e9a9a8481a1e4b1dc5792bb242",
     "symbol": "sAMM-msUSD/USDT",
+    "type": 0,
     "fee0_amount": 3168579453443510,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4423,6 +4838,7 @@
   {
     "pool": "0x3c03cd8ac06b1b4dcac51c4ef359aef2d83579d4",
     "symbol": "vAMM-MXNe/WETH",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4433,6 +4849,7 @@
   {
     "pool": "0x6b7479da80972e2baf3775a065828108318952fd",
     "symbol": "IDRX/USDC",
+    "type": 1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4443,6 +4860,7 @@
   {
     "pool": "0x7039aa14471da8543c7d4ed8e684cecf6c9fb19f",
     "symbol": "vAMM-USDC/ODOS",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4453,6 +4871,7 @@
   {
     "pool": "0x3c5512ce278640f9dea87a9217d49decc79951d6",
     "symbol": "vAMM-wXCH/cbBTC",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4463,6 +4882,7 @@
   {
     "pool": "0xbed93670ef58b0dd80929eaddc9acb9d747e817b",
     "symbol": "vAMM-AIXBT/USDC",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4473,6 +4893,7 @@
   {
     "pool": "0xd53f140f76f8291436e84f9f52dad524e8b12900",
     "symbol": "vAMM-EMP/WETH",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4483,6 +4904,7 @@
   {
     "pool": "0xece47891f47cca176acf03896cea8145c6f8a1b9",
     "symbol": "vAMM-USDC/TRYB",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4493,6 +4915,7 @@
   {
     "pool": "0x487262421cf2d60d3ea0aaa0b774c4ca5f561b1f",
     "symbol": "vAMM-EURC/cbBTC",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4503,6 +4926,7 @@
   {
     "pool": "0x75411b3eee4f65e757a485d616f19b78bb048bbc",
     "symbol": "vAMM-WBTC/USDC",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4513,6 +4937,7 @@
   {
     "pool": "0x216f5a39437fb941060849b7f6f14e575c101713",
     "symbol": "vAMM-MOCA/WETH",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4523,6 +4948,7 @@
   {
     "pool": "0x0d63256db508a9d385495d537cf0150ad2a9392b",
     "symbol": "vAMM-wXCH/USDT",
+    "type": -1,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4533,6 +4959,7 @@
   {
     "pool": "0x34b4c4fa255aeadc78860ea1a66479567c6d1051",
     "symbol": "USDC/AAA",
+    "type": 100,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4543,6 +4970,7 @@
   {
     "pool": "0x95ff4985af7ed78421215be100c18a2b987f7e90",
     "symbol": "cbXRP/cbBTC",
+    "type": 100,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4553,6 +4981,7 @@
   {
     "pool": "0xa6da283cf7d06b2279626e787c329d6acf7e2994",
     "symbol": "WETH/cbXRP",
+    "type": 2000,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4563,6 +4992,7 @@
   {
     "pool": "0xfb338cb462c9e44cae9f442feb09e8e904ffed47",
     "symbol": "WETH/cbDOGE",
+    "type": 2000,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,
@@ -4573,6 +5003,7 @@
   {
     "pool": "0x363d1607b8da83d6b6ea76d017ceecf1316bb08a",
     "symbol": "cbBTC/cbDOGE",
+    "type": 100,
     "fee0_amount": 0,
     "fee1_amount": 0,
     "fees_usd": 0.0,

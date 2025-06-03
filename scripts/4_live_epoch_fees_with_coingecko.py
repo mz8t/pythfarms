@@ -155,7 +155,8 @@ def main():
         p["lp"].lower(): {
             "symbol": p.get("symbol", ""),
             "token0": p["token0"].lower(),
-            "token1": p["token1"].lower()
+            "token1": p["token1"].lower(),
+            "type":   p.get("type")    # ← carry over the pool “type”
         }
         for p in enriched
     }
@@ -260,6 +261,7 @@ def main():
         results.append({
             "pool":         pool_addr,
             "symbol":       info["symbol"],
+            "type":         info["type"],       # ← include the type here
 
             "fee0_amount":  fee0_amt,
             "fee1_amount":  fee1_amt,
