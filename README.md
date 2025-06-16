@@ -1,6 +1,6 @@
 # PyThFarms README
 
-A Python toolkit for indexing Aerodrome liquidity pools, filtering votable pools, enriching them with metadata, and computing live epoch‐to‐date fees & bribes (in USD) using CoinGecko. Follow these steps to reproduce the data pipeline.
+A Python toolkit for indexing Aerodrome liquidity pools, filtering votable pools, enriching them with metadata, and computing live epoch‐to‐date fees & bribes (in USD) using CoinGecko. 
 
 ---
 
@@ -84,6 +84,8 @@ p y t h f a r m s/
 ## 📑 Data Pipeline & Scripts
 
 Below is the recommended order to run each script. Each step writes a JSON file under `data/`:
+(You can also simply run the entire flow with ./run_all.sh)
+The optimized results will be printed to the console.
 
 ### 1. Fetch all Aerodrome pools via Sugar
 
@@ -244,46 +246,6 @@ python scripts/4_live_epoch_fees_with_coingecko.py
 
 ---
 
-## 📖 Usage Summary
-
-Below is a quick “run‐order” checklist. Each step depends on the previous step’s outputs.
-
-```bash
-# 0) Set up your environment
-pip install -r requirements.txt
-cp .env.example .env
-# Edit .env: add RPC_URL and REWARDS_SUGAR_ADDRESS
-
-# 1) Fetch all pools
-python scripts/1_get_sugar_pools.py
-#  -> data/sugar_pools.json
-
-# 2) Filter to active (votable) pools
-python scripts/2_filter_votable_pools.py
-#  -> data/votable_pools.json
-
-# 3) Enrich votable pools with on‐chain metadata & symbols
-python scripts/3_enriched_votable_pools.py
-#  -> data/enriched_votable_pools.json
-
-# 4) Map each token to a CoinGecko ID
-python scripts/helper/1_get_coingecko_token_ids.py
-#  -> data/token_to_id.json
-
-# 5) Compute live epoch‐to‐date fees + bribes in USD
-python scripts/4_live_epoch_fees_with_coingecko.py
-#  -> data/live_epoch_fees_usd.json
-```
-
-At the end of step 5, you have a JSON file describing all votable pools with:
-
-* raw fee amounts (per token)
-* USD value of fees (for token0 & token1)
-* detailed bribe breakdown (token, human amount, USD value)
-* combined `total_usd = fees + bribes`
-
-
----
 
 ## 📦 requirements.txt
 
