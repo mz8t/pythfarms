@@ -49,9 +49,19 @@ echo
 
 # Step 6: run advanced optimizer
 echo "──────────"
-echo "7/7 → python scripts/algo/advanced_optimizer_with_avoidance.py"
-python scripts/algo/advanced_optimizer_with_avoidance.py
+echo "7/7 → python scripts/algo/optimizer_corrected_logic.py"
+python scripts/algo/optimizer_corrected_logic.py
 echo "✅  Completed Step 6"
+echo
+
+echo "🎉 All steps finished successfully."
+echo
+
+# Step 7: run analytics
+echo "──────────"
+echo "7/7 → python scripts/analytics/vote_analytics.py"
+python scripts/analytics/vote_analytics.py
+echo "✅  Completed Step 7"
 echo
 
 echo "🎉 All steps finished successfully."
