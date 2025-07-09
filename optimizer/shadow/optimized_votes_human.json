@@ -1,0 +1,166 @@
+{
+  "total_expected_usd": 346.81,
+  "allocations": [
+    {
+      "symbol": "RZR/scUSD",
+      "pool": "0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c",
+      "votes": 603.2077710693042,
+      "pct": 60,
+      "exp_usd": 185.62
+    },
+    {
+      "symbol": "CL-wS-CYI-2.0%",
+      "pool": "0xb0e617f9d6467da3bfd0700c63a69aff0e5275cc",
+      "votes": 156.82789503691856,
+      "pct": 16,
+      "exp_usd": 85.85
+    },
+    {
+      "symbol": "wS/THC",
+      "pool": "0xae8e9b2222031c464342dbfab7433b64eb5c15cf",
+      "votes": 89.40778652137128,
+      "pct": 9,
+      "exp_usd": 23.99
+    },
+    {
+      "symbol": "CL-wS-beS-0.0497%",
+      "pool": "0xfc4060db484f759b822b3aea7e85826c61f9dfd8",
+      "votes": 37.194269020180535,
+      "pct": 4,
+      "exp_usd": 11.41
+    },
+    {
+      "symbol": "CL-USDC-USDT-0.0095%",
+      "pool": "0x9053fe060f412ad5677f934f89e07524343ee8e7",
+      "votes": 25.09780517752357,
+      "pct": 3,
+      "exp_usd": 6.54
+    },
+    {
+      "symbol": "CL-USDC-EURC.e-0.0253%",
+      "pool": "0xca1f88a000136ee0bb1b35f27eb591e499decf9a",
+      "votes": 19.0482979605214,
+      "pct": 2,
+      "exp_usd": 7.04
+    },
+    {
+      "symbol": "CL-wS-OS-0.01%",
+      "pool": "0x0c9a698ed5422eae47ce0b4096496b1fa7771d7d",
+      "votes": 5.319837296908343,
+      "pct": 1,
+      "exp_usd": 1.21
+    },
+    {
+      "symbol": "CL-USDC-BEETS-0.4199%",
+      "pool": "0xe62dcc8343fefd2169d65d9f953b2da74346c4e4",
+      "votes": 6.2290837844969555,
+      "pct": 1,
+      "exp_usd": 1.55
+    },
+    {
+      "symbol": "USDC/aSonUSDC",
+      "pool": "0x47fffa06eeeef596d46cf7d58c3856a751ea68ed",
+      "votes": 12.864835082731437,
+      "pct": 1,
+      "exp_usd": 3.58
+    },
+    {
+      "symbol": "CL-frxUSD-scUSD-0.01%",
+      "pool": "0xf28c748091fdab86d5120ab359fcb471daa6467d",
+      "votes": 12.448620527853315,
+      "pct": 1,
+      "exp_usd": 4.64
+    },
+    {
+      "symbol": "wS/SPEED",
+      "pool": "0xa7571f0d72f3bcf12709b9e967adbf0df13042f2",
+      "votes": 7.658837647192468,
+      "pct": 1,
+      "exp_usd": 3.44
+    },
+    {
+      "symbol": "USDC/SPIN",
+      "pool": "0x5fc0e8736dc1012940ff373ade4bf6e09444cc3b",
+      "votes": 3.350751876661409,
+      "pct": 0,
+      "exp_usd": 0.76
+    },
+    {
+      "symbol": "CL-wS-MYRD-2.0%",
+      "pool": "0xe4759b87e04776480a91822171234db39afa9375",
+      "votes": 0.7144344673702511,
+      "pct": 0,
+      "exp_usd": 0.16
+    },
+    {
+      "symbol": "aSonUSDC/xUSD",
+      "pool": "0xfead02fb16ec3b2f6318dca230198db73e99428c",
+      "votes": 3.5804743650200965,
+      "pct": 0,
+      "exp_usd": 0.86
+    },
+    {
+      "symbol": "CL-USDC-xUSD-0.025%",
+      "pool": "0x5d47882852688084d94adcf12e30b11d0afb50fa",
+      "votes": 1.7182690891676031,
+      "pct": 0,
+      "exp_usd": 0.45
+    },
+    {
+      "symbol": "wS/SHEDEW",
+      "pool": "0x62c86c34ca232c9c1ebff1e8fdabb182f3a39810",
+      "votes": 2.5490515234228206,
+      "pct": 0,
+      "exp_usd": 0.83
+    },
+    {
+      "symbol": "wS/RUGGIE",
+      "pool": "0x05487100e07be9ec1d9da73a371696880a592cd6",
+      "votes": 3.8420493967675626,
+      "pct": 0,
+      "exp_usd": 1.82
+    },
+    {
+      "symbol": "wS/MOLTEN",
+      "pool": "0x07e356f542da8a86728d8625f52aadb436147456",
+      "votes": 4.367543031288483,
+      "pct": 0,
+      "exp_usd": 3.26
+    },
+    {
+      "symbol": "CL-wS-sGOAT-1.0%",
+      "pool": "0x8d0c7fe4814afa5428c79ae6915e44738cc3a39a",
+      "votes": 2.1967276944567464,
+      "pct": 0,
+      "exp_usd": 1.39
+    },
+    {
+      "symbol": "CL-UNI-WETH-1.0%",
+      "pool": "0xbb2e96c784e69ebc9bbf99f748532736c271d09e",
+      "votes": 2.245816218577683,
+      "pct": 0,
+      "exp_usd": 2.11
+    },
+    {
+      "symbol": "CL-scETH-wstkscETH-0.01%",
+      "pool": "0x05cf0c7ed39fc2ed0bd4397716ebb02f74ff25b5",
+      "votes": 0.1030711918890425,
+      "pct": 0,
+      "exp_usd": 0.28
+    },
+    {
+      "symbol": "wS/ROME",
+      "pool": "0x94fb2a14d55288d9f7fa10ad79022b95f95c04cb",
+      "votes": 0.009296891601409835,
+      "pct": 0,
+      "exp_usd": 0.0
+    },
+    {
+      "symbol": "wS/STBL",
+      "pool": "0xe21aa0df4c01c279c8a4fdcacbf7c79467442c5a",
+      "votes": 0.017475128775347425,
+      "pct": 0,
+      "exp_usd": 0.02
+    }
+  ]
+}
