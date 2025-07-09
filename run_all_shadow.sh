@@ -18,8 +18,13 @@ echo "2/2 → python scripts/shadow/votes/2_append_votes_dashboard.py"
 python scripts/shadow/votes/2_append_votes_dashboard.py
 echo "✅  Completed Step 6"
 echo
+echo
 
-echo "🎉 All steps finished successfully."
+# Step 6: run advanced optimizer
+echo "──────────"
+echo "7/7 → python scripts/shadow/algo/optimizer_corrected_logic.py"
+python scripts/shadow/algo/optimizer.py
+echo "✅  Completed Step 6"
 echo
 
 # Step 7: run analytics

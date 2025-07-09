@@ -1,7 +1,7 @@
 {
-  "our_voting_power": 1000.0,
-  "token_price_usd": 18.42,
-  "token_value_usd": 18420.0,
-  "total_expected_usd_per_epoch": 346.81,
-  "forecasted_apr_percent": 97.91
+  "our_voting_power": 6000.0,
+  "token_price_usd": 18.35,
+  "token_value_usd": 110100.0,
+  "total_expected_usd_per_epoch": 1023.84,
+  "forecasted_apr_percent": 48.36
 }
