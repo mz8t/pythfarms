@@ -1,290 +1,290 @@
 {
-  "total_expected_usd": 1023.84,
+  "total_expected_usd": 1023.09,
   "allocations": [
+    {
+      "symbol": "CL-WBTC-USDC-0.1155%",
+      "pool": "0x8bc2f9e725cbb07c338df4e77c82190119ddd823",
+      "votes": 1547.6876389063627,
+      "pct": 26,
+      "exp_usd": 231.09
+    },
     {
       "symbol": "RZR/scUSD",
       "pool": "0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c",
-      "votes": 1035.2899776265144,
+      "votes": 995.0444572843637,
       "pct": 17,
-      "exp_usd": 220.7
-    },
-    {
-      "symbol": "CL-WBTC-USDC-0.1555%",
-      "pool": "0x8bc2f9e725cbb07c338df4e77c82190119ddd823",
-      "votes": 913.945267133498,
-      "pct": 15,
-      "exp_usd": 134.83
-    },
-    {
-      "symbol": "CL-USDC-WETH-0.1601%",
-      "pool": "0x6fb30f3fcb864d49cdff15061ed5c6adfee40b40",
-      "votes": 705.500254711145,
-      "pct": 12,
-      "exp_usd": 103.29
+      "exp_usd": 209.0
     },
     {
       "symbol": "wS/TAROT",
       "pool": "0xd9e3be6c93a575d9b2cbd5372d54d1921ca2fbbc",
-      "votes": 450.1307185238424,
+      "votes": 451.16132391585404,
       "pct": 8,
-      "exp_usd": 70.73
+      "exp_usd": 71.18
     },
     {
       "symbol": "WETH/SILO",
       "pool": "0xd7202d441778714ffe7c59879aad163abd91ad82",
-      "votes": 394.80010951723347,
+      "votes": 418.67611835746146,
       "pct": 7,
-      "exp_usd": 61.65
+      "exp_usd": 65.89
     },
     {
       "symbol": "wS/SILO",
       "pool": "0xa30db08e1ace7c23ae959e1d2e3584b8e3b1858a",
-      "votes": 397.39594741335094,
+      "votes": 409.63805833618466,
       "pct": 7,
-      "exp_usd": 63.13
+      "exp_usd": 65.47
     },
     {
       "symbol": "CL-USDC-beS-0.3%",
       "pool": "0x0157699e0a26dbdf42a0a1dcf7426d0df408c60e",
-      "votes": 370.6110714393105,
+      "votes": 381.02673023928924,
       "pct": 6,
-      "exp_usd": 61.44
+      "exp_usd": 63.58
     },
     {
       "symbol": "wS/SHADOW",
       "pool": "0xf19748a0e269c6965a84f8c98ca8c47a064d4dd0",
-      "votes": 294.4975153761545,
-      "pct": 5,
-      "exp_usd": 43.5
-    },
-    {
-      "symbol": "CL-USDC-satUSD-0.3%",
-      "pool": "0x063e22cd27a5a923cba7f8184ac9ca8405564283",
-      "votes": 160.32008092662215,
-      "pct": 3,
-      "exp_usd": 25.44
-    },
-    {
-      "symbol": "wS/MCLB",
-      "pool": "0xde87419f0774eef80b0ebd134ff54ece0d4927c9",
-      "votes": 190.54127322459885,
-      "pct": 3,
-      "exp_usd": 34.71
-    },
-    {
-      "symbol": "wS/GSNAKE",
-      "pool": "0xb901d7316447c84f4417b8a8268e2822095051e6",
-      "votes": 148.14237407167371,
-      "pct": 2,
-      "exp_usd": 23.53
-    },
-    {
-      "symbol": "CL-wS-OS-0.01%",
-      "pool": "0x0c9a698ed5422eae47ce0b4096496b1fa7771d7d",
-      "votes": 100.24350830205441,
-      "pct": 2,
-      "exp_usd": 18.63
-    },
-    {
-      "symbol": "CL-USDC-stS-0.1893%",
-      "pool": "0x2bcb79fd1e0c4251b6f94daee25d4c6ff330cdf8",
-      "votes": 72.31671667643582,
-      "pct": 1,
-      "exp_usd": 10.59
+      "votes": 265.863443049207,
+      "pct": 4,
+      "exp_usd": 39.36
     },
     {
       "symbol": "CL-wS-NAVI-2.0%",
       "pool": "0x28f1bb2952ae8742b9e16fd515e3d01f4be6bc30",
-      "votes": 72.15121426518077,
+      "votes": 201.47951618037288,
+      "pct": 3,
+      "exp_usd": 30.09
+    },
+    {
+      "symbol": "CL-USDC-satUSD-0.3%",
+      "pool": "0x063e22cd27a5a923cba7f8184ac9ca8405564283",
+      "votes": 156.50920070097132,
+      "pct": 3,
+      "exp_usd": 24.88
+    },
+    {
+      "symbol": "wS/GSNAKE",
+      "pool": "0xb901d7316447c84f4417b8a8268e2822095051e6",
+      "votes": 168.2140020643287,
+      "pct": 3,
+      "exp_usd": 27.12
+    },
+    {
+      "symbol": "wS/MCLB",
+      "pool": "0xde87419f0774eef80b0ebd134ff54ece0d4927c9",
+      "votes": 187.9661270848316,
+      "pct": 3,
+      "exp_usd": 34.18
+    },
+    {
+      "symbol": "CL-wS-OS-0.01%",
+      "pool": "0x0c9a698ed5422eae47ce0b4096496b1fa7771d7d",
+      "votes": 91.93879641014871,
+      "pct": 2,
+      "exp_usd": 16.68
+    },
+    {
+      "symbol": "CL-USDC-stS-0.1748%",
+      "pool": "0x2bcb79fd1e0c4251b6f94daee25d4c6ff330cdf8",
+      "votes": 34.91823041733441,
       "pct": 1,
-      "exp_usd": 10.59
+      "exp_usd": 5.12
     },
     {
       "symbol": "wS/THC",
       "pool": "0xae8e9b2222031c464342dbfab7433b64eb5c15cf",
-      "votes": 86.63633994461443,
+      "votes": 81.99681385633814,
       "pct": 1,
-      "exp_usd": 13.75
+      "exp_usd": 13.0
     },
     {
       "symbol": "wS/SNAKE",
       "pool": "0x287c6882de298665977787e268f3dba052a6e251",
-      "votes": 72.30983451732361,
+      "votes": 69.42040513006695,
       "pct": 1,
-      "exp_usd": 12.38
+      "exp_usd": 11.86
     },
     {
       "symbol": "USDC/SPIN",
       "pool": "0x5fc0e8736dc1012940ff373ade4bf6e09444cc3b",
-      "votes": 78.18391727233575,
+      "votes": 77.44535985560996,
       "pct": 1,
-      "exp_usd": 14.32
+      "exp_usd": 14.21
     },
     {
       "symbol": "CL-USDC-USDT-0.0095%",
       "pool": "0x9053fe060f412ad5677f934f89e07524343ee8e7",
-      "votes": 75.88010304616171,
+      "votes": 77.31917897864675,
       "pct": 1,
-      "exp_usd": 15.7
+      "exp_usd": 16.01
+    },
+    {
+      "symbol": "CL-wS-BEETS-0.4009%",
+      "pool": "0x842af2fb2d600ced25d7d58675a0ce589417028d",
+      "votes": 32.018557326477826,
+      "pct": 1,
+      "exp_usd": 5.69
     },
     {
       "symbol": "CL-wS-MYRD-2.0%",
       "pool": "0xe4759b87e04776480a91822171234db39afa9375",
-      "votes": 39.04847404887529,
+      "votes": 38.757338769872646,
       "pct": 1,
-      "exp_usd": 7.19
+      "exp_usd": 7.15
     },
     {
-      "symbol": "CL-wS-BEETS-0.4193%",
-      "pool": "0x842af2fb2d600ced25d7d58675a0ce589417028d",
-      "votes": 33.46902493031832,
-      "pct": 1,
-      "exp_usd": 6.01
-    },
-    {
-      "symbol": "CL-wS-beS-0.0504%",
+      "symbol": "CL-wS-beS-0.0496%",
       "pool": "0xfc4060db484f759b822b3aea7e85826c61f9dfd8",
-      "votes": 72.12167554316805,
+      "votes": 72.36936318170066,
       "pct": 1,
-      "exp_usd": 15.86
+      "exp_usd": 15.85
     },
     {
       "symbol": "CL-USDC-x33-0.3%",
       "pool": "0x78f28d7dbcc40bb48c930c740c66869bdd117819",
-      "votes": 43.303482608117896,
+      "votes": 42.452790398938895,
       "pct": 1,
-      "exp_usd": 8.65
+      "exp_usd": 8.41
+    },
+    {
+      "symbol": "CL-wS-WBTC-0.1159%",
+      "pool": "0xa1538e790ccdd639755602857f582a39ed7f650c",
+      "votes": 12.553911407737957,
+      "pct": 0,
+      "exp_usd": 1.84
     },
     {
       "symbol": "CL-WBTC-scBTC-0.01%",
       "pool": "0xc58490f4f0a9228f564d5129bc3e32c98e7e15a9",
-      "votes": 17.346132679799446,
+      "votes": 13.24345052722126,
       "pct": 0,
-      "exp_usd": 2.62
+      "exp_usd": 1.99
     },
     {
       "symbol": "USDC/STBL",
       "pool": "0xc00021495419f35ad564e289b5077f48d1399b2d",
-      "votes": 7.902191289172307,
+      "votes": 7.893180779528327,
       "pct": 0,
-      "exp_usd": 1.18
+      "exp_usd": 1.19
     },
     {
       "symbol": "scUSD/MYRD",
       "pool": "0x1d57b8f22c1f9a5831b443077a6fe043a5ac2ffb",
-      "votes": 1.8651949703026107,
+      "votes": 1.453944415338371,
       "pct": 0,
-      "exp_usd": 0.27
+      "exp_usd": 0.21
     },
     {
       "symbol": "USDC/aSonUSDC",
       "pool": "0x47fffa06eeeef596d46cf7d58c3856a751ea68ed",
-      "votes": 24.801106629892395,
+      "votes": 25.361318184920417,
       "pct": 0,
-      "exp_usd": 4.63
+      "exp_usd": 4.75
     },
     {
-      "symbol": "CL-USDC-EURC.e-0.0243%",
+      "symbol": "CL-USDC-EURC.e-0.0254%",
       "pool": "0xca1f88a000136ee0bb1b35f27eb591e499decf9a",
-      "votes": 24.096865960371268,
+      "votes": 21.6034521150165,
       "pct": 0,
-      "exp_usd": 4.69
+      "exp_usd": 4.02
     },
     {
-      "symbol": "CL-USDC-BEETS-0.4197%",
+      "symbol": "CL-USDC-BEETS-0.4094%",
       "pool": "0xe62dcc8343fefd2169d65d9f953b2da74346c4e4",
-      "votes": 25.705749405804777,
+      "votes": 24.800242507637346,
       "pct": 0,
-      "exp_usd": 5.45
+      "exp_usd": 5.12
     },
     {
       "symbol": "aSonUSDC/xUSD",
       "pool": "0xfead02fb16ec3b2f6318dca230198db73e99428c",
-      "votes": 20.349717025684463,
+      "votes": 19.568390984052257,
       "pct": 0,
-      "exp_usd": 4.2
+      "exp_usd": 3.95
     },
     {
       "symbol": "CL-GOGLZ-EGGS-0.3%",
       "pool": "0x494c6a6f0bc1f1463d69da10eb7a9ee56f4b5f29",
-      "votes": 5.618676986018965,
+      "votes": 5.46976445720755,
       "pct": 0,
-      "exp_usd": 0.94
+      "exp_usd": 0.92
     },
     {
       "symbol": "CL-frxUSD-scUSD-0.01%",
       "pool": "0xf28c748091fdab86d5120ab359fcb471daa6467d",
-      "votes": 23.645378441159444,
+      "votes": 23.88624670246081,
       "pct": 0,
-      "exp_usd": 7.43
+      "exp_usd": 7.12
     },
     {
       "symbol": "CL-USDC-xUSD-0.025%",
       "pool": "0x5d47882852688084d94adcf12e30b11d0afb50fa",
-      "votes": 4.833912346016722,
+      "votes": 4.829240458882988,
       "pct": 0,
-      "exp_usd": 1.03
+      "exp_usd": 1.04
     },
     {
       "symbol": "wS/SPEED",
       "pool": "0xa7571f0d72f3bcf12709b9e967adbf0df13042f2",
-      "votes": 11.34224586322825,
+      "votes": 11.313162944995765,
       "pct": 0,
       "exp_usd": 4.16
     },
     {
       "symbol": "wS/SHEDEW",
       "pool": "0x62c86c34ca232c9c1ebff1e8fdabb182f3a39810",
-      "votes": 5.481982836723806,
+      "votes": 5.492256420904556,
       "pct": 0,
-      "exp_usd": 1.56
+      "exp_usd": 1.57
     },
     {
       "symbol": "wS/MOLTEN",
       "pool": "0x07e356f542da8a86728d8625f52aadb436147456",
-      "votes": 7.655864455249776,
+      "votes": 7.636434878469701,
       "pct": 0,
       "exp_usd": 2.85
     },
     {
       "symbol": "wS/RUGGIE",
       "pool": "0x05487100e07be9ec1d9da73a371696880a592cd6",
-      "votes": 5.84605285991805,
+      "votes": 5.830122807671693,
       "pct": 0,
-      "exp_usd": 1.98
+      "exp_usd": 1.97
     },
     {
       "symbol": "CL-wS-sGOAT-1.0%",
       "pool": "0x8d0c7fe4814afa5428c79ae6915e44738cc3a39a",
-      "votes": 3.4845846340273887,
+      "votes": 3.9759364288641366,
       "pct": 0,
-      "exp_usd": 1.36
+      "exp_usd": 1.69
     },
     {
       "symbol": "CL-UNI-WETH-1.0%",
       "pool": "0xbb2e96c784e69ebc9bbf99f748532736c271d09e",
-      "votes": 2.9602281534419657,
+      "votes": 2.960770325247801,
       "pct": 0,
-      "exp_usd": 2.28
+      "exp_usd": 2.29
     },
     {
       "symbol": "CL-scETH-wstkscETH-0.01%",
       "pool": "0x05cf0c7ed39fc2ed0bd4397716ebb02f74ff25b5",
-      "votes": 0.1879458719974047,
+      "votes": 0.18751364374019375,
       "pct": 0,
       "exp_usd": 0.57
     },
     {
       "symbol": "wS/ROME",
       "pool": "0x94fb2a14d55288d9f7fa10ad79022b95f95c04cb",
-      "votes": 0.013861339615991205,
+      "votes": 0.013825212608000383,
       "pct": 0,
       "exp_usd": 0.0
     },
     {
       "symbol": "wS/STBL",
       "pool": "0xe21aa0df4c01c279c8a4fdcacbf7c79467442c5a",
-      "votes": 0.023427133045666602,
+      "votes": 0.02338435313209838,
       "pct": 0,
       "exp_usd": 0.02
     }
