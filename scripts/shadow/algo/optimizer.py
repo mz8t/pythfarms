@@ -24,6 +24,7 @@ BOT_OUT_PATH = os.getenv(
     "BOT_OUT_PATH", "optimizer/shadow/optimized_votes_bot.txt"
 )
 
+
 def load_json(path):
     if not os.path.exists(path):
         print(f"❌  {path} not found.")
@@ -87,6 +88,9 @@ if __name__ == "__main__":
     dash = load_json(DASHBOARD_PATH)
     pools = dash.get("pools", [])
 
+    # Filter to top 10 pools by bribes_usd
+    pools = sorted(pools, key=lambda p: p.get("bribes_usd", 0), reverse=True)[:10]
+
     P_our = NFT_SIZE
     print(f"ℹ️  NFT_SIZE (voting power) = {P_our}")
 
@@ -101,7 +105,7 @@ if __name__ == "__main__":
         locked[addr] = W
         base.append((addr, R, W))
 
-    # allocate  votes via equal-marginal
+    # allocate votes via equal-marginal
     alloc = equal_marginal(base, P_our)
     total_alloc = sum(d for _, d in alloc)
 
