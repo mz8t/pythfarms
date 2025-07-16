@@ -1,638 +1,638 @@
 {
   "period": 2898,
-  "total_votes_period": 1054839.0778721736,
+  "total_votes_period": 1137557.5970755613,
   "pools": [
     {
       "pool": "0x324963c267c354c7660ce8ca3f5f167e05649970",
-      "symbol": "CL-wS-USDC-0.1407%",
-      "fee_last_7d_usd": 116191.87726179072,
-      "vol_last_7d": 77416348.9295989,
-      "bribes_usd": 86762.22078761326,
-      "pool_votes_period": 360566.1822949154
+      "symbol": "CL-wS-USDC-0.1904%",
+      "fee_last_7d_usd": 121158.03875597553,
+      "vol_last_7d": 78785029.97597337,
+      "bribes_usd": 122891.5532356639,
+      "pool_votes_period": 407647.57977762946
     },
     {
       "pool": "0x6fb30f3fcb864d49cdff15061ed5c6adfee40b40",
-      "symbol": "CL-USDC-WETH-0.1406%",
-      "fee_last_7d_usd": 38572.958668374515,
-      "vol_last_7d": 31060371.633324895,
-      "bribes_usd": 29014.759209216576,
-      "pool_votes_period": 151881.38588335167
+      "symbol": "CL-USDC-WETH-0.1409%",
+      "fee_last_7d_usd": 45258.82773034428,
+      "vol_last_7d": 35369193.22752621,
+      "bribes_usd": 46985.4792407378,
+      "pool_votes_period": 151629.78383881797
     },
     {
       "pool": "0xb6d9b069f6b96a507243d501d1a23b3fccfc85d3",
-      "symbol": "CL-wS-WETH-0.0795%",
-      "fee_last_7d_usd": 43955.18629026612,
-      "vol_last_7d": 40407506.674837336,
-      "bribes_usd": 35336.15125094584,
-      "pool_votes_period": 120180.91239529868
+      "symbol": "CL-wS-WETH-0.1392%",
+      "fee_last_7d_usd": 45167.06466506387,
+      "vol_last_7d": 40620229.86140911,
+      "bribes_usd": 48555.14125758886,
+      "pool_votes_period": 142712.85972145572
     },
     {
       "pool": "0x8bc2f9e725cbb07c338df4e77c82190119ddd823",
-      "symbol": "CL-WBTC-USDC-0.1202%",
-      "fee_last_7d_usd": 13592.196939633013,
-      "vol_last_7d": 11224973.984422442,
-      "bribes_usd": 8734.365262051731,
-      "pool_votes_period": 79825.24423750814
+      "symbol": "CL-WBTC-USDC-0.14%",
+      "fee_last_7d_usd": 13434.611011295321,
+      "vol_last_7d": 10921496.565653143,
+      "bribes_usd": 13252.716145044007,
+      "pool_votes_period": 77522.13403684681
     },
     {
       "pool": "0x6b19c48449ce9de4254a883749257be5da660bfb",
-      "symbol": "CL-WBTC-WETH-0.1157%",
-      "fee_last_7d_usd": 16629.070392939582,
-      "vol_last_7d": 12767352.66973683,
-      "bribes_usd": 11879.790452586914,
-      "pool_votes_period": 65661.895528158
+      "symbol": "CL-WBTC-WETH-0.155%",
+      "fee_last_7d_usd": 16984.423721207768,
+      "vol_last_7d": 12849393.626448784,
+      "bribes_usd": 17737.85543768535,
+      "pool_votes_period": 65973.49878444496
+    },
+    {
+      "pool": "0xa1538e790ccdd639755602857f582a39ed7f650c",
+      "symbol": "CL-wS-WBTC-0.1895%",
+      "fee_last_7d_usd": 11781.372108533587,
+      "vol_last_7d": 7564994.158755444,
+      "bribes_usd": 12021.866565306516,
+      "pool_votes_period": 36047.22584865457
     },
     {
       "pool": "0xbd0313c1986f7ef59c8ea58cc85714ae2aa5b89d",
       "symbol": "wS/GOGLZ",
-      "fee_last_7d_usd": 419.4791855206103,
-      "vol_last_7d": 83895.83710412208,
-      "bribes_usd": 354.5921592613741,
-      "pool_votes_period": 32924.529785298844
-    },
-    {
-      "pool": "0xa1538e790ccdd639755602857f582a39ed7f650c",
-      "symbol": "CL-wS-WBTC-0.1194%",
-      "fee_last_7d_usd": 10745.68234894419,
-      "vol_last_7d": 7085834.36064706,
-      "bribes_usd": 8476.628618200979,
-      "pool_votes_period": 31657.052643759995
+      "fee_last_7d_usd": 579.3806176339008,
+      "vol_last_7d": 115876.12352678014,
+      "bribes_usd": 5716.862255557553,
+      "pool_votes_period": 32647.043465248924
     },
     {
       "pool": "0xf19748a0e269c6965a84f8c98ca8c47a064d4dd0",
       "symbol": "wS/SHADOW",
-      "fee_last_7d_usd": 5236.539852798161,
-      "vol_last_7d": 1047307.970559632,
-      "bribes_usd": 3583.198077729567,
-      "pool_votes_period": 27749.187165027834
+      "fee_last_7d_usd": 3751.490955623039,
+      "vol_last_7d": 750298.1911246078,
+      "bribes_usd": 3989.085309464008,
+      "pool_votes_period": 25726.6934752687
+    },
+    {
+      "pool": "0x2bcb79fd1e0c4251b6f94daee25d4c6ff330cdf8",
+      "symbol": "CL-USDC-stS-0.2203%",
+      "fee_last_7d_usd": 7904.744421889243,
+      "vol_last_7d": 4552618.711300312,
+      "bribes_usd": 8064.8535326452775,
+      "pool_votes_period": 24546.03186642822
     },
     {
       "pool": "0x1f4efc47e5a5ab6539d95a76e2dde6d74462acea",
       "symbol": "CL-wS-GOGLZ-0.5%",
-      "fee_last_7d_usd": 3017.051948917585,
-      "vol_last_7d": 603410.389783517,
-      "bribes_usd": 2377.495366640409,
-      "pool_votes_period": 22206.73687065047
+      "fee_last_7d_usd": 3518.85877829554,
+      "vol_last_7d": 703771.755659108,
+      "bribes_usd": 3740.7715098953227,
+      "pool_votes_period": 21525.916129706722
     },
     {
       "pool": "0x9abf712d326da30f77ee14840f0180b571630a32",
       "symbol": "CL-wS-DERP-1.0%",
-      "fee_last_7d_usd": 774.6744522639796,
-      "vol_last_7d": 77467.44522639795,
-      "bribes_usd": 649.4571320108138,
-      "pool_votes_period": 17169.021918204016
-    },
-    {
-      "pool": "0x2bcb79fd1e0c4251b6f94daee25d4c6ff330cdf8",
-      "symbol": "CL-USDC-stS-0.1802%",
-      "fee_last_7d_usd": 7178.318361610569,
-      "vol_last_7d": 4168799.5636495263,
-      "bribes_usd": 5802.391771913573,
-      "pool_votes_period": 16396.9016330649
-    },
-    {
-      "pool": "0xd501fb4eeb19cdd8a1b41e33226bdd1ef04495ba",
-      "symbol": "CL-scUSD-msUSD-0.01%",
-      "fee_last_7d_usd": 6.491106412270422,
-      "vol_last_7d": 64911.064122704214,
-      "bribes_usd": 5.899099495442497,
-      "pool_votes_period": 12402.79824593006
+      "fee_last_7d_usd": 848.3142847013117,
+      "vol_last_7d": 84831.42847013118,
+      "bribes_usd": 2620.8523493071843,
+      "pool_votes_period": 16260.916843276205
     },
     {
       "pool": "0x28f1bb2952ae8742b9e16fd515e3d01f4be6bc30",
       "symbol": "CL-wS-NAVI-2.0%",
-      "fee_last_7d_usd": 4931.13144276901,
-      "vol_last_7d": 246556.57213845046,
-      "bribes_usd": 3260.8880047965276,
-      "pool_votes_period": 12176.309815332075
+      "fee_last_7d_usd": 4304.024493685269,
+      "vol_last_7d": 215201.2246842634,
+      "bribes_usd": 4303.344923148192,
+      "pool_votes_period": 12325.845294809687
+    },
+    {
+      "pool": "0xd501fb4eeb19cdd8a1b41e33226bdd1ef04495ba",
+      "symbol": "CL-scUSD-msUSD-0.01%",
+      "fee_last_7d_usd": 7.804344046679805,
+      "vol_last_7d": 78043.44046679806,
+      "bribes_usd": 1042.8590173909633,
+      "pool_votes_period": 12040.567919065912
     },
     {
       "pool": "0x9b480e05a9e907d8c7a1ecc676f66355dc1e4888",
-      "symbol": "CL-USDC-Anon-0.2092%",
-      "fee_last_7d_usd": 3459.86164304215,
-      "vol_last_7d": 1384838.2200745267,
-      "bribes_usd": 2545.875644362983,
-      "pool_votes_period": 9855.422667709638
+      "symbol": "CL-USDC-Anon-0.4405%",
+      "fee_last_7d_usd": 3729.7757021227926,
+      "vol_last_7d": 1429523.3497680274,
+      "bribes_usd": 3583.6841772556945,
+      "pool_votes_period": 10347.599788187621
     },
     {
       "pool": "0xfd8fc59e65860e7faaf09482e6be4af65741deba",
       "symbol": "CL-USDC-mooBIFI-1.0%",
-      "fee_last_7d_usd": 1117.5974793520945,
-      "vol_last_7d": 111759.74793520945,
-      "bribes_usd": 739.2348794976963,
-      "pool_votes_period": 9741.970954594157
-    },
-    {
-      "pool": "0xde861c8fc9ab78fe00490c5a38813d26e2d09c95",
-      "symbol": "CL-wS-stS-0.0094%",
-      "fee_last_7d_usd": 1625.274458588542,
-      "vol_last_7d": 17290153.814771727,
-      "bribes_usd": 1303.4767809843283,
-      "pool_votes_period": 6597.145943458764
-    },
-    {
-      "pool": "0xd9e3be6c93a575d9b2cbd5372d54d1921ca2fbbc",
-      "symbol": "wS/TAROT",
-      "fee_last_7d_usd": 188.02995490165938,
-      "vol_last_7d": 37605.99098033187,
-      "bribes_usd": 1178.033232264163,
-      "pool_votes_period": 6032.825078825266
-    },
-    {
-      "pool": "0xd7202d441778714ffe7c59879aad163abd91ad82",
-      "symbol": "WETH/SILO",
-      "fee_last_7d_usd": 1083.702352564733,
-      "vol_last_7d": 2167404.705129466,
-      "bribes_usd": 762.0805859935073,
-      "pool_votes_period": 6029.861467157088
-    },
-    {
-      "pool": "0xb5c54e0471b93ec68202b629662df3a6189f1236",
-      "symbol": "CL-wS-PENDLE-1.0%",
-      "fee_last_7d_usd": 1479.3405917151208,
-      "vol_last_7d": 147934.05917151208,
-      "bribes_usd": 1018.7670628564417,
-      "pool_votes_period": 6023.416931663331
+      "fee_last_7d_usd": 1449.341306458114,
+      "vol_last_7d": 144934.1306458114,
+      "bribes_usd": 1824.656993219465,
+      "pool_votes_period": 10048.580119696415
     },
     {
       "pool": "0xb8bda81eccb1a21198899ac8f1f2f73c82bd7695",
       "symbol": "CL-wS-BRUSH-0.5%",
-      "fee_last_7d_usd": 2189.4510708678204,
-      "vol_last_7d": 437890.2141735641,
-      "bribes_usd": 1386.9513355661902,
-      "pool_votes_period": 5963.732659674205
+      "fee_last_7d_usd": 1787.22376576256,
+      "vol_last_7d": 357444.753152512,
+      "bribes_usd": 1912.9040169170655,
+      "pool_votes_period": 7949.163722397091
+    },
+    {
+      "pool": "0xde861c8fc9ab78fe00490c5a38813d26e2d09c95",
+      "symbol": "CL-wS-stS-0.0094%",
+      "fee_last_7d_usd": 1778.9679907130326,
+      "vol_last_7d": 18925191.390564177,
+      "bribes_usd": 1865.6576672687347,
+      "pool_votes_period": 6997.522800204609
     },
     {
       "pool": "0x268d86627e193dc731bb06109d69175d56d54c98",
       "symbol": "wS/FA",
-      "fee_last_7d_usd": 101.24908247032569,
-      "vol_last_7d": 10124.908247032568,
-      "bribes_usd": 1948.977353029555,
-      "pool_votes_period": 5064.379188332696
+      "fee_last_7d_usd": 362.529497534189,
+      "vol_last_7d": 36252.9497534189,
+      "bribes_usd": 2343.620758963726,
+      "pool_votes_period": 6417.355678831865
+    },
+    {
+      "pool": "0xd9e3be6c93a575d9b2cbd5372d54d1921ca2fbbc",
+      "symbol": "wS/TAROT",
+      "fee_last_7d_usd": 221.57718572021545,
+      "vol_last_7d": 44315.4371440431,
+      "bribes_usd": 1351.8483511527152,
+      "pool_votes_period": 5842.646377680556
+    },
+    {
+      "pool": "0xb5c54e0471b93ec68202b629662df3a6189f1236",
+      "symbol": "CL-wS-PENDLE-1.0%",
+      "fee_last_7d_usd": 1578.5295523930185,
+      "vol_last_7d": 157852.95523930187,
+      "bribes_usd": 1678.0127658061058,
+      "pool_votes_period": 5842.318726181273
+    },
+    {
+      "pool": "0xd7202d441778714ffe7c59879aad163abd91ad82",
+      "symbol": "WETH/SILO",
+      "fee_last_7d_usd": 1097.4415407285142,
+      "vol_last_7d": 2194883.0814570277,
+      "bribes_usd": 1180.7650046196206,
+      "pool_votes_period": 5837.011886686873
     },
     {
       "pool": "0xa30db08e1ace7c23ae959e1d2e3584b8e3b1858a",
       "symbol": "wS/SILO",
-      "fee_last_7d_usd": 816.1349632370269,
-      "vol_last_7d": 1632269.9264740536,
-      "bribes_usd": 556.8132855819825,
-      "pool_votes_period": 5037.931547982428
-    },
-    {
-      "pool": "0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c",
-      "symbol": "RZR/scUSD",
-      "fee_last_7d_usd": 565.0182420570849,
-      "vol_last_7d": 56501.82420570849,
-      "bribes_usd": 935.6219417084537,
-      "pool_votes_period": 4486.2813671445265
+      "fee_last_7d_usd": 804.9425227984207,
+      "vol_last_7d": 1609885.0455968413,
+      "bribes_usd": 845.607570081149,
+      "pool_votes_period": 4866.43182627689
     },
     {
       "pool": "0xe8b696fb500c2a3b1faa5e0fce4d53d6ad26765f",
       "symbol": "USDC/x33",
-      "fee_last_7d_usd": 919.7204773927677,
-      "vol_last_7d": 91972.04773927676,
-      "bribes_usd": 610.0809255117277,
-      "pool_votes_period": 4319.115953168738
+      "fee_last_7d_usd": 770.5556789889612,
+      "vol_last_7d": 77055.5678988961,
+      "bribes_usd": 805.8587539503774,
+      "pool_votes_period": 4206.294908806637
     },
     {
       "pool": "0x6807a4ff4c87abdbaf083232136eff37e9205f12",
       "symbol": "CL-wS-SHADOW-0.0299%",
-      "fee_last_7d_usd": 781.2889977199851,
-      "vol_last_7d": 1932947.34565279,
-      "bribes_usd": 542.6701905496539,
-      "pool_votes_period": 3919.048573786736
+      "fee_last_7d_usd": 715.6915844512359,
+      "vol_last_7d": 1879855.8856796753,
+      "bribes_usd": 764.255655539167,
+      "pool_votes_period": 3806.6341904103033
     },
     {
       "pool": "0x0157699e0a26dbdf42a0a1dcf7426d0df408c60e",
       "symbol": "CL-USDC-beS-0.3%",
-      "fee_last_7d_usd": 1011.2784418611968,
-      "vol_last_7d": 337092.8139537323,
-      "bribes_usd": 782.9076542019379,
-      "pool_votes_period": 3526.3175463224807
+      "fee_last_7d_usd": 1093.549811386722,
+      "vol_last_7d": 364516.603795574,
+      "bribes_usd": 1103.0987411362435,
+      "pool_votes_period": 3480.3851271667313
+    },
+    {
+      "pool": "0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c",
+      "symbol": "RZR/scUSD",
+      "fee_last_7d_usd": 528.5761084959134,
+      "vol_last_7d": 52857.61084959134,
+      "bribes_usd": 990.9263692570216,
+      "pool_votes_period": 3363.0960641796537
     },
     {
       "pool": "0x7a02fe073ad157ead83c5e3400acf8bf7e2e8c14",
       "symbol": "CL-wS-fDAO-1.0%",
-      "fee_last_7d_usd": 78.96784180103779,
-      "vol_last_7d": 7896.784180103779,
-      "bribes_usd": 80.72066459186458,
-      "pool_votes_period": 3208.0675904642767
-    },
-    {
-      "pool": "0x78f28d7dbcc40bb48c930c740c66869bdd117819",
-      "symbol": "CL-USDC-x33-0.3%",
-      "fee_last_7d_usd": 668.0871698146864,
-      "vol_last_7d": 222695.72327156214,
-      "bribes_usd": 669.6385527716811,
-      "pool_votes_period": 2574.0542186220246
-    },
-    {
-      "pool": "0xe076acf0c028ac2ba1ec4807d592bfb2c524fdb0",
-      "symbol": "wS/x33",
-      "fee_last_7d_usd": 447.4778151678136,
-      "vol_last_7d": 44747.78151678135,
-      "bribes_usd": 297.96678707703046,
-      "pool_votes_period": 2425.7831793362116
-    },
-    {
-      "pool": "0x66a8289bdd968d1157eb1a608f60a87759632cd6",
-      "symbol": "CL-USDC-EGGS-0.3502%",
-      "fee_last_7d_usd": 761.4822350330055,
-      "vol_last_7d": 218687.04596089385,
-      "bribes_usd": 597.7868449908326,
-      "pool_votes_period": 2248.242155051136
-    },
-    {
-      "pool": "0x2c13383855377faf5a562f1aef47e4be7a0f12ac",
-      "symbol": "CL-USDC-scUSD-0.0095%",
-      "fee_last_7d_usd": 486.17845590911,
-      "vol_last_7d": 5117667.956938,
-      "bribes_usd": 380.50756,
-      "pool_votes_period": 2201.656254682517
-    },
-    {
-      "pool": "0xb901d7316447c84f4417b8a8268e2822095051e6",
-      "symbol": "wS/GSNAKE",
-      "fee_last_7d_usd": 618.190654698767,
-      "vol_last_7d": 61819.06546987671,
-      "bribes_usd": 464.95942318536254,
-      "pool_votes_period": 1862.250492655327
-    },
-    {
-      "pool": "0x063e22cd27a5a923cba7f8184ac9ca8405564283",
-      "symbol": "CL-USDC-satUSD-0.3%",
-      "fee_last_7d_usd": 6.643066444153767,
-      "vol_last_7d": 2214.3554813845894,
-      "bribes_usd": 6.6427527698899,
-      "pool_votes_period": 1802.5610712086877
-    },
-    {
-      "pool": "0x8699aaf2fae2c6717e74a59ef9bb02f5aa333f98",
-      "symbol": "CL-Moth-EGGS-2.0%",
-      "fee_last_7d_usd": 404.17236996160847,
-      "vol_last_7d": 20208.618498080425,
-      "bribes_usd": 335.65636041813144,
-      "pool_votes_period": 1343.5111208739843
-    },
-    {
-      "pool": "0xde87419f0774eef80b0ebd134ff54ece0d4927c9",
-      "symbol": "wS/MCLB",
-      "fee_last_7d_usd": 355.0162564849963,
-      "vol_last_7d": 35501.62564849963,
-      "bribes_usd": 205.9101121469826,
-      "pool_votes_period": 1326.6285965721488
-    },
-    {
-      "pool": "0xc15de0d97bb77873fd9755f98624c7a79c7ba3f9",
-      "symbol": "CL-USDC-SHADOW-0.1997%",
-      "fee_last_7d_usd": 113.11174042998803,
-      "vol_last_7d": 59416.70161517635,
-      "bribes_usd": 88.95888329218614,
-      "pool_votes_period": 1040.8141904282877
-    },
-    {
-      "pool": "0x287c6882de298665977787e268f3dba052a6e251",
-      "symbol": "wS/SNAKE",
-      "fee_last_7d_usd": 470.89221090807507,
-      "vol_last_7d": 94178.442181615,
-      "bribes_usd": 368.59073350012864,
-      "pool_votes_period": 605.2783976745798
-    },
-    {
-      "pool": "0xae8e9b2222031c464342dbfab7433b64eb5c15cf",
-      "symbol": "wS/THC",
-      "fee_last_7d_usd": 158.33993217736125,
-      "vol_last_7d": 31667.98643547225,
-      "bribes_usd": 117.15954485418288,
-      "pool_votes_period": 587.0791784779301
-    },
-    {
-      "pool": "0xc58490f4f0a9228f564d5129bc3e32c98e7e15a9",
-      "symbol": "CL-WBTC-scBTC-0.01%",
-      "fee_last_7d_usd": 124.23354461455794,
-      "vol_last_7d": 1242335.4461455792,
-      "bribes_usd": 105.09843016745032,
-      "pool_votes_period": 538.0280544382815
-    },
-    {
-      "pool": "0x0c9a698ed5422eae47ce0b4096496b1fa7771d7d",
-      "symbol": "CL-wS-OS-0.01%",
-      "fee_last_7d_usd": 32.3243004099619,
-      "vol_last_7d": 323243.004099619,
-      "bribes_usd": 23.114984430544006,
-      "pool_votes_period": 536.5876612789691
-    },
-    {
-      "pool": "0x5fc0e8736dc1012940ff373ade4bf6e09444cc3b",
-      "symbol": "USDC/SPIN",
-      "fee_last_7d_usd": 40.93747366287516,
-      "vol_last_7d": 2046.873683143758,
-      "bribes_usd": 35.441294453406556,
-      "pool_votes_period": 430.8548697660139
-    },
-    {
-      "pool": "0x382e360d672ec27d9225c3d2c439993316f95623",
-      "symbol": "wS/GEMS",
-      "fee_last_7d_usd": 64.19819615916826,
-      "vol_last_7d": 3209.9098079584137,
-      "bribes_usd": 55.979068601967164,
-      "pool_votes_period": 397.0031800711583
-    },
-    {
-      "pool": "0x06479961abd981b3f292b19db9655cea150f9427",
-      "symbol": "CL-wS-WHALE-1.0%",
-      "fee_last_7d_usd": 134.80347305219203,
-      "vol_last_7d": 13480.347305219204,
-      "bribes_usd": 116.1742394563784,
-      "pool_votes_period": 392.55665912014604
-    },
-    {
-      "pool": "0x286cc998298d9d0242c9ad30cdb587e0b2f59f22",
-      "symbol": "CL-scETH-stkscETH-0.025%",
-      "fee_last_7d_usd": 80.60805143316924,
-      "vol_last_7d": 322432.20573267684,
-      "bribes_usd": 76.14717640122808,
-      "pool_votes_period": 328.4071562883173
-    },
-    {
-      "pool": "0x9053fe060f412ad5677f934f89e07524343ee8e7",
-      "symbol": "CL-USDC-USDT-0.0095%",
-      "fee_last_7d_usd": 41.670854404552124,
-      "vol_last_7d": 438640.572679496,
-      "bribes_usd": 34.05059866044353,
-      "pool_votes_period": 305.55419782172265
-    },
-    {
-      "pool": "0xc00021495419f35ad564e289b5077f48d1399b2d",
-      "symbol": "USDC/STBL",
-      "fee_last_7d_usd": 247.2946615074865,
-      "vol_last_7d": 24729.466150748645,
-      "bribes_usd": 176.08521422964395,
-      "pool_votes_period": 289.5690744413832
-    },
-    {
-      "pool": "0xb2afd40980e4940e509e6032b307da4e0f4a7113",
-      "symbol": "CL-WETH-EGGS-0.3044%",
-      "fee_last_7d_usd": 109.3361802078151,
-      "vol_last_7d": 33518.73417909498,
-      "bribes_usd": 88.78994658014878,
-      "pool_votes_period": 250.68971787151406
-    },
-    {
-      "pool": "0x7770c6ec2c9fd5f13f4b4d64e9f30ccaddba217f",
-      "symbol": "wS/FISH",
-      "fee_last_7d_usd": 55.95152462611145,
-      "vol_last_7d": 2797.5762313055725,
-      "bribes_usd": 38.263808054044,
-      "pool_votes_period": 249.89582446428807
-    },
-    {
-      "pool": "0x5b4dc4eefdd7973b4f309238e8cada7cea0b00c1",
-      "symbol": "CL-wS-8-0.3%",
-      "fee_last_7d_usd": 65.12391304549341,
-      "vol_last_7d": 21707.971015164472,
-      "bribes_usd": 32.608733040283866,
-      "pool_votes_period": 242.09701298077255
-    },
-    {
-      "pool": "0x842af2fb2d600ced25d7d58675a0ce589417028d",
-      "symbol": "CL-wS-BEETS-0.4008%",
-      "fee_last_7d_usd": 54.841081409504255,
-      "vol_last_7d": 13368.436038411168,
-      "bribes_usd": 34.394500421682736,
-      "pool_votes_period": 229.40804979224959
-    },
-    {
-      "pool": "0xe4759b87e04776480a91822171234db39afa9375",
-      "symbol": "CL-wS-MYRD-2.0%",
-      "fee_last_7d_usd": 67.45375158825486,
-      "vol_last_7d": 3372.6875794127436,
-      "bribes_usd": 50.841049553822074,
-      "pool_votes_period": 228.73197621537062
-    },
-    {
-      "pool": "0x1d57b8f22c1f9a5831b443077a6fe043a5ac2ffb",
-      "symbol": "scUSD/MYRD",
-      "fee_last_7d_usd": 84.83270223652832,
-      "vol_last_7d": 4241.635111826416,
-      "bribes_usd": 68.9956666523637,
-      "pool_votes_period": 200.1081506246598
-    },
-    {
-      "pool": "0x47fffa06eeeef596d46cf7d58c3856a751ea68ed",
-      "symbol": "USDC/aSonUSDC",
-      "fee_last_7d_usd": 46.14342093741835,
-      "vol_last_7d": 461434.20937418344,
-      "bribes_usd": 46.337428188903544,
-      "pool_votes_period": 181.97945770738895
-    },
-    {
-      "pool": "0xfc4060db484f759b822b3aea7e85826c61f9dfd8",
-      "symbol": "CL-wS-beS-0.05%",
-      "fee_last_7d_usd": 118.16094852462837,
-      "vol_last_7d": 236365.0142819847,
-      "bribes_usd": 93.95201491966168,
-      "pool_votes_period": 147.2631715619423
-    },
-    {
-      "pool": "0xf28c748091fdab86d5120ab359fcb471daa6467d",
-      "symbol": "CL-frxUSD-scUSD-0.01%",
-      "fee_last_7d_usd": 32.10450709864365,
-      "vol_last_7d": 321045.0709864365,
-      "bribes_usd": 24.939039492366483,
-      "pool_votes_period": 137.2604314307391
-    },
-    {
-      "pool": "0xc291ca0a0a0e793dc6a0442a34e1607ce1905389",
-      "symbol": "CL-scETH-WETH-0.0092%",
-      "fee_last_7d_usd": 34.70218127575321,
-      "vol_last_7d": 377197.62256253493,
-      "bribes_usd": 30.24702107592522,
-      "pool_votes_period": 136.57534767925654
-    },
-    {
-      "pool": "0xca1f88a000136ee0bb1b35f27eb591e499decf9a",
-      "symbol": "CL-USDC-EURC.e-0.0241%",
-      "fee_last_7d_usd": 33.598085120209866,
-      "vol_last_7d": 134304.27244614565,
-      "bribes_usd": 27.091759607452502,
-      "pool_votes_period": 136.55024016525132
-    },
-    {
-      "pool": "0xe62dcc8343fefd2169d65d9f953b2da74346c4e4",
-      "symbol": "CL-USDC-BEETS-0.4104%",
-      "fee_last_7d_usd": 80.1885827722125,
-      "vol_last_7d": 18919.976933728478,
-      "bribes_usd": 58.00194485921706,
-      "pool_votes_period": 128.52930672602034
-    },
-    {
-      "pool": "0x8e30ad00b6176ff1d47cba832f4feb88f4b8379b",
-      "symbol": "CL-wS-Anon-0.3%",
-      "fee_last_7d_usd": 5.55275793602197,
-      "vol_last_7d": 1850.9193120073228,
-      "bribes_usd": 31.666702612824963,
-      "pool_votes_period": 119.6819082683372
-    },
-    {
-      "pool": "0x9275a08c720238aab2b926a422563dad768449ce",
-      "symbol": "CL-wS-INDI-1.0%",
-      "fee_last_7d_usd": 36.87808827802799,
-      "vol_last_7d": 3687.808827802799,
-      "bribes_usd": 33.83038841555329,
-      "pool_votes_period": 100.53280294540325
-    },
-    {
-      "pool": "0x80797a61d219eaa4337edcb1d44a54750bdadc9e",
-      "symbol": "wS/MILK",
-      "fee_last_7d_usd": 19.596146475386888,
-      "vol_last_7d": 979.8073237693442,
-      "bribes_usd": 16.02572568519666,
-      "pool_votes_period": 97.66043714696316
+      "fee_last_7d_usd": 81.61610666624004,
+      "vol_last_7d": 8161.610666624004,
+      "bribes_usd": 91.12074066712277,
+      "pool_votes_period": 3115.2289592586717
     },
     {
       "pool": "0xb0e617f9d6467da3bfd0700c63a69aff0e5275cc",
       "symbol": "CL-wS-CYI-2.0%",
-      "fee_last_7d_usd": 36.01319842400709,
-      "vol_last_7d": 1800.6599212003546,
-      "bribes_usd": 7.169309402557696,
-      "pool_votes_period": 91.2602963241179
+      "fee_last_7d_usd": 48.88254785612423,
+      "vol_last_7d": 2444.1273928062114,
+      "bribes_usd": 50.79282854377329,
+      "pool_votes_period": 2895.429584360382
+    },
+    {
+      "pool": "0xe076acf0c028ac2ba1ec4807d592bfb2c524fdb0",
+      "symbol": "wS/x33",
+      "fee_last_7d_usd": 376.04614284891187,
+      "vol_last_7d": 37604.61428489119,
+      "bribes_usd": 408.86000360218037,
+      "pool_votes_period": 2386.136368951163
+    },
+    {
+      "pool": "0x78f28d7dbcc40bb48c930c740c66869bdd117819",
+      "symbol": "CL-USDC-x33-0.3%",
+      "fee_last_7d_usd": 658.4110289543136,
+      "vol_last_7d": 219470.34298477118,
+      "bribes_usd": 717.0722162746046,
+      "pool_votes_period": 2307.0297875673873
+    },
+    {
+      "pool": "0x66a8289bdd968d1157eb1a608f60a87759632cd6",
+      "symbol": "CL-USDC-EGGS-0.3496%",
+      "fee_last_7d_usd": 777.8556321472626,
+      "vol_last_7d": 221728.48267792177,
+      "bribes_usd": 796.305924029369,
+      "pool_votes_period": 2205.50434044895
+    },
+    {
+      "pool": "0x2c13383855377faf5a562f1aef47e4be7a0f12ac",
+      "symbol": "CL-USDC-scUSD-0.0095%",
+      "fee_last_7d_usd": 437.60662311849745,
+      "vol_last_7d": 4606385.5065105,
+      "bribes_usd": 437.029539,
+      "pool_votes_period": 2137.094192114344
+    },
+    {
+      "pool": "0xb901d7316447c84f4417b8a8268e2822095051e6",
+      "symbol": "wS/GSNAKE",
+      "fee_last_7d_usd": 573.5723212431895,
+      "vol_last_7d": 57357.23212431894,
+      "bribes_usd": 594.8915386339639,
+      "pool_votes_period": 1808.0899834486975
+    },
+    {
+      "pool": "0x063e22cd27a5a923cba7f8184ac9ca8405564283",
+      "symbol": "CL-USDC-satUSD-0.3%",
+      "fee_last_7d_usd": 15.079074142153768,
+      "vol_last_7d": 5026.358047384589,
+      "bribes_usd": 14.099585033848342,
+      "pool_votes_period": 1750.747074206035
+    },
+    {
+      "pool": "0xae8e9b2222031c464342dbfab7433b64eb5c15cf",
+      "symbol": "wS/THC",
+      "fee_last_7d_usd": 147.107895292619,
+      "vol_last_7d": 29421.579058523803,
+      "bribes_usd": 154.1782594100009,
+      "pool_votes_period": 1642.2022431606542
+    },
+    {
+      "pool": "0x8699aaf2fae2c6717e74a59ef9bb02f5aa333f98",
+      "symbol": "CL-Moth-EGGS-2.0%",
+      "fee_last_7d_usd": 475.0407900924177,
+      "vol_last_7d": 23752.039504620883,
+      "bribes_usd": 490.2463236175078,
+      "pool_votes_period": 1605.9913358672154
+    },
+    {
+      "pool": "0xde87419f0774eef80b0ebd134ff54ece0d4927c9",
+      "symbol": "wS/MCLB",
+      "fee_last_7d_usd": 255.6511742999449,
+      "vol_last_7d": 25565.117429994487,
+      "bribes_usd": 276.09090960121324,
+      "pool_votes_period": 1275.4238854969733
+    },
+    {
+      "pool": "0xc15de0d97bb77873fd9755f98624c7a79c7ba3f9",
+      "symbol": "CL-USDC-SHADOW-0.1697%",
+      "fee_last_7d_usd": 110.3290545996842,
+      "vol_last_7d": 60706.51219240806,
+      "bribes_usd": 123.8306694778399,
+      "pool_votes_period": 1016.0869245282944
+    },
+    {
+      "pool": "0x287c6882de298665977787e268f3dba052a6e251",
+      "symbol": "wS/SNAKE",
+      "fee_last_7d_usd": 396.73807490759935,
+      "vol_last_7d": 79347.61498151986,
+      "bribes_usd": 416.4234798188109,
+      "pool_votes_period": 932.2786988421948
+    },
+    {
+      "pool": "0xc58490f4f0a9228f564d5129bc3e32c98e7e15a9",
+      "symbol": "CL-WBTC-scBTC-0.01%",
+      "fee_last_7d_usd": 138.52570963652593,
+      "vol_last_7d": 1385257.0963652593,
+      "bribes_usd": 140.55164731857414,
+      "pool_votes_period": 556.1602665086273
+    },
+    {
+      "pool": "0x0c9a698ed5422eae47ce0b4096496b1fa7771d7d",
+      "symbol": "CL-wS-OS-0.01%",
+      "fee_last_7d_usd": 30.418391081361847,
+      "vol_last_7d": 304183.91081361845,
+      "bribes_usd": 66.68092371888261,
+      "pool_votes_period": 515.9331315239214
+    },
+    {
+      "pool": "0xc00021495419f35ad564e289b5077f48d1399b2d",
+      "symbol": "USDC/STBL",
+      "fee_last_7d_usd": 232.37186073231817,
+      "vol_last_7d": 23237.186073231816,
+      "bribes_usd": 247.30751737350633,
+      "pool_votes_period": 477.1252720798514
+    },
+    {
+      "pool": "0xfc4060db484f759b822b3aea7e85826c61f9dfd8",
+      "symbol": "CL-wS-beS-0.0496%",
+      "fee_last_7d_usd": 133.9188023238723,
+      "vol_last_7d": 267883.54946331144,
+      "bribes_usd": 176.84700237135587,
+      "pool_votes_period": 465.39461067575763
+    },
+    {
+      "pool": "0x5fc0e8736dc1012940ff373ade4bf6e09444cc3b",
+      "symbol": "USDC/SPIN",
+      "fee_last_7d_usd": 54.12516676287515,
+      "vol_last_7d": 2706.258338143758,
+      "bribes_usd": 54.114538314793585,
+      "pool_votes_period": 423.0315982468162
+    },
+    {
+      "pool": "0x06479961abd981b3f292b19db9655cea150f9427",
+      "symbol": "CL-wS-WHALE-1.0%",
+      "fee_last_7d_usd": 169.22487623012657,
+      "vol_last_7d": 16922.487623012654,
+      "bribes_usd": 167.5173299009934,
+      "pool_votes_period": 422.17331024729015
+    },
+    {
+      "pool": "0x382e360d672ec27d9225c3d2c439993316f95623",
+      "symbol": "wS/GEMS",
+      "fee_last_7d_usd": 68.90187423706543,
+      "vol_last_7d": 3445.093711853271,
+      "bribes_usd": 74.58942878033919,
+      "pool_votes_period": 396.8330764918819
+    },
+    {
+      "pool": "0xb2afd40980e4940e509e6032b307da4e0f4a7113",
+      "symbol": "CL-WETH-EGGS-0.3597%",
+      "fee_last_7d_usd": 118.1656405996212,
+      "vol_last_7d": 36123.20234857649,
+      "bribes_usd": 128.01475167075188,
+      "pool_votes_period": 379.5517957354554
+    },
+    {
+      "pool": "0x286cc998298d9d0242c9ad30cdb587e0b2f59f22",
+      "symbol": "CL-scETH-stkscETH-0.025%",
+      "fee_last_7d_usd": 81.23701281345413,
+      "vol_last_7d": 324948.05125381646,
+      "bribes_usd": 92.14902591410568,
+      "pool_votes_period": 325.3640930374369
+    },
+    {
+      "pool": "0x9053fe060f412ad5677f934f89e07524343ee8e7",
+      "symbol": "CL-USDC-USDT-0.0095%",
+      "fee_last_7d_usd": 99.01197962430822,
+      "vol_last_7d": 1042231.3644664027,
+      "bribes_usd": 98.94184571613246,
+      "pool_votes_period": 292.139633307664
+    },
+    {
+      "pool": "0x7770c6ec2c9fd5f13f4b4d64e9f30ccaddba217f",
+      "symbol": "wS/FISH",
+      "fee_last_7d_usd": 73.95262418275071,
+      "vol_last_7d": 3697.6312091375353,
+      "bribes_usd": 73.29388850527899,
+      "pool_votes_period": 242.62801320314142
+    },
+    {
+      "pool": "0x5b4dc4eefdd7973b4f309238e8cada7cea0b00c1",
+      "symbol": "CL-wS-8-0.3%",
+      "fee_last_7d_usd": 53.86097824831283,
+      "vol_last_7d": 17953.659416104278,
+      "bribes_usd": 42.392437380357855,
+      "pool_votes_period": 235.16335396151769
+    },
+    {
+      "pool": "0xe4759b87e04776480a91822171234db39afa9375",
+      "symbol": "CL-wS-MYRD-2.0%",
+      "fee_last_7d_usd": 73.7035721703275,
+      "vol_last_7d": 3685.178608516376,
+      "bribes_usd": 77.70005760304802,
+      "pool_votes_period": 222.18816147832285
+    },
+    {
+      "pool": "0x842af2fb2d600ced25d7d58675a0ce589417028d",
+      "symbol": "CL-wS-BEETS-0.4205%",
+      "fee_last_7d_usd": 52.88813628760853,
+      "vol_last_7d": 12920.700663378268,
+      "bribes_usd": 53.08865647471424,
+      "pool_votes_period": 219.50626559241
+    },
+    {
+      "pool": "0x1d57b8f22c1f9a5831b443077a6fe043a5ac2ffb",
+      "symbol": "scUSD/MYRD",
+      "fee_last_7d_usd": 91.26041059826416,
+      "vol_last_7d": 4563.0205299132085,
+      "bribes_usd": 93.95941305916182,
+      "pool_votes_period": 194.28833241171094
+    },
+    {
+      "pool": "0x47fffa06eeeef596d46cf7d58c3856a751ea68ed",
+      "symbol": "USDC/aSonUSDC",
+      "fee_last_7d_usd": 52.14262628996171,
+      "vol_last_7d": 521426.2628996171,
+      "bribes_usd": 59.300446728887856,
+      "pool_votes_period": 192.56760246631208
+    },
+    {
+      "pool": "0xe62dcc8343fefd2169d65d9f953b2da74346c4e4",
+      "symbol": "CL-USDC-BEETS-0.4001%",
+      "fee_last_7d_usd": 99.68458597649955,
+      "vol_last_7d": 23742.34829756211,
+      "bribes_usd": 100.32968962662125,
+      "pool_votes_period": 172.16655895620846
+    },
+    {
+      "pool": "0xc291ca0a0a0e793dc6a0442a34e1607ce1905389",
+      "symbol": "CL-scETH-WETH-0.0092%",
+      "fee_last_7d_usd": 32.286668018083446,
+      "vol_last_7d": 350942.04367482,
+      "bribes_usd": 36.82216845407152,
+      "pool_votes_period": 143.97936158286095
+    },
+    {
+      "pool": "0xf28c748091fdab86d5120ab359fcb471daa6467d",
+      "symbol": "CL-frxUSD-scUSD-0.01%",
+      "fee_last_7d_usd": 28.905334341328487,
+      "vol_last_7d": 289053.34341328486,
+      "bribes_usd": 30.673182113468048,
+      "pool_votes_period": 142.1205512284943
+    },
+    {
+      "pool": "0xca1f88a000136ee0bb1b35f27eb591e499decf9a",
+      "symbol": "CL-USDC-EURC.e-0.0254%",
+      "fee_last_7d_usd": 38.47486929630655,
+      "vol_last_7d": 154067.20033028373,
+      "bribes_usd": 38.17475025682155,
+      "pool_votes_period": 137.5345354281157
+    },
+    {
+      "pool": "0x8e30ad00b6176ff1d47cba832f4feb88f4b8379b",
+      "symbol": "CL-wS-Anon-0.3%",
+      "fee_last_7d_usd": 4.940203327195077,
+      "vol_last_7d": 1646.7344423983586,
+      "bribes_usd": 50.88597362791672,
+      "pool_votes_period": 126.56718331721257
+    },
+    {
+      "pool": "0x9275a08c720238aab2b926a422563dad768449ce",
+      "symbol": "CL-wS-INDI-1.0%",
+      "fee_last_7d_usd": 39.798284372138724,
+      "vol_last_7d": 3979.828437213873,
+      "bribes_usd": 41.74059998814032,
+      "pool_votes_period": 107.81112048481961
+    },
+    {
+      "pool": "0x80797a61d219eaa4337edcb1d44a54750bdadc9e",
+      "symbol": "wS/MILK",
+      "fee_last_7d_usd": 20.49392604040255,
+      "vol_last_7d": 1024.6963020201274,
+      "bribes_usd": 21.218008583729468,
+      "pool_votes_period": 94.82055122849428
     },
     {
       "pool": "0xfead02fb16ec3b2f6318dca230198db73e99428c",
       "symbol": "aSonUSDC/xUSD",
-      "fee_last_7d_usd": 1.6091837020297495,
-      "vol_last_7d": 1072.7891346864997,
-      "bribes_usd": 6.823274425412545,
-      "pool_votes_period": 85.45740350919483
-    },
-    {
-      "pool": "0x494c6a6f0bc1f1463d69da10eb7a9ee56f4b5f29",
-      "symbol": "CL-GOGLZ-EGGS-0.3%",
-      "fee_last_7d_usd": 8.987871188944396,
-      "vol_last_7d": 2995.9570629814652,
-      "bribes_usd": 7.259850134513063,
-      "pool_votes_period": 41.85578908407173
-    },
-    {
-      "pool": "0xa7571f0d72f3bcf12709b9e967adbf0df13042f2",
-      "symbol": "wS/SPEED",
-      "fee_last_7d_usd": 2.3436368642704153,
-      "vol_last_7d": 117.18184321352078,
-      "bribes_usd": 3.3421269908237052,
-      "pool_votes_period": 39.2556659120146
+      "fee_last_7d_usd": 0.8022526155198524,
+      "vol_last_7d": 534.835077013235,
+      "bribes_usd": 9.3156670243542,
+      "pool_votes_period": 79.94673927108342
     },
     {
       "pool": "0x07e356f542da8a86728d8625f52aadb436147456",
       "symbol": "wS/MOLTEN",
-      "fee_last_7d_usd": 33.4957378137494,
-      "vol_last_7d": 3349.5737813749397,
-      "bribes_usd": 33.02454957632029,
-      "pool_votes_period": 36.539870518296965
+      "fee_last_7d_usd": 34.54650467928822,
+      "vol_last_7d": 3454.6504679288228,
+      "bribes_usd": 35.64819204777075,
+      "pool_votes_period": 59.138259302761625
+    },
+    {
+      "pool": "0x494c6a6f0bc1f1463d69da10eb7a9ee56f4b5f29",
+      "symbol": "CL-GOGLZ-EGGS-0.3%",
+      "fee_last_7d_usd": 18.857216844528402,
+      "vol_last_7d": 6285.738948176133,
+      "bribes_usd": 18.311135253478923,
+      "pool_votes_period": 45.759657103290245
     },
     {
       "pool": "0x05487100e07be9ec1d9da73a371696880a592cd6",
       "symbol": "wS/RUGGIE",
-      "fee_last_7d_usd": 14.00476657184236,
-      "vol_last_7d": 4668.255523947453,
-      "bribes_usd": 11.45326951600778,
-      "pool_votes_period": 27.585550280477914
+      "fee_last_7d_usd": 15.120583028361501,
+      "vol_last_7d": 5040.1943427871665,
+      "bribes_usd": 16.381621117907045,
+      "pool_votes_period": 42.31610519265382
     },
     {
-      "pool": "0x62c86c34ca232c9c1ebff1e8fdabb182f3a39810",
-      "symbol": "wS/SHEDEW",
-      "fee_last_7d_usd": 1.3689980546902598,
-      "vol_last_7d": 68.44990273451299,
-      "bribes_usd": 0.2999539914403251,
-      "pool_votes_period": 22.97892638752074
+      "pool": "0xa7571f0d72f3bcf12709b9e967adbf0df13042f2",
+      "symbol": "wS/SPEED",
+      "fee_last_7d_usd": 14.967398037531776,
+      "vol_last_7d": 748.3699018765889,
+      "bribes_usd": 15.255848500339413,
+      "pool_votes_period": 38.11414314086535
     },
     {
       "pool": "0xdee813f080f9128e52e38e9ffef8b997f9544332",
       "symbol": "HLP0/xUSD",
-      "fee_last_7d_usd": 27.746656080534656,
-      "vol_last_7d": 55493.3121610693,
-      "bribes_usd": 15.133130455440423,
-      "pool_votes_period": 19.327185759188186
+      "fee_last_7d_usd": 24.96790159193342,
+      "vol_last_7d": 49935.80318386684,
+      "bribes_usd": 17.00957429053681,
+      "pool_votes_period": 33.404518078262555
+    },
+    {
+      "pool": "0x62c86c34ca232c9c1ebff1e8fdabb182f3a39810",
+      "symbol": "wS/SHEDEW",
+      "fee_last_7d_usd": 0.3877361295304197,
+      "vol_last_7d": 19.38680647652098,
+      "bribes_usd": 0.4109302306158522,
+      "pool_votes_period": 22.3107179361163
     },
     {
       "pool": "0x5d47882852688084d94adcf12e30b11d0afb50fa",
       "symbol": "CL-USDC-xUSD-0.025%",
-      "fee_last_7d_usd": 1.8106702387816602,
-      "vol_last_7d": 7242.680955126642,
-      "bribes_usd": 1.083864053325,
-      "pool_votes_period": 17.234194790640554
-    },
-    {
-      "pool": "0xbb2e96c784e69ebc9bbf99f748532736c271d09e",
-      "symbol": "CL-UNI-WETH-1.0%",
-      "fee_last_7d_usd": 0.7742397340183543,
-      "vol_last_7d": 77.42397340183544,
-      "bribes_usd": 0.5006672184014272,
-      "pool_votes_period": 9.574552661466974
+      "fee_last_7d_usd": 1.551039045078618,
+      "vol_last_7d": 6204.156180314471,
+      "bribes_usd": 1.2519083880621784,
+      "pool_votes_period": 16.733038452087225
     },
     {
       "pool": "0x08020666da56e42b13876b45bf92289c8701e7d4",
       "symbol": "USDC/8",
-      "fee_last_7d_usd": 13.149058156523353,
-      "vol_last_7d": 1314.9058156523351,
-      "bribes_usd": 7.334986792681387,
-      "pool_votes_period": 8.763097185151931
-    },
-    {
-      "pool": "0x8d0c7fe4814afa5428c79ae6915e44738cc3a39a",
-      "symbol": "CL-wS-sGOAT-1.0%",
-      "fee_last_7d_usd": 1.3860319110915837,
-      "vol_last_7d": 138.6031911091584,
-      "bribes_usd": 0.9881960496709999,
-      "pool_votes_period": 8.617097395320277
-    },
-    {
-      "pool": "0x05cf0c7ed39fc2ed0bd4397716ebb02f74ff25b5",
-      "symbol": "CL-scETH-wstkscETH-0.01%",
-      "fee_last_7d_usd": 0.3855481313518355,
-      "vol_last_7d": 3855.481313518355,
-      "bribes_usd": 0.22831546435165032,
-      "pool_votes_period": 2.5803569727551916
-    },
-    {
-      "pool": "0x848b805cac41c1684f4c3e28f029a9c46896f3d1",
-      "symbol": "wS/8",
-      "fee_last_7d_usd": 1.7538192330543512,
-      "vol_last_7d": 584.606411018117,
-      "bribes_usd": 1.2609720693591902,
-      "pool_votes_period": 0.6704325462422825
+      "fee_last_7d_usd": 10.880136251091802,
+      "vol_last_7d": 1088.01362510918,
+      "bribes_usd": 8.3665372251401,
+      "pool_votes_period": 12.414918478829685
     },
     {
       "pool": "0xfd0e1f26884d3f116806b5f473766d7d2dbfe5a9",
       "symbol": "CL-wS-wOS-0.01%",
-      "fee_last_7d_usd": 2.005987643337663,
-      "vol_last_7d": 20059.87643337663,
-      "bribes_usd": 1.2618424948937625,
-      "pool_votes_period": 0.3180216737172476
+      "fee_last_7d_usd": 1.747553136186829,
+      "vol_last_7d": 17475.531361868292,
+      "bribes_usd": 1.7823425148027088,
+      "pool_votes_period": 10.700129797929554
     },
     {
-      "pool": "0x94fb2a14d55288d9f7fa10ad79022b95f95c04cb",
-      "symbol": "wS/ROME",
-      "fee_last_7d_usd": 0.42964231381009343,
-      "vol_last_7d": 42.96423138100935,
-      "bribes_usd": 0.42455069493681374,
-      "pool_votes_period": 0.0
+      "pool": "0xbb2e96c784e69ebc9bbf99f748532736c271d09e",
+      "symbol": "CL-UNI-WETH-1.0%",
+      "fee_last_7d_usd": 0.4812221679896319,
+      "vol_last_7d": 48.122216798963194,
+      "bribes_usd": 0.6767316217288009,
+      "pool_votes_period": 9.29613247338179
     },
     {
-      "pool": "0xe21aa0df4c01c279c8a4fdcacbf7c79467442c5a",
-      "symbol": "wS/STBL",
-      "fee_last_7d_usd": 0.12275285799005428,
-      "vol_last_7d": 12.27528579900543,
-      "bribes_usd": 0.095612362844305,
-      "pool_votes_period": 0.0
+      "pool": "0x8d0c7fe4814afa5428c79ae6915e44738cc3a39a",
+      "symbol": "CL-wS-sGOAT-1.0%",
+      "fee_last_7d_usd": 0.39554696886196195,
+      "vol_last_7d": 39.55469688619619,
+      "bribes_usd": 1.0364522436954107,
+      "pool_votes_period": 8.36651922604361
+    },
+    {
+      "pool": "0x848b805cac41c1684f4c3e28f029a9c46896f3d1",
+      "symbol": "wS/8",
+      "fee_last_7d_usd": 2.0745818403562364,
+      "vol_last_7d": 691.5272801187456,
+      "bribes_usd": 1.776673942471808,
+      "pool_votes_period": 2.595488631614905
+    },
+    {
+      "pool": "0x05cf0c7ed39fc2ed0bd4397716ebb02f74ff25b5",
+      "symbol": "CL-scETH-wstkscETH-0.01%",
+      "fee_last_7d_usd": 0.449450335376308,
+      "vol_last_7d": 4494.503353763081,
+      "bribes_usd": 0.7354856000432087,
+      "pool_votes_period": 2.5803569727551916
     },
     {
       "pool": "0x9527122bc2a6d9f0af8c4d8834cc2ae2d9a97ca1",
       "symbol": "USDC/EUL",
-      "fee_last_7d_usd": 0.08927946902714609,
-      "vol_last_7d": 8.927946902714611,
-      "bribes_usd": 0.03250770578288008,
-      "pool_votes_period": 0.0
+      "fee_last_7d_usd": 0.06672104840512412,
+      "vol_last_7d": 6.672104840512413,
+      "bribes_usd": 0.05289094413902518,
+      "pool_votes_period": 0.46281399950177327
+    },
+    {
+      "pool": "0xe21aa0df4c01c279c8a4fdcacbf7c79467442c5a",
+      "symbol": "wS/STBL",
+      "fee_last_7d_usd": 0.11116326059439681,
+      "vol_last_7d": 11.116326059439684,
+      "bribes_usd": 0.12369872342767592,
+      "pool_votes_period": 0.13694903030517228
+    },
+    {
+      "pool": "0x94fb2a14d55288d9f7fa10ad79022b95f95c04cb",
+      "symbol": "wS/ROME",
+      "fee_last_7d_usd": 0.7172127644060913,
+      "vol_last_7d": 71.72127644060913,
+      "bribes_usd": 0.0,
+      "pool_votes_period": 0.004330097102660423
     },
     {
       "pool": "0x350598c4c17ddc02049e34bfdf4555422d2d670e",
@@ -640,22 +640,14 @@
       "fee_last_7d_usd": 0.0018387899999999999,
       "vol_last_7d": 0.09193950000000001,
       "bribes_usd": 0.003679,
-      "pool_votes_period": 0.0
-    },
-    {
-      "pool": "0x94e0e30ade03664777475377e31f9f110e112dff",
-      "symbol": "CL-WETH-stS-0.3%",
-      "fee_last_7d_usd": 1.0607059658575438e-06,
-      "vol_last_7d": 0.0003535686552858479,
-      "bribes_usd": 2.989237829467927e-15,
-      "pool_votes_period": 0.0
+      "pool_votes_period": 0.004330097102660423
     },
     {
       "pool": "0x842c2c71172d1b36b71be609fc9faf30b1cd84bd",
       "symbol": "CL-scETH-frxETH-0.01%",
       "fee_last_7d_usd": 9.424842221436756e-07,
       "vol_last_7d": 0.009424842221436755,
-      "bribes_usd": 2.089365327873974e-06,
+      "bribes_usd": 2.3579732347957055e-06,
       "pool_votes_period": 0.0
     },
     {
@@ -663,7 +655,7 @@
       "symbol": "CL-scBTC-LBTC-0.01%",
       "fee_last_7d_usd": 0,
       "vol_last_7d": 0,
-      "bribes_usd": 0.001186243505324348,
+      "bribes_usd": 0.001191483315770987,
       "pool_votes_period": 0.0
     },
     {
@@ -675,11 +667,19 @@
       "pool_votes_period": 0.0
     },
     {
+      "pool": "0x94e0e30ade03664777475377e31f9f110e112dff",
+      "symbol": "CL-WETH-stS-0.3%",
+      "fee_last_7d_usd": 0,
+      "vol_last_7d": 0,
+      "bribes_usd": 3.3644895145486904e-15,
+      "pool_votes_period": 0.0
+    },
+    {
       "pool": "0xdc038341a5618f55a15c21741061d9ec8f6a3560",
       "symbol": "CL-wS-sDOG-1.0%",
       "fee_last_7d_usd": 0,
       "vol_last_7d": 0,
-      "bribes_usd": 3.4438683105592557e-19,
+      "bribes_usd": 3.737651018671806e-19,
       "pool_votes_period": 0.0
     },
     {
@@ -687,7 +687,7 @@
       "symbol": "CL-OS-EGGS-2.0%",
       "fee_last_7d_usd": 0,
       "vol_last_7d": 0,
-      "bribes_usd": 3.399518964843369e-19,
+      "bribes_usd": 3.731215000521743e-19,
       "pool_votes_period": 0.0
     }
   ]
