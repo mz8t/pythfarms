@@ -1,10 +1,10 @@
 {
   "xshadow_holder": "0x04063BE551982933c2F512A0f116D6ECc445F8eC",
   "our_voting_power": 5999.449858796127,
-  "token_price_usd": 21.93,
-  "token_value_usd": 131567.94,
-  "total_expected_usd_per_epoch": 1978.29,
-  "forecasted_apr_percent": 78.19,
+  "token_price_usd": 21.17,
+  "token_value_usd": 127008.35,
+  "total_expected_usd_per_epoch": 2041.6,
+  "forecasted_apr_percent": 83.59,
   "last_period_votes": {
     "period": 2898,
     "votes": [
@@ -34,24 +34,28 @@
     "period": 2899,
     "votes": [
       {
-        "pool": "0xB6d9B069F6B96A507243d501d1a23b3fCCFC85d3",
-        "weight": 2999724929398063429226
+        "pool": "0x324963c267C354c7660Ce8CA3F5f167E05649970",
+        "weight": 599944985879612685844
       },
       {
-        "pool": "0x324963c267C354c7660Ce8CA3F5f167E05649970",
-        "weight": 1199889971759225371689
+        "pool": "0x9B480E05a9E907D8C7a1Ecc676F66355DC1e4888",
+        "weight": 599944985879612685844
+      },
+      {
+        "pool": "0xB6d9B069F6B96A507243d501d1a23b3fCCFC85d3",
+        "weight": 599944985879612685844
       },
       {
         "pool": "0xa1538e790cCDd639755602857F582a39Ed7f650C",
         "weight": 599944985879612685844
       },
       {
-        "pool": "0x2BCB79Fd1E0c4251b6F94dAeE25d4c6ff330CDf8",
-        "weight": 599944985879612685844
+        "pool": "0xB8bda81EcCb1a21198899ac8F1f2F73C82bD7695",
+        "weight": 2399779943518450743379
       },
       {
-        "pool": "0x9B480E05a9E907D8C7a1Ecc676F66355DC1e4888",
-        "weight": 599944985879612685844
+        "pool": "0xF19748a0E269c6965a84f8C98ca8C47A064D4dd0",
+        "weight": 1199889971759225371689
       }
     ]
   },
