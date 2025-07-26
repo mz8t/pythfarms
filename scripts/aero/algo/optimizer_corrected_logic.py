@@ -14,8 +14,8 @@ TOTAL_WEIGHT_TARGET = Decimal(100) * (Decimal(10) ** 18)  # sum weights to 100e1
 # Paths
 DASHBOARD_PATH   = "data/aero/votes_dashboard.json"
 RELAY_VOTES_PATH = "data/aero/relay_votes.json"
-HUMAN_OUT_PATH   = "optimizer/aero/optimized_votes_human.json"
-BOT_OUT_PATH     = "optimizer/aero/optimized_votes_bot.txt"
+HUMAN_OUT_PATH   = "optimized_votes/aero/optimized_votes_human.json"
+BOT_OUT_PATH     = "optimized_votes/aero/optimized_votes_bot.txt"
 
 # Load JSON or exit if missing
 def load_json(path):

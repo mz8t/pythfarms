@@ -8,7 +8,7 @@ getcontext().prec = 28
 
 
 dashboard_path = "data/aero/votes_dashboard.json"
-human_alloc_path = "optimizer/aero/optimized_votes_human.json"
+human_alloc_path = "optimized_votes/aero/optimized_votes_human.json"
 token_id_map_path = "data/aero/token_to_id.json"
 output_path = "analytics/aero/analytics_report.json"
 

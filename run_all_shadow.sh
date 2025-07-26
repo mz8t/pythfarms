@@ -5,6 +5,7 @@ echo
 echo "🛠  Running Dashboard for veNFT and Optimizer"
 echo
 
+#Run Script Before Epoch flip, with most recent historical dashboard + optimizer json files generated.
 # Step 1: build vote dashboard 
 echo "──────────"
 echo "1/5 → python scripts/shadow/votes/1_get_pools_api.py"

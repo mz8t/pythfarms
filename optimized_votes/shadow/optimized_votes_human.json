@@ -1,0 +1,28 @@
+{
+  "total_expected_usd": 561.21,
+  "allocations": [
+    {
+      "symbol": "CL-wS-GOGLZ-0.5%",
+      "pool": "0x1f4efc47e5a5ab6539d95a76e2dde6d74462acea",
+      "votes": 2695.6835792317534,
+      "pct": 45,
+      "exp_usd": 256.72
+    },
+    {
+      "symbol": "CL-wS-NAVI-2.0%",
+      "pool": "0x28f1bb2952ae8742b9e16fd515e3d01f4be6bc30",
+      "votes": 1766.5794435975142,
+      "pct": 29,
+      "exp_usd": 167.14
+    },
+    {
+      "symbol": "CL-USDC-stS-0.1093%",
+      "pool": "0x2bcb79fd1e0c4251b6f94daee25d4c6ff330cdf8",
+      "votes": 1537.1868359668588,
+      "pct": 26,
+      "exp_usd": 137.35
+    }
+  ],
+  "re_run": false,
+  "period": 2900
+}
