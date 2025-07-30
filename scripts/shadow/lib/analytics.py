@@ -1,234 +1,289 @@
-    #FIXME: Change paths for new naming convention
-    #FIXME: Verify Logic
-def run_analyze(period, compare):
-    import os
-    import json
-    import requests
-    from decimal import Decimal, getcontext, ROUND_HALF_UP
-    from web3 import Web3
-    from dotenv import load_dotenv
-    import logging
-    from datetime import datetime
 
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-    logger = logging.getLogger(__name__)
-    getcontext().prec = 28
-    load_dotenv()
-    DASHBOARD_PATH = os.getenv('DASHBOARD_PATH', 'data/shadow/votes_dashboard.json')
-    HUMAN_ALLOC_PATH = os.getenv('HUMAN_ALLOC_PATH', 'optimizer/shadow/optimized_votes_human.json')
-    OUTPUT_PATH = os.getenv('OUTPUT_PATH', 'analytics/shadow/analytics_report.json')
-    SHADOW_SLUG = os.getenv('SHADOW_SLUG', 'shadow-2')
-    SIMPLE_PRICE_URL = 'https://api.coingecko.com/api/v3/simple/price'
-    SHADOW_RPC_URL = os.getenv('SHADOW_RPC_URL')
-    SHADOW_VOTER_ADDRESS = os.getenv('SHADOW_VOTER_ADDRESS')
-    SHADOW_NFT_OWNER_ADDRESS = os.getenv('SHADOW_NFT_OWNER_ADDRESS')
-    VOTER_ABI_PATH = os.getenv('VOTER_ABI_PATH', 'abi/shadow/Voter.json')
+import os
+import json
+import requests
+from decimal import Decimal, getcontext, ROUND_HALF_UP
+from web3 import Web3
+from dotenv import load_dotenv
+import logging
+from datetime import datetime
 
-    def load_json(path):
-        if not os.path.exists(path):
-            raise FileNotFoundError(f"{path} not found")
-        with open(path, 'r') as f:
-            return json.load(f)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+getcontext().prec = 28
 
-    def fetch_price(slugs):
-        params = {'vs_currencies': 'usd'}
-        for slug in slugs:
-            params['ids'] = slug
-            resp = requests.get(SIMPLE_PRICE_URL, params=params, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-            price = data.get(slug, {}).get('usd')
-            if price is not None:
-                return Decimal(str(price))
-        raise ValueError(f"No valid price for slugs: {slugs}")
+load_dotenv()
+SHADOW_SLUG = os.getenv('SHADOW_SLUG', 'shadow-2')
+SIMPLE_PRICE_URL = 'https://api.coingecko.com/api/v3/simple/price'
+SHADOW_RPC_URL = os.getenv('SHADOW_RPC_URL')
+SHADOW_VOTER_ADDRESS = os.getenv('SHADOW_VOTER_ADDRESS')
+SHADOW_NFT_OWNER_ADDRESS = os.getenv('SHADOW_NFT_OWNER_ADDRESS')
+VOTER_ABI_PATH = os.getenv('VOTER_ABI_PATH', 'abi/shadow/Voter.json')
 
-    def fetch_onchain_voting_power(rpc_url, voter_contract, nft_owner_address, abi_path):
-        w3 = Web3(Web3.HTTPProvider(rpc_url))
-        if not w3.is_connected():
-            logger.error("Failed to connect to RPC node for voting power")
-            return Decimal(0)
-        abi = load_json(abi_path)
-        contract = w3.eth.contract(address=w3.to_checksum_address(voter_contract), abi=abi)
-        owner = w3.to_checksum_address(nft_owner_address)
-        try:
+def load_json(path):
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"{path} not found")
+    with open(path, 'r') as f:
+        return json.load(f)
+
+def fetch_price(slugs):
+    params = {'vs_currencies': 'usd'}
+    for slug in slugs:
+        params['ids'] = slug
+        resp = requests.get(SIMPLE_PRICE_URL, params=params, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        price = data.get(slug, {}).get('usd')
+        if price is not None:
+            return Decimal(str(price))
+    raise ValueError(f"No valid price for slugs: {slugs}")
+
+def fetch_onchain_voting_power(rpc_url, voter_contract, nft_owner_address, abi_path, period=None):
+    w3 = Web3(Web3.HTTPProvider(rpc_url))
+    if not w3.is_connected():
+        logger.error("Failed to connect to RPC node for voting power")
+        return Decimal(0)
+    abi = load_json(abi_path)
+    contract = w3.eth.contract(address=w3.to_checksum_address(voter_contract), abi=abi)
+    owner = w3.to_checksum_address(nft_owner_address)
+    try:
+        if period is None:
             period = contract.functions.getPeriod().call() + 1
             logger.info(f"On‐chain next voting period: {period}")
-            raw = contract.functions.userVotingPowerPerPeriod(owner, period).call()
-            normalized = Decimal(raw) / (Decimal(10) ** 18)
-            logger.info(f"On‐chain voting power (raw): {raw}, normalized: {normalized}")
-            return normalized
-        except Exception as e:
-            logger.error(f"Error fetching on‑chain voting power: {e}")
-            return Decimal(0)
-
-    def fetch_votes_for_period(rpc_url, voter_contract, nft_owner_address, abi_path, period):
-        w3 = Web3(Web3.HTTPProvider(rpc_url))
-        if not w3.is_connected():
-            logger.error("Failed to connect to RPC node")
-            return None
-        abi = load_json(abi_path)
-        contract = w3.eth.contract(address=w3.to_checksum_address(voter_contract), abi=abi)
-        owner_address = w3.to_checksum_address(nft_owner_address)
-        try:
-            num_pools = contract.functions.userVotedPoolsPerPeriodLength(owner_address, period).call()
-            logger.info(f"Number of pools voted for in period {period}: {num_pools}")
-            pools = []
-            for i in range(num_pools):
-                pool = contract.functions.userVotedPoolsPerPeriod(owner_address, period, i).call()
-                pools.append(pool)
-            logger.info(f"Voted pools in period {period}: {pools}")
-            votes = []
-            for pool in pools:
-                weight = contract.functions.userVotesForPoolPerPeriod(owner_address, period, pool).call()
-                votes.append({'pool': pool, 'weight': weight})
-            logger.info(f"Votes in period {period}: {votes}")
-            return {'period': period, 'votes': votes}
-        except AttributeError as e:
-            logger.error(f"Function not found in contract ABI: {e}")
-            logger.info("Check the ABI for the correct function names (e.g., userVotedPoolsPerPeriodLength, etc.)")
-            return None
-        except Exception as e:
-            logger.error(f"Error fetching vote data for period {period}: {e}")
-            return None
-
-    def fetch_last_period_votes(rpc_url, voter_contract, nft_owner_address, abi_path):
-        w3 = Web3(Web3.HTTPProvider(rpc_url))
-        if not w3.is_connected():
-            logger.error("Failed to connect to RPC node")
-            return None
-        abi = load_json(abi_path)
-        contract = w3.eth.contract(address=w3.to_checksum_address(voter_contract), abi=abi)
-        owner_address = w3.to_checksum_address(nft_owner_address)
-        try:
-            period = contract.functions.lastVoted(owner_address).call()
-            logger.info(f"Last voted period for {owner_address}: {period}")
-            return fetch_votes_for_period(rpc_url, voter_contract, nft_owner_address, abi_path, period)
-        except AttributeError as e:
-            logger.error(f"Function not found in contract ABI: {e}")
-            logger.info("Check the ABI for the correct function names (e.g., lastVoted).")
-            return None
-        except Exception as e:
-            logger.error(f"Error fetching last voted period: {e}")
-            return None
-
-    def fetch_current_period_votes(rpc_url, voter_contract, nft_owner_address, abi_path):
-        w3 = Web3(Web3.HTTPProvider(rpc_url))
-        if not w3.is_connected():
-            logger.error("Failed to connect to RPC node")
-            return None
-        abi = load_json(abi_path)
-        contract = w3.eth.contract(address=w3.to_checksum_address(voter_contract), abi=abi)
-        try:
-            current_period = contract.functions.getPeriod().call() + 1
-            logger.info(f"Current period for voting: {current_period}")
-            return fetch_votes_for_period(rpc_url, voter_contract, nft_owner_address, abi_path, current_period)
-        except AttributeError as e:
-            logger.error(f"Function not found in contract ABI: {e}")
-            logger.info("Check the ABI for the correct function names (e.g., getPeriod).")
-            return None
-        except Exception as e:
-            logger.error(f"Error fetching current period: {e}")
-            return None
-
-    def compute_actual_return(historical_dashboard, user_votes):
-        actual_return = Decimal(0)
-        for vote in user_votes['votes']:
-            pool = vote['pool'].lower()
-            V_user = Decimal(vote['weight']) / Decimal(10**18)
-            for p in historical_dashboard['pools']:
-                if p['pool'].lower() == pool:
-                    W_final = Decimal(p['pool_votes_period'])
-                    R = Decimal(p['bribes_usd'])
-                    if W_final > 0:
-                        actual_return += R * (V_user / W_final)
-                    break
-        return actual_return
-
-    # 1) Load human allocation
-    try:
-        alloc = load_json(HUMAN_ALLOC_PATH)
-        total_expected_usd = Decimal(str(alloc.get('total_expected_usd', 0)))
+        raw = contract.functions.userVotingPowerPerPeriod(owner, period).call()
+        normalized = Decimal(raw) / (Decimal(10) ** 18)
+        logger.info(f"On‐chain voting power for period {period}: {normalized}")
+        return normalized
     except Exception as e:
-        logger.error(f"Failed to load human allocation: {e}")
-        total_expected_usd = Decimal(0)
+        logger.error(f"Error fetching on‑chain voting power: {e}")
+        return Decimal(0)
 
-    # 2) Fetch on-chain voting power (NFT_SIZE)
+def fetch_votes_for_period(rpc_url, voter_contract, nft_owner_address, abi_path, period):
+    w3 = Web3(Web3.HTTPProvider(rpc_url))
+    if not w3.is_connected():
+        logger.error("Failed to connect to RPC node")
+        return None
+    abi = load_json(abi_path)
+    contract = w3.eth.contract(address=w3.to_checksum_address(voter_contract), abi=abi)
+    owner_address = w3.to_checksum_address(nft_owner_address)
+    try:
+        num_pools = contract.functions.userVotedPoolsPerPeriodLength(owner_address, period).call()
+        logger.info(f"Number of pools voted for in period {period}: {num_pools}")
+        pools = []
+        for i in range(num_pools):
+            pool = contract.functions.userVotedPoolsPerPeriod(owner_address, period, i).call()
+            pools.append(pool)
+        
+        votes = []
+        for pool in pools:
+            weight = contract.functions.userVotesForPoolPerPeriod(owner_address, period, pool).call()
+            votes.append({'pool': pool, 'weight': weight})
+        
+        return {'period': period, 'votes': votes}
+    except Exception as e:
+        logger.error(f"Error fetching vote data for period {period}: {e}")
+        return None
+
+def compute_actual_return(historical_dashboard, user_votes):
+    """Calculate the actual return from our votes using the historical dashboard data"""
+    actual_return = Decimal(0)
+    for vote in user_votes['votes']:
+        pool = vote['pool'].lower()
+        V_user = Decimal(vote['weight']) / Decimal(10**18)
+        for p in historical_dashboard['pools']:
+            if p['pool'].lower() == pool:
+                W_final = Decimal(p['pool_votes_period'])
+                R = Decimal(p['bribes_usd'])
+                if W_final > 0:
+                    actual_return += R * (V_user / W_final)
+                break
+    return actual_return
+
+def run_analyze(period=None, compare=False, is_historical=False, dashboard_path=None, optimizer_path=None):
+    """
+    Run analytics on voting data.
+    
+    Args:
+        period: Period to analyze (default: next period for current, specified period for historical)
+        compare: Whether to compare with optimal allocation
+        is_historical: Whether this is a historical analysis
+        dashboard_path: Explicit path to dashboard file (optional)
+        optimizer_path: Explicit path to optimizer results file (optional)
+    """
     if not (SHADOW_RPC_URL and SHADOW_VOTER_ADDRESS and SHADOW_NFT_OWNER_ADDRESS):
-        logger.error("Missing RPC or contract or owner config")
-        return
-    NFT_SIZE = fetch_onchain_voting_power(
+        logger.error("Missing RPC, contract, or owner configuration")
+        return None
+    
+    
+    w3 = Web3(Web3.HTTPProvider(SHADOW_RPC_URL))
+    if not w3.is_connected():
+        logger.error("Failed to connect to RPC node")
+        return None
+    
+    with open(VOTER_ABI_PATH) as f:
+        voter_abi = json.load(f)
+    contract = w3.eth.contract(address=w3.to_checksum_address(SHADOW_VOTER_ADDRESS), abi=voter_abi)
+    owner = w3.to_checksum_address(SHADOW_NFT_OWNER_ADDRESS)
+    
+    
+    if period is None:
+        if is_historical:
+            period = int(input("Enter the historical period to analyze: "))
+        else:
+            
+            period = contract.functions.getPeriod().call() + 1
+            logger.info(f"Using next voting period: {period}")
+    
+    logger.info(f"Analyzing period {period}")
+    
+    
+    if not optimizer_path:
+        if is_historical:
+            optimizer_path = f'optimized_votes/shadow/historical/{period}_historical_optimal_votes.json'
+        else:
+            optimizer_path = f'optimized_votes/shadow/{period}_optimized_votes_human.json'
+            if not os.path.exists(optimizer_path):
+                optimizer_path = 'optimized_votes/shadow/optimized_votes_human.json'
+        
+        if not os.path.exists(optimizer_path):
+            logger.warning(f"Optimizer file not found at {optimizer_path}")
+            optimizer_path = input(f"Enter path to optimizer results for period {period}: ")
+    
+    try:
+        optimized_votes = load_json(optimizer_path)
+        total_expected_usd = Decimal(str(optimized_votes.get('total_expected_usd', 0)))
+        logger.info(f"Loaded optimization result from {optimizer_path}")
+    except Exception as e:
+        logger.error(f"Failed to load optimization result: {e}")
+        total_expected_usd = Decimal(0)
+    
+    
+    voting_power = fetch_onchain_voting_power(
         SHADOW_RPC_URL,
         SHADOW_VOTER_ADDRESS,
         SHADOW_NFT_OWNER_ADDRESS,
-        VOTER_ABI_PATH
+        VOTER_ABI_PATH,
+        period
     )
-
-    # 3) Fetch price & compute USD values
+    
+    
     slugs = [s.strip() for s in SHADOW_SLUG.split(',')]
     try:
         price_usd = fetch_price(slugs)
+        logger.info(f"Token price: ${price_usd}")
     except Exception as e:
         logger.error(f"Failed to fetch price: {e}")
         price_usd = Decimal(0)
-    token_value = (price_usd * NFT_SIZE).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
+    
+    
+    token_value = (price_usd * voting_power).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
     apr_percent = (Decimal('0') if token_value == 0 else
-                   (total_expected_usd * Decimal(52) / token_value * Decimal(100))
-                   .quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
-
+                  (total_expected_usd * Decimal(52) / token_value * Decimal(100))
+                  .quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
+    
+    
     report = {
         'xshadow_holder': SHADOW_NFT_OWNER_ADDRESS,
-        'our_voting_power': float(NFT_SIZE),
+        'our_voting_power': float(voting_power),
         'token_price_usd': float(price_usd),
         'token_value_usd': float(token_value),
-        'total_expected_usd_per_epoch': float(total_expected_usd),
+        'total_expected_usd_this_epoch_optimizer': float(total_expected_usd),
         'forecasted_apr_percent': float(apr_percent),
     }
-
-    # 4) Fetch last & current vote details
-    last_votes = fetch_last_period_votes(
-        SHADOW_RPC_URL, SHADOW_VOTER_ADDRESS, SHADOW_NFT_OWNER_ADDRESS, VOTER_ABI_PATH
+    
+    
+    
+    actual_votes = fetch_votes_for_period(
+        SHADOW_RPC_URL, SHADOW_VOTER_ADDRESS, SHADOW_NFT_OWNER_ADDRESS, VOTER_ABI_PATH, period
     )
-    report['last_period_votes'] = last_votes or None
-
-    current_votes = fetch_current_period_votes(
-        SHADOW_RPC_URL, SHADOW_VOTER_ADDRESS, SHADOW_NFT_OWNER_ADDRESS, VOTER_ABI_PATH
-    )
-    report['current_votes'] = current_votes or None
-
-    # 5) Historical comparison for last period
-    if last_votes and compare:
-        period = last_votes['period']
-        historical_path = input(f"Enter path to historical votes dashboard for period {period} (e.g., data/shadow/{period}_votes_dashboard.json): ")
-        optimizer_path = input(f"Enter path to optimized_votes_<date>.json for period {period} (e.g., optimized_votes_20231001.json): ")
+    
+    
+    if actual_votes:
+        actual_votes['period'] = period
+    report['current_votes'] = actual_votes
+    
+    
+    if compare:
+        
+        if not dashboard_path:
+            if is_historical:
+                dashboard_path = f'data/shadow/historical/{period}_historical_votes_dashboard.json'
+                if not os.path.exists(dashboard_path):
+                    dashboard_path = f'data/shadow/{period}_votes_dashboard.json'
+            else:
+                dashboard_path = f'data/shadow/{period}_votes_dashboard.json'
+                if not os.path.exists(dashboard_path):
+                    dashboard_path = 'data/shadow/votes_dashboard.json'
+            
+            if not os.path.exists(dashboard_path):
+                logger.warning(f"Dashboard file not found at {dashboard_path}")
+                dashboard_path = input(f"Enter path to votes dashboard for period {period}: ")
+        
         try:
-            historical_dashboard = load_json(historical_path)
-            optimizer_output = load_json(optimizer_path)
-            if historical_dashboard['period'] != period:
-                logger.warning(f"Period mismatch in historical dashboard: expected {period}, got {historical_dashboard['period']}")
-            if 'period' in optimizer_output and optimizer_output['period'] != period:
-                logger.warning(f"Period mismatch in optimizer output: expected {period}, got {optimizer_output['period']}")
-            last_period_expected = compute_actual_return(historical_dashboard, last_votes)
-            last_period_ideal_return = Decimal(str(optimizer_output.get('total_expected_usd', 0)))
-            difference = last_period_ideal_return - last_period_expected
-            report['last_period_comparison'] = {
-                'period': period,
-                'last_period_expected': float(last_period_expected),
-                'last_period_ideal_return': float(last_period_ideal_return),
-                'difference': float(difference)
-            }
-            logger.info(f"Historical comparison for period {period} added to report")
-        except FileNotFoundError as e:
-            logger.error(f"File not found: {e}")
+            dashboard = load_json(dashboard_path)
+            if dashboard['period'] != period:
+                logger.warning(f"Period mismatch in dashboard: expected {period}, got {dashboard['period']}")
+            
+            
+            if actual_votes and 'votes' in actual_votes:
+                actual_return = compute_actual_return(dashboard, actual_votes)
+                ideal_return = total_expected_usd
+                difference = ideal_return - actual_return
+                
+                report['comparison'] = {
+                    'period': period,
+                    'last_period_expected': float(actual_return),
+                    'last_period_ideal_return': float(ideal_return),
+                    'difference': float(difference)
+                }
+                logger.info(f"Comparison for period {period} added to report")
+                
+                
+                if actual_return > 0:
+                    pct_improvement = (difference / actual_return * 100).quantize(Decimal('0.01'))
+                    report['comparison']['improvement_percent'] = float(pct_improvement)
+            else:
+                logger.error("No votes found for comparison")
         except Exception as e:
-            logger.error(f"Error in historical comparison: {e}")
-
-    # 6) Write out report with period-specific naming
-    if current_votes:
-        date_str = datetime.now().strftime('%Y%m%d')
-        output_path = f'analytics/shadow/period_vote_analytics_{current_votes["period"]}_{date_str}.json'
+            logger.error(f"Error in comparison: {e}")
+    
+    
+    date_str = datetime.now().strftime('%Y%m%d')
+    if is_historical:
+        output_path = f'analytics/shadow/historical/{period}_vote_analytics_{date_str}.json'
     else:
-        output_path = OUTPUT_PATH
+        output_path = f'analytics/shadow/{period}_vote_analytics_{date_str}.json'
+    
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w') as f:
         json.dump(report, f, indent=2)
-    logger.info(f"Analytics + votes written to {output_path}")
+    logger.info(f"Analytics report written to {output_path}")
+    
+    
+    if not is_historical:
+        std_path = 'analytics/shadow/current_vote_analytics.json'
+        os.makedirs(os.path.dirname(std_path), exist_ok=True)
+        with open(std_path, 'w') as f:
+            json.dump(report, f, indent=2)
+    
+    
+    print("\n================ ANALYTICS SUMMARY ================")
+    print(f"Period: {period}")
+    print(f"Voting Power: {voting_power}")
+    print(f"Token Price: ${price_usd}")
+    print(f"Token Value: ${token_value}")
+    print(f"Expected USD This Epoch: ${total_expected_usd}")
+    print(f"Forecasted APR: {apr_percent}%")
+    
+    if compare and 'comparison' in report:
+        comp = report['comparison']
+        print("\n----------- Performance Comparison -----------")
+        print(f"Actual Expected Return: ${comp['last_period_expected']}")
+        print(f"Ideal Return: ${comp['last_period_ideal_return']}")
+        print(f"Difference: ${comp['difference']}")
+        if 'improvement_percent' in comp:
+            print(f"Potential Improvement: {comp['improvement_percent']}%")
+    
+    print("==================================================\n")
+    
+    return report
