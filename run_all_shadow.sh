@@ -1,3 +1,4 @@
+# Old version, now use fetch_me(), see readme on scripts/lib
 #!/usr/bin/env bash
 set -euo pipefail
 
