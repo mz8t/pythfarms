@@ -40,6 +40,10 @@ This script is intended to be called from the manager (`shadow_manager.py`), but
 | --period                   | Specify the period number to fetch                  | `--period 2899`                                            |
 | --historical_dashboard_path| Path to dashboard for historical fetch              | `--historical_dashboard_path data/shadow/2898_votes_dashboard.json` |
 
+--period is needed to fetch the onchain votes
+--historical_dashboard_path is only useful to recompute the optimal votes for a past epoch ( bcs then the API doesn't broadcat the bribes and fees any more)
+
+
 #### Examples
 
 Fetch votes dashboard for the next period:
