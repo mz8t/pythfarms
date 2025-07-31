@@ -24,7 +24,7 @@ VOTER_ABI_PATH = os.getenv('VOTER_ABI_PATH', 'abi/shadow/Voter.json')
 SHADOW_NFT_OWNER_ADDRESS = os.getenv("SHADOW_NFT_OWNER_ADDRESS", "")
 
 def load_json(path):
-    """Load a JSON file from the given path."""
+    """Load the JSON file from votes dashboard the given path."""
     if not os.path.exists(path):
         raise FileNotFoundError(f"{path} not found.")
     with open(path) as f:
